@@ -42,11 +42,11 @@ def main(args):
         # compute conditional log probs 
         if "gpt2" in model_name:
             # gpt2 doesn't automatically add bos tokens at the start of the sequence by default.
-            # log_probs = lm.conditional_score(prefixes, stimuli, bos_token=True)
-            log_probs = lm.sequence_score(sentences, bos_token=True)
+            log_probs = lm.conditional_score(prefixes, stimuli, bos_token=True, bow_correction=True)
+            # log_probs = lm.sequence_score(sentences, bos_token=True, bow_correction=True)
         else:
-            # log_probs = lm.conditional_score(prefixes, stimuli)
-            log_probs = lm.sequence_score(sentences)
+            log_probs = lm.conditional_score(prefixes, stimuli, bow_correction=True)
+            # log_probs = lm.sequence_score(sentences, bow_correction=True)
 
         for i, item, typ, logprob in zip(idx, items, types, log_probs):
             results.append({
