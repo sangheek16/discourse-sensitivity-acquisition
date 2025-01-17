@@ -7,6 +7,7 @@ Script to generate and save stimuli. Multiple modes:
         p("verb not." | "prefix + No/Wait no")
 2. manual (under construction)
     - manually created stimuli by Sanghee
+    - 
 """
 
 import argparse
@@ -14,6 +15,32 @@ import pathlib
 import utils
 
 from string import Template
+
+
+TEMPLATE_MANUAL = Template(
+    '$name1 said, "$subj, who $arc, $mc." $name2 replied, "$generated_sent."' # TODO: strip '.' from $generated_set
+)
+
+def generate_manual_stimuli(name1, subj, vps, name2, vp_conts):
+    continuation_arc = TEMPLATE_MANUAL.substitute(
+        name1 = name1, 
+        subj = subj,
+        arc = vps[0],
+        mc = vps[1],
+        name2 = name2,
+        generated_sent = vp_conts[0],
+    )
+    continuation_mc = TEMPLATE_MANUAL.substitute(
+        name1 = name1, 
+        subj = subj,
+        arc = vps[1],
+        mc = vps[0],
+        name2 = name2,
+        generated_sent = vp_conts[1],
+    )
+
+    return continuation_arc, continuation_mc
+
 
 TEMPLATE = Template(
     '$name1 said, "$subj, who $arc, $mc." $name2 replied, "$negation,[SPLIT]$prn $mainverb not."'
