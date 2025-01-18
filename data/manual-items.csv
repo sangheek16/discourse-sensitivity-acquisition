@@ -1,0 +1,901 @@
+idx,verb1,verb2,subj,vp1,vp2,prn,name1,name2,continuation,continuation_type,vp,continuation_id
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Which restaurant was it?,lexical overlap,1,1
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I didn't know the governor likes Greek food.,lexical overlap,1,2
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Where was the restaurant located?,lexical overlap,1,3
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,"Was it only the governor, or were there other people as well?",lexical overlap,1,4
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Is any of them Greek?,lexical overlap,1,5
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Did they take a picture together?,situational inference,1,6
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I wonder if they talked about educational policies.,situational inference,1,7
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I thought the two were incompatible.,situational inference,1,8
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I can see that the election season is coming up.,situational inference,1,9
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Do you know if it was a coincidence?,situational inference,1,10
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,When did the meeting happen?,event association,1,11
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Why did they meet up in the first place?,event association,1,12
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,How did the meeting go?,event association,1,13
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Remind me what kind of meeting this was.,event association,1,14
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,"That's cool, imagine bumping into a public figure!",event association,1,15
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,That kind of humor help us survive in this rough world.,lexical overlap,2,1
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Do you like humorous people?,lexical overlap,2,2
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,"Haha, to be fair, doesn't he find humor in any situations?",lexical overlap,2,3
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,"Humor is difficult to find when you're down, that's quite impressive.",lexical overlap,2,4
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,He must have lots of humorous friends.,lexical overlap,2,5
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,No wonder why people like to be around that teacher!,situational inference,2,6
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Do you know if spending lots of time with students would have helped?,situational inference,2,7
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I bet that makes the classroom environment much better!,situational inference,2,8
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Do you think that kind of personality just comes naturally?,situational inference,2,9
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,How do you think he keeps that attitude?,situational inference,2,10
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,That's a really good attitude to keep.,event association,2,11
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Do you to have that kind of positive mindset?,event association,2,12
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I would rather be grumpy.,event association,2,13
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,"Well, I value people expressing anger than just trying to be positive.",event association,2,14
+1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,That's the mindset we need when there are so many crazy things happening in this world.,event association,2,15
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,At which bank?,lexical overlap,1,1
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,She opened another account?,lexical overlap,1,2
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I don't know why people get new bank accounts.,lexical overlap,1,3
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Why did it have to be today?,lexical overlap,1,4
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Opening a new bank accounts sounds like a lot of work.,lexical overlap,1,5
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,She was supposed to go to the City Hall for an interview!,situational inference,1,6
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I believe that was part of her work writing that news article.,situational inference,1,7
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"Do you know if it was for work, or for her personal use?",situational inference,1,8
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I hope she remembers the passcode this time.,situational inference,1,9
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"No way, she doesn't even know how to unlock her phone.",situational inference,1,10
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"I heard that she bought some stocks, too.",event association,1,11
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Do you think she's trying to save more money?,event association,1,12
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I wonder how long that process took.,event association,1,13
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Was there a good deal on the interest rate?,event association,1,14
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Which branch did she go to?,event association,1,15
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"She goes to other churches, too.",lexical overlap,2,1
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I wonder why specifically at a local church she's doing the volunteering work.,lexical overlap,2,2
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,When did she start to volunteer?,lexical overlap,2,3
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Are you sure she does it regularly?,lexical overlap,2,4
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,How do you know if she volunteers at a local church?,lexical overlap,2,5
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I find that silly because she needs to work on being a better mom.,situational inference,2,6
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Is that to get a good reputation by her neighbors?,situational inference,2,7
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,That is very thoughtful for her to spare her free time for that activity.,situational inference,2,8
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,I bet that would also give her some ideas to write.,situational inference,2,9
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"Huh, I thought she was a cold-blooded lady.",situational inference,2,10
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"Didn't her mother make donations, too?",event association,2,11
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,"She also works at an orphanage, I believe.",event association,2,12
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,Doesn't she also run an adoption campaign?,event association,2,13
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,That's great because I think it's important to give back to the community.,event association,2,14
+2,did,does,The reporter,opened a new bank account today,volunteers regularly at a local church,she,Adrian,Autumn,That's a good way to keep work-life balance.,event association,2,15
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,How did she miss the train?,lexical overlap,1,1
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Missing a train is definitely not a good start!,lexical overlap,1,2
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,"Too bad, trains in Chicago can be quite unpredictable.",lexical overlap,1,3
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Well it's not just this morning.,lexical overlap,1,4
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,The same thing happened to me this morning.,lexical overlap,1,5
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Did she ever make it to the lab?,situational inference,1,6
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I thought she drives to campus.,situational inference,1,7
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,So how did she come to office?,situational inference,1,8
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Did she oversleep or what?,situational inference,1,9
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I hope she didn't have any important meetings.,situational inference,1,10
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Was there a delay?,event association,1,11
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I wonder she had to wait for the next one for a long time.,event association,1,12
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I bet she was rushing to the platform.,event association,1,13
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Did she catch the next one?,event association,1,14
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I hope it didn't mess up the schedule too much.,event association,1,15
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,That's a lot of wine.,lexical overlap,2,1
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Well she used to have three bottles a day six months ago.,lexical overlap,2,2
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,"Does she drink white wine, or red wine?",lexical overlap,2,3
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Every day?,lexical overlap,2,4
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Two bottles?,lexical overlap,2,5
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,She should see a therapist.,situational inference,2,6
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I wonder if that's a cry for help.,situational inference,2,7
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Is she French?,situational inference,2,8
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,Maybe that's the secret for a productive life.,situational inference,2,9
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,How is she so healthy?,situational inference,2,10
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,But she already drinks two cans of beer every night.,event association,2,11
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I somehow thought that she was allergic to alcohol.,event association,2,12
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I should bring some cheese for her then.,event association,2,13
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,I can't even finish a glass.,event association,2,14
+3,did,does,The professor,missed a train this morning,drinks two bottles of wine every day,she,Alexander,Anthony,It sounds like she has an unhealthy drinking habit.,event association,2,15
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,Having a bad dream is not new to him.,lexical overlap,1,1
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,He has so many dreams in general.,lexical overlap,1,2
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,"What was the dream about, do you know?",lexical overlap,1,3
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,He needs a dream catcher.,lexical overlap,1,4
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,He had a bad dream?,lexical overlap,1,5
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,He needs a hug.,situational inference,1,6
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,Is that why he looks so tired today?,situational inference,1,7
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,That can't be a good excuse why he couldn't finish his work.,situational inference,1,8
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,No wonder he has dark circles today.,situational inference,1,9
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,"Oh yes, I heard him shout and scream last night.",situational inference,1,10
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,The horror movie he watched last night might be the reason.,event association,1,11
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,I'm not surprised because he lives in a very haunted apartment.,event association,1,12
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,It would be a reflection of his subconsciousness.,event association,1,13
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,Maybe he's stressed.,event association,1,14
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,Is he worried that his exhibition might getting canceled?,event association,1,15
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,"As far as I know, he has multiple pianist friends.",lexical overlap,2,1
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,I believe that pianist is more than a friend.,lexical overlap,2,2
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,"If we are talking about the same person, they aren't friends any more.",lexical overlap,2,3
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,He has lots of musician friends.,lexical overlap,2,4
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,It makes sense because his brother is also a pianist.,lexical overlap,2,5
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,I can imagine them having a mutual interest.,situational inference,2,6
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,I wonder what they talk about.,situational inference,2,7
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,Do you know them well?,situational inference,2,8
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,What a creative duo!,situational inference,2,9
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,They must get inspired by each other.,situational inference,2,10
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,They should work on an art project together!,event association,2,11
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,I heard they went to the same art school.,event association,2,12
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,How did they first know each other?,event association,2,13
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,A combination of art and music sounds fantastic.,event association,2,14
+4,did,does,The sculptor,had a bad dream,has a pianist friend,he,Owen,John,I know because they're actually launching a gallery together.,event association,2,15
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,"No, it wasn't on Thanksgiving.",lexical overlap,1,1
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,I don't think it was the house.,lexical overlap,1,2
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Why would a firefighter paint a house?,lexical overlap,1,3
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,On Thanksgiving?,lexical overlap,1,4
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Whose house was this?,lexical overlap,1,5
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Was that part of the community service she had to do?,situational inference,1,6
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,That's why she was looking for a big brush the other day!,situational inference,1,7
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Do you know if she had her uniform on while getting that done?,situational inference,1,8
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,That sounds like a productive way to spend a day.,situational inference,1,9
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Did anyone recognize the change?,situational inference,1,10
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,That's an interesting way to spend the holiday.,event association,1,11
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Is rennovating part of a firefighter's job?,event association,1,12
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Is that a holiday ritual for her?,event association,1,13
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,In what color?,event association,1,14
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,I heard she did that on Christmas as well.,event association,1,15
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Fifteen years is a lot.,lexical overlap,2,1
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,How did she get motivated to keep a diary for so long?,lexical overlap,2,2
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,i still don't understand why people keep a diary.,lexical overlap,2,3
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,"Hey, my neighbor has been doing that for fifteen years, too!",lexical overlap,2,4
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,"That's admirable, I don't even know how to spell a diary.",lexical overlap,2,5
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,She should publish it!,situational inference,2,6
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Do you think she can make the content public?,situational inference,2,7
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,That kind of discipline says a lot about her character.,situational inference,2,8
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,I really admire people who do things consistently.,situational inference,2,9
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,She might become a writer one day.,situational inference,2,10
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,That's a lot of recording of her personal history.,event association,2,11
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,That single notebook must contains lots of different experiences.,event association,2,12
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,I'm curious what she writes about.,event association,2,13
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,Journaling is quite therapeutic.,event association,2,14
+5,did,has,The firefighter,painted the house on Thanksgiving,has been keeping a diary for fifteen years,she,Christina,Roberto,I bet she has lots of stories to write.,event association,2,15
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Which piece by Mozart did he perform?,lexical overlap,1,1
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I'm a big fan of Mozart!,lexical overlap,1,2
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I heard last time he performed at a big concert hall.,lexical overlap,1,3
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,"It wasn't just a piece, it was multiple pieces of Mozart!",lexical overlap,1,4
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,"What do you mean performed, he killed it!",lexical overlap,1,5
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,He must be an intellectual with lots of talent.,situational inference,1,6
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,How does he keep that work life balance?,situational inference,1,7
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I thought he was tone deaf.,situational inference,1,8
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I'm not surprised because his parents are both famous conductors.,situational inference,1,9
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,"Good for him, but he and I seem to have a different taste.",situational inference,1,10
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,"Cool, did he have any training in classical music?",event association,1,11
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Is his research related to music in any aspect?,event association,1,12
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Was it a solo performance or part of an ensemble?,event association,1,13
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Which instrument did he play?,event association,1,14
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,It was actually his entire research group that prepared for the concert.,event association,1,15
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Chemotherapy can be so challenging.,lexical overlap,2,1
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,"It can be a long road, but chemotherapy can make people stronger.",lexical overlap,2,2
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I hope he's also watching his diet along with the chemotheraphy.,lexical overlap,2,3
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,How many chemotherapy sessions does he have to go through?,lexical overlap,2,4
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Is chemotherapy expensive?,lexical overlap,2,5
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,How is he doing now?,situational inference,2,6
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Are there ways that we can help him?,situational inference,2,7
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,That's why he's lost so much weight the past few months.,situational inference,2,8
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Tell him that I'm here if he needs anyone who can talk to.,situational inference,2,9
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I hope he has a strong support system.,situational inference,2,10
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I hope he recovers soon.,event association,2,11
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,It's admirable that he's going through that treatment while juggling lots of family issues.,event association,2,12
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,What kind of cancer is he being treated for?,event association,2,13
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,Is he responding well to the treatment?,event association,2,14
+6,did,has,The researcher,performed a piece by Mozart,has undergone chemotherapy,he,Veronica,Harrison,I hope there aren't any side effects.,event association,2,15
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Is that her favorite dessert?,lexical overlap,1,1
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,"Is that an ice cream, or a cake?",lexical overlap,1,2
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,"I'm not surprised, she loves dessert.",lexical overlap,1,3
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,"I've never had an ice cream cake, what is it like?",lexical overlap,1,4
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Did she just get one cake?,lexical overlap,1,5
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Was it for a celebration?,situational inference,1,6
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I hope it didn't melt on her way back!,situational inference,1,7
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,That sounds like a good treat after a long practice session.,situational inference,1,8
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I thought she said she was on a diet.,situational inference,1,9
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,"Right, last week was her seventh wedding anniversary.",situational inference,1,10
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I bet it was delicious!,event association,1,11
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Do you know much it was?,event association,1,12
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I bet she got a strawberry flavor.,event association,1,13
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I wonder if she got it from that new bakery across the street.,event association,1,14
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I thought she baked it.,event association,1,15
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Are you saying that the child is missing?,lexical overlap,2,1
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,She lost her child?,lexical overlap,2,2
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,How did she lose her child?,lexical overlap,2,3
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Losing a child is unimaginable.,lexical overlap,2,4
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Where was the child last seen?,lexical overlap,2,5
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,This is such a tragedy.,situational inference,2,6
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I don't even know what to say.,situational inference,2,7
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,I hope she's seeing a counselor.,situational inference,2,8
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,She should go through this alone.,situational inference,2,9
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,That's heartbreaking.,situational inference,2,10
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Loss like that is so difficult to handle.,event association,2,11
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,"Her sister passed away just a month ago, too.",event association,2,12
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Grief can manifest in so many ways.,event association,2,13
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,How's the rest of the family doing?,event association,2,14
+7,did,has,The violinist,bought an ice cream cake for dessert,has lost a child,she,Isabel,Sebastian,Did she have ongoing medical issues?,event association,2,15
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"It wasn't just in high school, she did great in middle school, too.",lexical overlap,1,1
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,How high are we talking about?,lexical overlap,1,2
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,Was it just in high school?,lexical overlap,1,3
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,And she gets low grades?,lexical overlap,1,4
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"Well, the one who used to get high grades was her sister, not her.",lexical overlap,1,5
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,She must have worked really hard!,situational inference,1,6
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,It sounds like she's always been disciplined.,situational inference,1,7
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,What made her become a nun after that?,situational inference,1,8
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,Is that why she came to have a strong faith in divine power?,situational inference,1,9
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,That makes sense--being a nun requires a lot of dedication.,situational inference,1,10
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,What subjects was she good at?,event association,1,11
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,Do you know if she had a favorite subject?,event association,1,12
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,Did she go to a religious school?,event association,1,13
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,I wonder if her education had an influence on her faith.,event association,1,14
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"High grades, holy habits.",event association,1,15
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,How does she feel about turning 40?,lexical overlap,2,1
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"Forty is not an easy age, I can tell you that.",lexical overlap,2,2
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"Well, they say life begins at 40!",lexical overlap,2,3
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,What does turning 40 mean for her faith journey?,lexical overlap,2,4
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,I guess 40 is the new holy.,lexical overlap,2,5
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"She looks so young, though!",situational inference,2,6
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,How does her community celebrate milestones like this?,situational inference,2,7
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,She must have so many stories and experiences by now.,situational inference,2,8
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"Does this mean she's now officially a ""seasoned"" nun?",situational inference,2,9
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,Her mannerism came off as those of someone who's gone through more than that.,situational inference,2,10
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,"I didn't know that, happy birthday to her!",event association,2,11
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,She's in the prime of her life.,event association,2,12
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,What has she accomplished by this point in her life?,event association,2,13
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,I bet that's turning into a new chapter in her life.,event association,2,14
+8,did,has,The nun,used to get high grades in high school,has just turned 40,she,Meghan,Luke,I hope she's having a joyful celebration!,event association,2,15
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,As if it's his first time to forget to do the laundry.,lexical overlap,1,1
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,Does he ever do the laundry?,lexical overlap,1,2
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"I get it, laundry piles up fast.",lexical overlap,1,3
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,That's not the only thing he forgot to do.,lexical overlap,1,4
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"Doing the laundry is too boring for him, huh.",lexical overlap,1,5
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"Does he not know how to plan, even as an analyst?",situational inference,1,6
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"That's understandable, the market was skyrocketing yesterday.",situational inference,1,7
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"It's okay, he seemed quite distracted these days.",situational inference,1,8
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,Did he get too busy with work?,situational inference,1,9
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,He seemed overwhelmed with work-related things.,situational inference,1,10
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,He tends to overlook doing daily chores.,event association,1,11
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,I hope he has other stuff to wear.,event association,1,12
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,We should get a washing machine at the office for him.,event association,1,13
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,He didn't have detergent in the first place.,event association,1,14
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,I guess having clean clothes wasn't in his priority.,event association,1,15
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,When did he move to the U.S.?,lexical overlap,2,1
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,I didn't know he was Vietnamese.,lexical overlap,2,2
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"Did his family immigrated to the U.S., too?",lexical overlap,2,3
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,That's why he was tuned into all the immigration laws.,lexical overlap,2,4
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,That's why he speaks Vietnamese so fluently.,lexical overlap,2,5
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,It's great of have people with a rich cultural background.,situational inference,2,6
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,Diversity in the workplace is always a plus.,situational inference,2,7
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,I thought he was born here because he doesn't have an accent!,situational inference,2,8
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,Maybe that's why he has a different perspective than anybody else.,situational inference,2,9
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,American dream!,situational inference,2,10
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,Did he moved for work?,event association,2,11
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,"Interesting upbringing, but it doesn't surprise me.",event association,2,12
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,What kind of visa status does he have?,event association,2,13
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,Does he have a green card?,event association,2,14
+9,did,is,The analyst,forgot to do the laundry,is a U.S. immigrant from Vietnam,he,Jonah,Aaron,He has a good combination of skills and experiences!,event association,2,15
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Was he too busy to handle the lawn himself?,lexical overlap,1,1
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Why a teenager?,lexical overlap,1,2
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Did he know the teenager before hiring them?,lexical overlap,1,3
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,I guess he was trying to the teenager a chance to earn some money.,lexical overlap,1,4
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,I didn’t know the soccer player needed someone to mow the lawn!,lexical overlap,1,5
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,That makes sense given how busy he is.,situational inference,1,6
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Do they live nearby?,situational inference,1,7
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,How did they make that arrangement in the first place?,situational inference,1,8
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Was this part of a campaign for his sponsorship?,situational inference,1,9
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,I hope that doesn't go against the law.,situational inference,1,10
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,How did he find someone to do that chore?,event association,1,11
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,"I already knew about that, but who exactly ended up doing the work?",event association,1,12
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,That's one way to handle chores.,event association,1,13
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Do you know how much he's paying that kid?,event association,1,14
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,It's nice to offer young people opportunities.,event association,1,15
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Is there a reason why he prefers to sit on a blue couch?,lexical overlap,2,1
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,"Well, it's actually a green couch.",lexical overlap,2,2
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,"Not sitting, he just lied down.",lexical overlap,2,3
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Looks like someone's a big fan of couches.,lexical overlap,2,4
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,"His hair, shirts, pants, and everything are blue.",lexical overlap,2,5
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,He looks quite relaxed in that setting.,situational inference,2,6
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Is this a break from training?,situational inference,2,7
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,"Apparently, it's his pre-game ritual.",situational inference,2,8
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Is he trying to take a short nap?,situational inference,2,9
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,It must be a moment of relaxation.,situational inference,2,10
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,I guess his legs were tired.,event association,2,11
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Five minutes ago he was lounging in a hammock.,event association,2,12
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,His coach is also resting on the bench.,event association,2,13
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,Yes he's chilling there even sipping coffee.,event association,2,14
+10,"[('did', 'is')]",is,The soccer player,hired a teenager to mow the lawn,is sitting on the blue couch,he,Trenton,Nicholas,"I'm not surprised because he said his favorite activity is lying on a beanbag, reading books.",event association,2,15
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,I thought Ashley was the real expert in cleaning.,lexical overlap,1,1
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,What do you mean by a good cleaning company?,lexical overlap,1,2
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,I didn't even know there are companies for cleaning.,lexical overlap,1,3
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Last time she suggested a good catering company.,lexical overlap,1,4
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Do you think Ashley will take that suggestion?,lexical overlap,1,5
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,It's nice that someone was kind enough to talk to her.,situational inference,1,6
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Word-of-mouth advice often turns out to be the most reliable.,situational inference,1,7
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,I'm not surprised because that lady talks to everybody in the department store.,situational inference,1,8
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Now someone's going to tidy up their house.,situational inference,1,9
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Of course, she's a walking consultant.",situational inference,1,10
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,I wonder if she'll take the advice and reach out.,event association,1,11
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,I think it was a good recommendation.,event association,1,12
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,It was a timely suggestion since Ashley needed some tidying up.,event association,1,13
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,I hope it's a reliable place.,event association,1,14
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,That's all she did?,event association,1,15
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Yes, always so calm.",lexical overlap,2,1
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Indeed, her calmness is truly impressive.",lexical overlap,2,2
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"I know her sister, and she is calm, too.",lexical overlap,2,3
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Staying calm under pressure is second. nature to her.,lexical overlap,2,4
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Her calm demeanor makes the clerk's job so much eaiser.,lexical overlap,2,5
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,Maybe it's because she's been practicing mediation.,situational inference,2,6
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,It makes sense that she worked as an ER nurse for five years.,situational inference,2,7
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,But her partner is the exact opposite of that.,situational inference,2,8
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,No wonder she spent years managing high-stakes negotiations.,situational inference,2,9
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Interestingly, her sibling is nothing like her in that regard.",situational inference,2,10
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Yes, even in the most chaotic situations.",event association,2,11
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"She went through a lot in life, and it shaped her resilience and composure.",event association,2,12
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,It isn't just a natural trait; it's a testament to her perserverence.,event association,2,13
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Exactly, she always stays composed.",event association,2,14
+11,did,is,The customer,suggested a good cleaning company to Ashley,is reliably calm under pressure,she,Zachary,Alondra,"Right, she remains steady no matter the circumstances.",event association,2,15
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,Now she's cut back to just one cup of coffee per day.,lexical overlap,1,1
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"Three cups of coffee sounds like a lot, but a lot of programmers do that.",lexical overlap,1,2
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I wonder if she still drink that much coffee now.,lexical overlap,1,3
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I hope she didn't replace coffee with energy drinks.,lexical overlap,1,4
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,Three cups of coffee a day sounds like a true programmer habit.,lexical overlap,1,5
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I'm guessing she was working on some intense projects back then.,situational inference,1,6
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I bet her schedule was packed with non-stop tasks.,situational inference,1,7
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I wouldn't be surprised if she was on back-to-back calls.,situational inference,1,8
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,That kind of routine suggests a lot of stress and deadlines.,situational inference,1,9
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,That sounds like a coping mechanism during her exam season in college.,situational inference,1,10
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"She would drink lots of green tea, too.",event association,1,11
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"Some people say it was bad habit, but I don't quite agree.",event association,1,12
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I think she developed that habit during her startup phase.,event association,1,13
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,It sounds like her routine while preparing for that coding competition.,event association,1,14
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,She used to own a fancy espresso machine as well.,event association,1,15
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"She probably had little sleep, and it's becoming hard to focus.",lexical overlap,2,1
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,She's just any seconds away from falling asleep.,lexical overlap,2,2
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,Are you sure she's not pretending to be asleep?,lexical overlap,2,3
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"Well, she looks like she's going to fall asleep, but she won't actually sleep.",lexical overlap,2,4
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,You should keep her from falling asleep!,lexical overlap,2,5
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"The work has been piling up, and now she's paying the price.",situational inference,2,6
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,Her mind is probably clouded after too many hours of work.,situational inference,2,7
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"With all the debugging, she's probably worn out by now.",situational inference,2,8
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"It's the end of a long coding marathon, and fatigue has set in.",situational inference,2,9
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,"After that big push to finalize the feature, she's running on empty.",situational inference,2,10
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,Her body is signaling for rest after such an intense coding session.,event association,2,11
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,The project's demands have led her to this point of fatigue.,event association,2,12
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,She's probably been immersed in this task for hours without a real break.,event association,2,13
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,She's ready to doze off.,event association,2,14
+12,did,is,The programmer,used to drink three cups of coffee every day,is about to fall asleep,she,Allison,Lindsay,I can see sheer exhaustion on her face.,event association,2,15
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,How could she forget to lock the door?,lexical overlap,1,1
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,The door is wide open now.,lexical overlap,1,2
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,"Well, the door was already broken in the first place.",lexical overlap,1,3
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,"I mean, she didn't even have the key to the door.",lexical overlap,1,4
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She's not the first person to forget to lock the door!,lexical overlap,1,5
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,There's no privacy now!,situational inference,1,6
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She was probably focused on other things.,situational inference,1,7
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,Probably she was rushing out.,situational inference,1,8
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She seemed quite distracted these days.,situational inference,1,9
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,It's a pretty common mistake that athletes make after a long practice.,situational inference,1,10
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She's been saying that things slip her mind more often lately.,event association,1,11
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,Her memory doesn't seem as sharp as it used to be.,event association,1,12
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She's quite oblivious to many things.,event association,1,13
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She tends to overlook many things.,event association,1,14
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She's quite inattentive to a lot of things.,event association,1,15
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,"Yes, the media was saying that she was on a pretty strict diet to enhance endurance.",lexical overlap,2,1
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,"After a long off-season, her diet helped her regain form quickly.",lexical overlap,2,2
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,"With the regional championships near, her diet became critical.",lexical overlap,2,3
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She adjusted her diet to align with the training cycle.,lexical overlap,2,4
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,Her diet was especially important as she prepared for the Olympic qualifiers.,lexical overlap,2,5
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She was trying to stay lean and agile.,situational inference,2,6
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,It was part of her strategy to stay in top physical condition.,situational inference,2,7
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,It was all about maximizing her speed and performance in the water.,situational inference,2,8
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,The coach thought it was essential for her recovery after intense training.,situational inference,2,9
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,That was just one aspect of a disciplined approach to her training.,situational inference,2,10
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,It was her effort to stay in peak shape.,event association,2,11
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She was focusing on high-protein meals.,event association,2,12
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She avoided any foods that could hinder her training.,event association,2,13
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She was making sure to eat the right balance of nutrients.,event association,2,14
+13,did,was,The swimmer,forgot to lock the door,was on a diet,she,Lucas,Arianna,She was limiting her carb intake before the big race.,event association,2,15
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She had to call a tow truck for help with the flat tire.,lexical overlap,1,1
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,That flat tire left her stranded on the side of the road.,lexical overlap,1,2
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,But she was able to change the tire before she had to leave for work.,lexical overlap,1,3
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,The tire issue happened and so she couldn't go run errands.,lexical overlap,1,4
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She had barely made it out of the parking lot when the flat tire happened.,lexical overlap,1,5
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,That's why she was late!,situational inference,1,6
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,"Because of that, she had to cancel her first appointment.",situational inference,1,7
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,But glad that didn't happen in the middle of a highway.,situational inference,1,8
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,"It couldn't have come at a worse time, right before she had an interview.",situational inference,1,9
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,That's bizarre because she bought her car just last week!,situational inference,1,10
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,"It took longer than expected to fix, and so she couldn't make it to meeting.",event association,1,11
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She had no idea how long it would take to resolve it.,event association,1,12
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She didn't realize how long the repair would take.,event association,1,13
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,Luckily she remembered to call the insurance company to resolve the issue.,event association,1,14
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,But she had a spare in her trunk.,event association,1,15
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,"In fact, she was having an argument with the nurse.",lexical overlap,2,1
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,"But wait, all nurses are tall.",lexical overlap,2,2
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,There are two tall nurses -- which one?,lexical overlap,2,3
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She wasn't just talking -- she was yelling at the nurse.,lexical overlap,2,4
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,What were they talking about?,lexical overlap,2,5
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,Apparently the new equipment had some issues.,situational inference,2,6
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,I thought they had a really bad fight!,situational inference,2,7
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,It's because the outcomes of the recent test don't look good.,situational inference,2,8
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,I heard the clinic was going through major layoffs.,situational inference,2,9
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She's trying to identify the person who leaked sensitive information.,situational inference,2,10
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,They were discussing the patient's condition.,event association,2,11
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,They were debating over the recent changes in the clinic's protocol.,event association,2,12
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,They wanted to clarify some details with patient treatment.,event association,2,13
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,They had some disagreement on the upcoming procedures.,event association,2,14
+14,did,was,The optician,had a flat tire,was talking to the tall nurse,she,Cole,Shelby,She was walking through the instructions before the patient's eye exam.,event association,2,15
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Apparently his mom is a quite famous translator.,lexical overlap,1,1
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,"Well, he had so many other dreams.",lexical overlap,1,2
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,That wasn't the only dream he had.,lexical overlap,1,3
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,He no longer wants to become a translator.,lexical overlap,1,4
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,He now trains people to become a translator.,lexical overlap,1,5
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,But life took her down a different path.,situational inference,1,6
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,His interests evolved into something else entirely.,situational inference,1,7
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,But something else sparked him with a new passion.,situational inference,1,8
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,But that was just a childhood dream.,situational inference,1,9
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,But now he seems like someone who's lost hope.,situational inference,1,10
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,It's understandable because he speaks so many different languages.,event association,1,11
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,His career pivot came after working as a bilingual assistant in a non-profit.,event association,1,12
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,I think he even majored in linguistics or a foreign language.,event association,1,13
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,That explains why he works as a part-time interpreter.,event association,1,14
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Is that how he started tutoring you?,event association,1,15
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Why was he in the newspaper?,lexical overlap,2,1
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Not just newspapers but magainzes as well!,lexical overlap,2,2
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,He was mentioned for his involvement in the community garden project.,lexical overlap,2,3
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Which newspaper?,lexical overlap,2,4
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,I don't think he deserves to be featured in a newspaper.,lexical overlap,2,5
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,He is now a celebrity!,situational inference,2,6
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Did he do anything wrong?,situational inference,2,7
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,No wonder he's been receiving so many calls from his friends!,situational inference,2,8
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,His parents must be so proud of him.,situational inference,2,9
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,It's because he played a major role during the disaster relief.,situational inference,2,10
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Even in magainzes!,event association,2,11
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,He must have done something truly impactful to be featured.,event association,2,12
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,He's now getting interview requests.,event association,2,13
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,I've been seeing his interviews a lot lately.,event association,2,14
+15,did,was,The volunteer,used to dream to become a translator,was mentioned in the newspaper,he,Carly,Heather,Even the local radio station talked about him!,event association,2,15
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Why did he need carrots?,lexical overlap,1,1
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Why Target?,lexical overlap,1,2
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Are carrots important for inspection?,lexical overlap,1,3
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,He must be a big fan of carrots.,lexical overlap,1,4
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I didn't know he likes carrots.,lexical overlap,1,5
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I guess there wasn't a local grocery store nearby.,situational inference,1,6
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Sounds like he's undercover in the produce aisle.,situational inference,1,7
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Is that what he's interrogating next?,situational inference,1,8
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Maybe he's trying to have a better eyesight to see things more clearly!,situational inference,1,9
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I heard that he's on a diet.,situational inference,1,10
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,He said he was in the mood for something healthy.,event association,1,11
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,"Not just that, he got a whole ingredient for baking a cake.",event association,1,12
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I wonder what kind of meal he's preparing for.,event association,1,13
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I'm curious if he's trying out a new recipe.,event association,1,14
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,It's probably for his dinner.,event association,1,15
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,How did he get isolated for so long?,lexical overlap,2,1
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,For how long?,lexical overlap,2,2
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Did he like being isolated?,lexical overlap,2,3
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Did he lose contact with his families while he was isolated?,lexical overlap,2,4
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I would go crazy if I ever get isolated from the society.,lexical overlap,2,5
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,It's no surprise he struggles with trust.,situational inference,2,6
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I wonder how he managed to deal with loneliness.,situational inference,2,7
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,He was stranded in an island for four years.,situational inference,2,8
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Wasn't he stationed at that outpost?,situational inference,2,9
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,"It's similar to what happened during his stint in the mountains, isn't it?",situational inference,2,10
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,It must have been difficult for him to reconnect with people.,event association,2,11
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,I imagine it's been hard for him to reintegrate.,event association,2,12
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,It sounds like he had to figure out ways to cope with being alone.,event association,2,13
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,Being separated from people sounds quite challenging.,event association,2,14
+16,did,was,The inspector,went to Target to buy some carrots,was isolated from society for a long time,he,Ricardo,Peter,How did he survive being secluded?,event association,2,15
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,What's a cake-baking contest?,lexical overlap,1,1
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Is it a renowned contest?,lexical overlap,1,2
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Where did the contest happen?,lexical overlap,1,3
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I didn't know he was into cake-baking.,lexical overlap,1,4
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I wonder how long he prepared for the contest.,lexical overlap,1,5
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I'll call him for my next birthday!,situational inference,1,6
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,It’s clear he has a real gift for creating something exceptional.,situational inference,1,7
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,That will definitely boost his catering business.,situational inference,1,8
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,It sounds like he found a new career.,situational inference,1,9
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,"Yes, I heard even the judges licked their plates!",situational inference,1,10
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,He was last year's winner!,event association,1,11
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,He never loses anything.,event association,1,12
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,i heard his brother got the second prize.,event association,1,13
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,"The competition must have been tough, but he pulled through.",event association,1,14
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,The judges must have been impressed by the flavor and presentation.,event association,1,15
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,"Honestly, I'd feel sorry for the landlord too.",lexical overlap,2,1
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Every night?,lexical overlap,2,2
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I feel bad for the landlord.,lexical overlap,2,3
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I don't blame him because the landlord hasn't been taking care of the heater.,lexical overlap,2,4
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I get why the landlord might be fed up.,lexical overlap,2,5
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,That must have been exhausting for both.,situational inference,2,6
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,That's some next-level stalking!,situational inference,2,7
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,It sounds like someone needs to change their number.,situational inference,2,8
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I bet someone's phone was always on silent.,situational inference,2,9
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Someone definitely needed a little chill.,situational inference,2,10
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Was it related to overdue rent?,event association,2,11
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I guess the building had persistent issues.,event association,2,12
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Was there some ongoing dispute?,event association,2,13
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,I bet it was about a leaky pipe.,event association,2,14
+17,did,would,The attendant,won the annual cake-baking contest,would call the landlord every night,he,Andres,Shawn,Was it about repairs or something more serious?,event association,2,15
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,What was the nightmare?,lexical overlap,1,1
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Are you sure he wasn't confused with his editor just calling him?,lexical overlap,1,2
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,I wonder what triggered the nightmare after so many years.,lexical overlap,1,3
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Do you think his writing topics influenced the nightmare?,lexical overlap,1,4
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,"No, he said he had a nightmare just last week too.",lexical overlap,1,5
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Maybe that recent event stirred those old fears.,situational inference,1,6
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,I heard he had a loss in his family recently.,situational inference,1,7
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,That movie last night might be the culprit.,situational inference,1,8
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Freud might say it's a manifestation of unresolved issues surfacing.,situational inference,1,9
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,"I bet it was about accidentally hitting ""Reply All.""",situational inference,1,10
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Maybe he dreamed he missed his column deadline.,event association,1,11
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Bet he dreamed he showed up to a live interview unprepared.,event association,1,12
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Was his dream about forgetting the name of the interviewee?,event association,1,13
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Perhaps he dreamed about catching a typo on his front page article.,event association,1,14
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Was the dream about the deadline?,event association,1,15
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,I think he was in the park for some blind dates.,lexical overlap,2,1
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,"He would read anywhere, not just at the park.",lexical overlap,2,2
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,What kind of books did he enjoy reading?,lexical overlap,2,3
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Which park?,lexical overlap,2,4
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,That's surprising; I've never seen him read books.,lexical overlap,2,5
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,He enjoyed it except for some random strangers trying to talking to him.,situational inference,2,6
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,"Yes, until some teenagers would begin their impromptu yoga class right next to him.",situational inference,2,7
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Were the flocking pigeons part of his activity?,situational inference,2,8
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Except for the times when an ice cream truck had loud music playing.,situational inference,2,9
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,But he didn't like when kids ran around yelling.,situational inference,2,10
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,That's a good way to take a break.,event association,2,11
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,That sounds quite peaceful.,event association,2,12
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,Is that his favorite pasttime?,event association,2,13
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,He really enjoyed the tranquility there.,event association,2,14
+18,did,would,The columnist,had a nightmare for the first time in years,would read books at a park nearby,he,Adriana,Mitchell,"Right, he would be often spotted under a tree, scribbling notes as he read.",event association,2,15
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,That's awesome she got finally engaged!,lexical overlap,1,1
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I thought she was already engaged last month?,lexical overlap,1,2
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Who did she get engaged to?,lexical overlap,1,3
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,That took long for her to get engaged.,lexical overlap,1,4
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,It's great to hear that she's officially engaged now!,lexical overlap,1,5
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I bet she's looking forward to the future!,situational inference,1,6
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Will she stop coming to take care of kids now?,situational inference,1,7
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,"I guess now we know what her next ""commitment"" is!",situational inference,1,8
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Is she still going to have time to babysit?,situational inference,1,9
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I'm not sure if she's ready for a new chapter in her life.,situational inference,1,10
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I wonder when the wedding will be.,event association,1,11
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Did she mention how the proposal went?,event association,1,12
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Do we get to meet the lucky partner?,event association,1,13
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I hope she juggles well he nanny duties with wedding prep.,event association,1,14
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Is she already planning the details of the wedding?,event association,1,15
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Bananas were her go-to choice during those late hours.,lexical overlap,2,1
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,"All sorts of fruit, actually, not just bananas.",lexical overlap,2,2
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,"Yes, every night, without fail.",lexical overlap,2,3
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I think she eats nothing but bananas.,lexical overlap,2,4
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,"Not bananas, but papayas.",lexical overlap,2,5
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,She probably wanted something light.,situational inference,2,6
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,A secret monkey in disguise?,situational inference,2,7
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Perhaps she thought that would help her stay a-peel-ling the next day.,situational inference,2,8
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,That's a healthy habit.,situational inference,2,9
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Maybe it was her way of keeping energy up.,situational inference,2,10
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,"I mean, it is the perfect food to grab quickly.",event association,2,11
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,I think it's the ideal snack to grab on the go.,event association,2,12
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,And no other fruits?,event association,2,13
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,Is she allergic to other fruits?,event association,2,14
+19,did,would,The nanny,got engaged this month,would eat bananas at night,she,Arianna,Katie,That's why she always stopped by grocery stores!,event association,2,15
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,"Well, she's eager about anything.",lexical overlap,1,1
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,She has a home?,lexical overlap,1,2
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Why is she so eager?,lexical overlap,1,3
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,What is she so excited about?,lexical overlap,1,4
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Where does she call home?,lexical overlap,1,5
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,She probably has a warm meal waiting for her.,situational inference,1,6
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Maybe she's trying to beat the rush hour traffic.,situational inference,1,7
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,"Yeah, it's about time when the kids return from school.",situational inference,1,8
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Her favorite TV is about to start.,situational inference,1,9
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,I bet -- she wore a jacket that was too light for today's weather.,situational inference,1,10
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Maybe she's eager to get back to his family.,event association,1,11
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,She's excited to lie down on her couch.,event association,1,12
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Where does she live?,event association,1,13
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,What is she so excited about?,event association,1,14
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,What's making her so thrilled?,event association,1,15
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Those are special glasses customized just for her.,lexical overlap,2,1
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Those are safety glasses protecting her eyes from the sun.,lexical overlap,2,2
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Those glasses would help maintain clear sight without squinting.,lexical overlap,2,3
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,She said it's important to have a good pair of glasses especially when you're riding fast.,lexical overlap,2,4
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,Those glasses would come in handy when it's windy.,lexical overlap,2,5
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,She resembled a secret agent.,situational inference,2,6
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,It was because she didn't want to be recognized.,situational inference,2,7
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,That was her way of being in disguise.,situational inference,2,8
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,That was her way of going incognito.,situational inference,2,9
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,"She wanted to avoid drawing attention to herself, but it actually had the opposite effect.",situational inference,2,10
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,It's important to wear those since she rides in the daylight.,event association,2,11
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,She wears them to block the glare of the sun.,event association,2,12
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,They give her better visibility.,event association,2,13
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,It makes sense to shield the eyes from UV rays.,event association,2,14
+20,did,would,The motorcyclist,seemed very eager to return home,would wear glasses in the day time,she,Garrett,Steven,"Yes, those are a must-have especially on sunny days.",event association,2,15
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,And I heard he loves experimenting with French recipes.,lexical overlap,1,1
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,"Yes, he is always trying out new French dishes.",lexical overlap,1,2
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,That's why he talks about French pastries all the time!,lexical overlap,1,3
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,He could even write a guidebook on French dining etiquette.,lexical overlap,1,4
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,His fridge is probably 90 percent French cheese.,lexical overlap,1,5
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,"Let me guess, his dream is to have a pet chicken name Coq au Vin.",situational inference,1,6
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,He probably thinks ketchup is a mortal sin.,situational inference,1,7
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,He must have an impressive collection of copper pans.,situational inference,1,8
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,That explains his fascination with Michelin-starred restaurants.,situational inference,1,9
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,His family also owns a vineyard somewhere.,situational inference,1,10
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,No wonder he's planning a trip to Paris soon.,event association,1,11
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,He should know the difference between a croissant and a pain au chocolat.,event association,1,12
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,I wouldn't be shocked if his next vacation is a culinary tour in France.,event association,1,13
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,I'm guessing he can name every region in France by its wines.,event association,1,14
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,No wonder he always has fresh baguettes on the counter.,event association,1,15
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,I'm glad the dog now has a home.,lexical overlap,2,1
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,I'm sure the dog will be well taken care of.,lexical overlap,2,2
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,The dog will bring so much joy to him.,lexical overlap,2,3
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,Adopting a rescue dog suits his caring nature.,lexical overlap,2,4
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,I hope the dog helps him unwind after a long shift.,lexical overlap,2,5
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,"Hopefully, that will help him get more outdoor exercise.",situational inference,2,6
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,He'll start knitting little sweaters for it.,situational inference,2,7
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,I bet he's given away his favorite spot on the couch already!,situational inference,2,8
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,Looks like someone signed up for endless belly rubs.,situational inference,2,9
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,He would need more coffee for those early morning walks!,situational inference,2,10
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,Doesn't he have four cats already?,event association,2,11
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,"He volunteers at a shelter, too.",event association,2,12
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,It makes sense chose to help an animal in need.,event association,2,13
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,"I'm not surprised since he's known for putting others first, be they human or animal.",event association,2,14
+21,does,did,The nurse,has lots of interest in French cuisine,recently adopted a rescue dog,he,Marco,Elizabeth,That reflects his selfless personality so well.,event association,2,15
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,What kind of historical figures?,lexical overlap,1,1
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,Where can I find the blog posts?,lexical overlap,1,2
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,"Well, more than occasionally.",lexical overlap,1,3
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I like how he blends business insights with historical analysis in his posts.,lexical overlap,1,4
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,"I read a couple of his blog posts, and they are quite insightful.",lexical overlap,1,5
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,He must have a keen eye for identifying patterns across eras.,situational inference,1,6
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,Does he write his blogs with a quill and parchment for authenticity?,situational inference,1,7
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I hope he doesn't start dressing like a 18th-century worker.,situational inference,1,8
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,That explains the recent debate he started on Napoleon's strategies.,situational inference,1,9
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,No wonder he keeps quoting Churchill in meetings.,situational inference,1,10
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,"Yes, particularly industrial innovators.",event association,1,11
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,"He's always shown great passion for writing, so I'm not surprised.",event association,1,12
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,Is that why he keeps visiting museums on weekends?,event association,1,13
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,He always had a knack for storytelling.,event association,1,14
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I see why he is interested in archival materials.,event association,1,15
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I'm glad he had a good night's sleep!,lexical overlap,2,1
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,"Well, he always gets good sleep.",lexical overlap,2,2
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,He actually had good sleep after that debacle last night?,lexical overlap,2,3
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,How did he manage to sleep well with all that noise?,lexical overlap,2,4
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,That's remarkable that he got any good sleep amidst all that loud music.,lexical overlap,2,5
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,No wonder he is so productive today.,situational inference,2,6
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,That's why he looked so refreshed this morning.,situational inference,2,7
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,It makes sense why he's in such a joyful mood now.,situational inference,2,8
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,That explains why he was ahead of schedule today.,situational inference,2,9
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I bet the team meeting went a lot smoother.,situational inference,2,10
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I guess he took the advice to switch off his phone before bed.,event association,2,11
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I wonder if he meditated before bed.,event association,2,12
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I wonder if he practices deep breathing exercises last night.,event association,2,13
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,I guess he dimmed the lights early last night.,event association,2,14
+22,does,did,The industrialist,occasionally writes a blog about historical figures,had a good sleep,he,Omar,Isaac,Maybe he used that new weighted blanket he bought.,event association,2,15
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,I thought she was already married!,lexical overlap,1,1
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She wanted to get married ever since she turned 20.,lexical overlap,1,2
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,I'm sure she'll get married in the next couple of years.,lexical overlap,1,3
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,But last time she said she wasn't sure if she wanted to get married.,lexical overlap,1,4
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Does her boyfriend also want to get married?,lexical overlap,1,5
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Sounds like her relationship is going really well.,situational inference,1,6
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Do you think she's ready to balance her career and personal life?,situational inference,1,7
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,It sounds like she's in a pretty good spot with her partner.,situational inference,1,8
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,"Do you think she's financially prepared, though?",situational inference,1,9
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Do you think she's emotionally ready for such a big change?,situational inference,1,10
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She's been dreaming about it for a very long time.,event association,1,11
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She must be in a committed relationship.,event association,1,12
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Is she dating anyone though?,event association,1,13
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She's been fantasizing about that future for years.,event association,1,14
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,I didn't think she was in a serious relationship.,event association,1,15
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,And then she arrived in Los Angeles just in time for the next meeting.,lexical overlap,2,1
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,I hope she had a smooth flight!,lexical overlap,2,2
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Why did she choose Newark?,lexical overlap,2,3
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,What was happening in Los Angeles?,lexical overlap,2,4
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She met her ex-wife on that flight.,lexical overlap,2,5
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Is that why she is feeling nauseous?,situational inference,2,6
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,How did she manage to get through without an ID?,situational inference,2,7
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She redeemed her credit card miles for it.,situational inference,2,8
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,I hope she didn't start psychoanalyzing the people sitting next to her.,situational inference,2,9
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She had to use her techniques to calm herself down while going through security.,situational inference,2,10
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,I heard there was a lot of turbulence.,event association,2,11
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,"Unfortunately, she lost her luggage at the airport.",event association,2,12
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,Do you know which airline she flew with?,event association,2,13
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She bought the tickets using her credit card mileage.,event association,2,14
+23,does,did,The therapist,wants to get married soon,took a flight from Newark to Los Angeles,she,Sofia,Cody,She paid extra for the legroom.,event association,2,15
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,"Yeah, some people just can't handle horror.",lexical overlap,1,1
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Maybe it's just that she's never watched a good horror movie.,lexical overlap,1,2
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I don't like horror movies either.,lexical overlap,1,3
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Perhaps her first horror movie was so bad.,lexical overlap,1,4
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I guess she's seen enough horror in her job already!,lexical overlap,1,5
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Sounds like she doesn't want something that's adrenaline-pumping.,situational inference,1,6
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Guess she prefers something with less screaming and more logic.,situational inference,1,7
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I'm sure she'd want something more peaceful after a long day in court.,situational inference,1,8
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,She doesn't like Halloween either.,situational inference,1,9
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,"Maybe horror movies are just too much of a ""guilty"" pleasure for her.",situational inference,1,10
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I guess the suspense is a bit too much for her.,event association,1,11
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,"I imagine she doesn't like being scared, even by fiction.",event association,1,12
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Some people just don't enjoy being frightened.,event association,1,13
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I wonder if she likes comedies instead.,event association,1,14
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Maybe she prefers to watch lighter films to unwind after a heavy day.,event association,1,15
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,What kind of meal did she prepare?,lexical overlap,2,1
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I think the meal is for the banquet today.,lexical overlap,2,2
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I think it's a special meal that she prepared for a lawyer friend's retirement.,lexical overlap,2,3
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Was the meal for the visiting judge from the other court?,lexical overlap,2,4
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,"I think she was hosting an event, not just preparing a meal.",lexical overlap,2,5
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I didn't expect her to have time for that!,situational inference,2,6
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I imagine she wanted to make the annual event more memorable!,situational inference,2,7
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Maybe it's for a legal symposium or a networking event.,situational inference,2,8
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,She did it for a charity fundraiser.,situational inference,2,9
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I guess she was trying to make the event in the evening quite special!,situational inference,2,10
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,Was that for the Thanksgiving dinner?,event association,2,11
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,She might be cooking to celebrate one of the team members' birthdays.,event association,2,12
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,She is hosting a formal dinner for the legal team.,event association,2,13
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I didn't know she had culinary skills.,event association,2,14
+24,does,did,The judge,hates horror movies,prepared for the meal,she,Hanna,Makenzie,I hope what she made was vegan-friendly.,event association,2,15
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,He laughs all the time.,lexical overlap,1,1
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,He laughs so loud that he can wake up with neighbors.,lexical overlap,1,2
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Maybe he just laughs to distract from the trick.,lexical overlap,1,3
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Why is his laugh so loud?,lexical overlap,1,4
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Maybe the laugh was the real magic all along.,lexical overlap,1,5
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,"That's one way to break the tension during a show, I guess.",situational inference,1,6
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,That might be the highlight of the act.,situational inference,1,7
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,That's much better than crying on stage.,situational inference,1,8
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,"Honestly, that might be more entertaining than pulling a rabbit out of a hat.",situational inference,1,9
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Or was that just a sound effect?,situational inference,1,10
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Is this a magic show or a comedy act?,event association,1,11
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,He always cracks himself up!,event association,1,12
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Was there a fun joke?,event association,1,13
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Someone's having an absolute blast up there.,event association,1,14
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,I think that's a good way to keep the energy high during a performance.,event association,1,15
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,I bet it's more than five years.,lexical overlap,2,1
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Do you know why magnets in particular?,lexical overlap,2,2
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,What's so special about collecting fridge magnets?,lexical overlap,2,3
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Where he would get magnets?,lexical overlap,2,4
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,So the fridge is the real star of the show?,lexical overlap,2,5
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,The real magic would be finding space for all of them.,situational inference,2,6
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,That could be a nice museum exhibit.,situational inference,2,7
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,That's a real commitment to sticking to something!,situational inference,2,8
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,That's a nice way to ensure visitors are entertained coming to his place.,situational inference,2,9
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Does he focus on a particular style or just go with the flow?,situational inference,2,10
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,That's quite the dedication to gathering trinkets!,event association,2,11
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,Is there a theme to his little treasures?,event association,2,12
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,I wonder what inspired that particular hobby.,event association,2,13
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,I wonder if there's a story behind each piece.,event association,2,14
+25,does,has,The magician,laughs very loudly,has been collecting fridge magnets for five years,he,Jillian,Rebecca,I'd love to see how he organizes all those little mementos.,event association,2,15
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,How many apples is she planning to pick?,lexical overlap,1,1
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,But it'll will rain tomorrow.,lexical overlap,1,2
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Is there an apple farm nearby?,lexical overlap,1,3
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She should bring a cooler for all the extra apples she'll pick.,lexical overlap,1,4
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She might need a cart to overhaul all the apples.,lexical overlap,1,5
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Does she have a big basket?,situational inference,1,6
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Tell her to bring comfy pants and shoes!,situational inference,1,7
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,I should pick up some ingredients to make a pie out of those!,situational inference,1,8
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She should bring a hat to shield herself from the sun.,situational inference,1,9
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Would she need help carrying everything back?,situational inference,1,10
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,How far is the orchard?,event association,1,11
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Sounds like a delightful seasonal excursion!,event association,1,12
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Who's joining her for this outdoor event?,event association,1,13
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,That should be a perfect activity to spend the afternoon.,event association,1,14
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,It must be nice to get out in the nature for a while.,event association,1,15
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,How much does she earn?,lexical overlap,2,1
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,What kind of videos does she make?,lexical overlap,2,2
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,YouTube must be a good profitable platform.,lexical overlap,2,3
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,That's fascinating -- I don't even have an account on YouTube.,lexical overlap,2,4
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,You knew ten years ago that you could make money through YouTube!,lexical overlap,2,5
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,How many subscribers does she have?,situational inference,2,6
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,"Who knew ""filming yourself talking"" would become the next big career move?",situational inference,2,7
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She just needs to say hello to the camera in her pajamas.,situational inference,2,8
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She's running her business while lying on the couch!,situational inference,2,9
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,You smile at the camera and that's it?,situational inference,2,10
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She's pretty good at creating new content.,event association,2,11
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Does she get a steady income?,event association,2,12
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,She makes a decent living out of it.,event association,2,13
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Is that her regular job?,event association,2,14
+26,does,has,The tenant,plans to go apple picking tomorrow,has been earning money by making YouTube videos,she,Melissa,Makenzie,Where does the revenue come from?,event association,2,15
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,I didn't know he knew how to bike.,lexical overlap,1,1
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,How far is the nearest park?,lexical overlap,1,2
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,I thought he got his bike stolen.,lexical overlap,1,3
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,Which park does he usually go to?,lexical overlap,1,4
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,Are you sure he goes to a park?,lexical overlap,1,5
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,When did he get a bike?,situational inference,1,6
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,I hope he wears a helmet!,situational inference,1,7
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,But it's only 100 meters away!,situational inference,1,8
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,I bet he goes there for a nap.,situational inference,1,9
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,But there are bears out there!,situational inference,1,10
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,That's a nice way to enjoy nature and be surrounded by greenery.,event association,1,11
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,His dog's favorite playground is there.,event association,1,12
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,"But today, he got stuck in the hay while trying to take a shortcut.",event association,1,13
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,But sometimes he drives his tractor instead.,event association,1,14
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,"But today, he got caught in the mud while trying to take a faster route",event association,1,15
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,Rihanna's music is always on his playlist.,lexical overlap,2,1
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He even has a Rihanna shirt.,lexical overlap,2,2
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He was caught humming one of Rihanna's songs the other day.,lexical overlap,2,3
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He is probably one of her longest fans.,lexical overlap,2,4
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,When was her debut?,lexical overlap,2,5
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,Even his cows will moo rhythmically.,situational inference,2,6
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,"I bet the tractor hums ""Umbrella"" on a rainy day.",situational inference,2,7
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He's even considering building a dedicated museum.,situational inference,2,8
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,To the extent that it's almost his religion.,situational inference,2,9
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He might even create a shrine.,situational inference,2,10
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,I thought he was a fan of Ariana Grande.,event association,2,11
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,I thought he listened to only classical music.,event association,2,12
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,"In fact, he is an expert on pop music.",event association,2,13
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He would go to all of her concerts when she was in town.,event association,2,14
+27,does,has,The farmer,rides a bike to the nearest park,has been a fan of Rihanna since her debut,he,Parker,Chloe,He spent so much to get all the albums.,event association,2,15
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,How does she have lots of Korean friends?,lexical overlap,1,1
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Is she Korean?,lexical overlap,1,2
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Does she speak Korean?,lexical overlap,1,3
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,"Well, not just Korean friends -- she just has lots of friends.",lexical overlap,1,4
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Are all of her Korean friends chemists?,lexical overlap,1,5
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Is that why she's been going to language classes lately?,situational inference,1,6
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,That gives me an idea of where she'll go for her next summer vacation.,situational inference,1,7
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Does she also like spicy food?,situational inference,1,8
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Now it makes sense why she had so many BBQ parties.,situational inference,1,9
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Is that why she's been stocking up so many beauty products.,situational inference,1,10
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Did they meet at an Asian cooking class?,event association,1,11
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,That's how she got into K-dramas.,event association,1,12
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Is it because she likes K-pop?,event association,1,13
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,I heard she met all of them at that conference that took place in Seoul.,event association,1,14
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Now I understand her fascination with learning Hangul.,event association,1,15
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,I thought she recently moved to a different town.,lexical overlap,2,1
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Which town does she live in?,lexical overlap,2,2
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Are you saying 10 years is too long?,lexical overlap,2,3
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,How long have you been in town?,lexical overlap,2,4
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,"No, she's been in town for more than 20 years actually.",lexical overlap,2,5
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,"Yes, that's why every newcomer goes to talk to her.",situational inference,2,6
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,She is practically a landmark at this point!,situational inference,2,7
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,She can be elected mayor.,situational inference,2,8
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,"Right, isn't there even a bench named after her?",situational inference,2,9
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,Now she's looking for somewhere else to live.,situational inference,2,10
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,She must be friends with all the local shops.,event association,2,11
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,She is quite knowledgeable about all the events happening in her neighborhood.,event association,2,12
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,She must have so many episodes to share about her neighbors.,event association,2,13
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,"Even so, she would get lost finding her way back home.",event association,2,14
+28,does,has,The chemist,has lots of Korean friends,has been in town for 10 years,she,Evelyn,Jasmin,"Do you think she'll get a second house, now that she's settled?",event association,2,15
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,"He loves anything that's Russian, basically.",lexical overlap,1,1
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Do you know who his favorite Russian author is?,lexical overlap,1,2
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,"Well, he also writes books in Russian.",lexical overlap,1,3
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Last time he told he hates reading Russian books!,lexical overlap,1,4
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,I guess it makes sense because his family is from Russian.,lexical overlap,1,5
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,"Do you think he enjoys the cold weather, too?",situational inference,1,6
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,No wonder he named his dog Tolstoy.,situational inference,1,7
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,That explains why he was looking into Cyrillic the other day.,situational inference,1,8
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Perhaps he's trying to get new research insights from Pushkin's poetry.,situational inference,1,9
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Is that why he hired an assistant named Dostoevksy?,situational inference,1,10
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,What genres does he like?,event association,1,11
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Is there a library where he can read those?,event association,1,12
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Is there a particular era that he likes?,event association,1,13
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He says he likes the style of narrative in the novels.,event association,1,14
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He actually owns a publishing company specifically for those books.,event association,1,15
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,That's interesting because he's quite good at fixing bikes.,lexical overlap,2,1
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,What makes you say that he's not a good bike rider?,lexical overlap,2,2
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,How could he not be good at riding a bike?,lexical overlap,2,3
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Hasn't he learned to bike when he was little?,lexical overlap,2,4
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,"I mean, riding a bike is not easy.",lexical overlap,2,5
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He might have spent more time in the lab than outdoors.,situational inference,2,6
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,That's what happens when you prioritize intellectual pursuits over physical activities.,situational inference,2,7
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,I guess getting research done left little time for hobbies.,situational inference,2,8
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He was treating the activity more as an engineering problem than a physical skill.,situational inference,2,9
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,I guess knowing about Newton's laws was not enough.,situational inference,2,10
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,Does he know to drive?,event association,2,11
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,But he is quite skilled at roller blades.,event association,2,12
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He says he forgets to pedal.,event association,2,13
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He's kept asking about the optimal angle for steering.,event association,2,14
+29,does,is,The scientist,loves reading Russian books,is not good at riding a bike,he,Henry,Shawn,He's more interested in the radius of wheels.,event association,2,15
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,What kind of extreme sports does she like?,lexical overlap,1,1
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"Well, she enjoys everything.",lexical overlap,1,2
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,How did she get into extreme sports?,lexical overlap,1,3
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,But her husband is completely against extreme sports.,lexical overlap,1,4
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,Does she only like extreme sports?,lexical overlap,1,5
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,No wonder she was driving so wildy that night.,situational inference,1,6
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"She calls every land change a ""stunt maneuver.""",situational inference,1,7
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"Is that why she considers road signs just ""suggestions""?",situational inference,1,8
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,That's why her insurance premiums are higher than ours.,situational inference,1,9
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,Is that why she just jumps over speed bumps?,situational inference,1,10
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"She does skydiving, mountain biking, and snowboarding.",event association,1,11
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,She competed for an off-road race recently.,event association,1,12
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,She's planning a road trip to the Grand Canyon for cliff diving.,event association,1,13
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,She did skydiving to celebrate her 30th birthday.,event association,1,14
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,But she's also quite calm and enjoys meditation.,event association,1,15
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,What makes her trustworthy?,lexical overlap,2,1
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,How do you know she's trustworthy?,lexical overlap,2,2
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,I'm surprised that you consider her trustworthy.,lexical overlap,2,3
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"She doesn't look trustworthy at all, though.",lexical overlap,2,4
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"She is trusthworthy, but not always.",lexical overlap,2,5
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,I can even tell her my PIN.,situational inference,2,6
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,I can share all my secrets with her.,situational inference,2,7
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"That's a relief, especially in unpredictable weather!",situational inference,2,8
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,I feel safe telling her anything. ,situational inference,2,9
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,Does this mean no sudden detours to pick up their laundry?,situational inference,2,10
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"I know, she is quite punctual.",event association,2,11
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"That's comforting, especially during uncertain times!",event association,2,12
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"That's reassuring, especially when reliability matters most!",event association,2,13
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,"I agree, she's incredibly reliable.",event association,2,14
+30,does,is,The driver,enjoys extreme sports,is always trustworthy,she,Carly,Diana,I like that especially when consistency is hard to find.,event association,2,15

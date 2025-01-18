@@ -1,0 +1,1711 @@
+idx,key,value,type
+1,verb1,did,
+,verb2,does,
+,subj,The teacher,
+,vp1,met the Illinois governor at a Greek restaurant,
+,vp2,finds humor in the worst situations,
+,prn,he,
+,name1,Erika,
+,name2,Cameron,
+,vp1_cont,Which restaurant was it?,lexical overlap
+,,I didn't know the governor likes Greek food.,lexical overlap
+,,Where was the restaurant located?,lexical overlap
+,,"Was it only the governor, or were there other people as well?",lexical overlap
+,,Is any of them Greek?,lexical overlap
+,,Did they take a picture together?,situational inference
+,,I wonder if they talked about educational policies.,situational inference
+,,I thought the two were incompatible.,situational inference
+,,I can see that the election season is coming up.,situational inference
+,,Do you know if it was a coincidence?,situational inference
+,,When did the meeting happen?,event association
+,,Why did they meet up in the first place?,event association
+,,How did the meeting go?,event association
+,,Remind me what kind of meeting this was.,event association
+,,"That's cool, imagine bumping into a public figure!",event association
+,vp2_cont,That kind of humor help us survive in this rough world.,lexical overlap
+,,Do you like humorous people?,lexical overlap
+,,"Haha, to be fair, doesn't he find humor in any situations?",lexical overlap
+,,"Humor is difficult to find when you're down, that's quite impressive.",lexical overlap
+,,He must have lots of humorous friends.,lexical overlap
+,,No wonder why people like to be around that teacher!,situational inference
+,,Do you know if spending lots of time with students would have helped?,situational inference
+,,I bet that makes the classroom environment much better!,situational inference
+,,Do you think that kind of personality just comes naturally?,situational inference
+,,How do you think he keeps that attitude?,situational inference
+,,That's a really good attitude to keep.,event association
+,,Do you to have that kind of positive mindset?,event association
+,,I would rather be grumpy.,event association
+,,"Well, I value people expressing anger than just trying to be positive.",event association
+,,That's the mindset we need when there are so many crazy things happening in this world.,event association
+2,verb1,did,
+,verb2,does,
+,subj,The reporter,
+,vp1,opened a new bank account today,
+,vp2,volunteers regularly at a local church,
+,prn,she,
+,name1,Adrian,
+,name2,Autumn,
+,vp1_cont,At which bank?,lexical overlap
+,,She opened another account?,lexical overlap
+,,I don't know why people get new bank accounts.,lexical overlap
+,,Why did it have to be today?,lexical overlap
+,,Opening a new bank accounts sounds like a lot of work.,lexical overlap
+,,She was supposed to go to the City Hall for an interview!,situational inference
+,,I believe that was part of her work writing that news article.,situational inference
+,,"Do you know if it was for work, or for her personal use?",situational inference
+,,I hope she remembers the passcode this time.,situational inference
+,,"No way, she doesn't even know how to unlock her phone.",situational inference
+,,"I heard that she bought some stocks, too.",event association
+,,Do you think she's trying to save more money?,event association
+,,I wonder how long that process took.,event association
+,,Was there a good deal on the interest rate?,event association
+,,Which branch did she go to?,event association
+,vp2_cont,"She goes to other churches, too.",lexical overlap
+,,I wonder why specifically at a local church she's doing the volunteering work.,lexical overlap
+,,When did she start to volunteer?,lexical overlap
+,,Are you sure she does it regularly?,lexical overlap
+,,How do you know if she volunteers at a local church?,lexical overlap
+,,I find that silly because she needs to work on being a better mom.,situational inference
+,,Is that to get a good reputation by her neighbors?,situational inference
+,,That is very thoughtful for her to spare her free time for that activity.,situational inference
+,,I bet that would also give her some ideas to write.,situational inference
+,,"Huh, I thought she was a cold-blooded lady.",situational inference
+,,"Didn't her mother make donations, too?",event association
+,,"She also works at an orphanage, I believe.",event association
+,,Doesn't she also run an adoption campaign?,event association
+,,That's great because I think it's important to give back to the community.,event association
+,,That's a good way to keep work-life balance.,event association
+3,verb1,did,
+,verb2,does,
+,subj,The professor,
+,vp1,missed a train this morning,
+,vp2,drinks two bottles of wine every day,
+,prn,she,
+,name1,Alexander,
+,name2,Anthony,
+,vp1_cont,How did she miss the train?,lexical overlap
+,,Missing a train is definitely not a good start!,lexical overlap
+,,"Too bad, trains in Chicago can be quite unpredictable.",lexical overlap
+,,Well it's not just this morning.,lexical overlap
+,,The same thing happened to me this morning.,lexical overlap
+,,Did she ever make it to the lab?,situational inference
+,,I thought she drives to campus.,situational inference
+,,So how did she come to office?,situational inference
+,,Did she oversleep or what?,situational inference
+,,I hope she didn't have any important meetings.,situational inference
+,,Was there a delay?,event association
+,,I wonder she had to wait for the next one for a long time.,event association
+,,I bet she was rushing to the platform.,event association
+,,Did she catch the next one?,event association
+,,I hope it didn't mess up the schedule too much.,event association
+,vp2_cont,That's a lot of wine.,lexical overlap
+,,Well she used to have three bottles a day six months ago.,lexical overlap
+,,"Does she drink white wine, or red wine?",lexical overlap
+,,Every day?,lexical overlap
+,,Two bottles?,lexical overlap
+,,She should see a therapist.,situational inference
+,,I wonder if that's a cry for help.,situational inference
+,,Is she French?,situational inference
+,,Maybe that's the secret for a productive life.,situational inference
+,,How is she so healthy?,situational inference
+,,But she already drinks two cans of beer every night.,event association
+,,I somehow thought that she was allergic to alcohol.,event association
+,,I should bring some cheese for her then.,event association
+,,I can't even finish a glass.,event association
+,,It sounds like she has an unhealthy drinking habit.,event association
+4,verb1,did,
+,verb2,does,
+,subj,The sculptor,
+,vp1,had a bad dream,
+,vp2,has a pianist friend,
+,prn,he,
+,name1,Owen,
+,name2,John,
+,vp1_cont,Having a bad dream is not new to him.,lexical overlap
+,,He has so many dreams in general.,lexical overlap
+,,"What was the dream about, do you know?",lexical overlap
+,,He needs a dream catcher.,lexical overlap
+,,He had a bad dream?,lexical overlap
+,,He needs a hug.,situational inference
+,,Is that why he looks so tired today?,situational inference
+,,That can't be a good excuse why he couldn't finish his work.,situational inference
+,,No wonder he has dark circles today.,situational inference
+,,"Oh yes, I heard him shout and scream last night.",situational inference
+,,The horror movie he watched last night might be the reason.,event association
+,,I'm not surprised because he lives in a very haunted apartment.,event association
+,,It would be a reflection of his subconsciousness.,event association
+,,Maybe he's stressed.,event association
+,,Is he worried that his exhibition might getting canceled?,event association
+,vp2_cont,"As far as I know, he has multiple pianist friends.",lexical overlap
+,,I believe that pianist is more than a friend.,lexical overlap
+,,"If we are talking about the same person, they aren't friends any more.",lexical overlap
+,,He has lots of musician friends.,lexical overlap
+,,It makes sense because his brother is also a pianist.,lexical overlap
+,,I can imagine them having a mutual interest.,situational inference
+,,I wonder what they talk about.,situational inference
+,,Do you know them well?,situational inference
+,,What a creative duo!,situational inference
+,,They must get inspired by each other.,situational inference
+,,They should work on an art project together!,event association
+,,I heard they went to the same art school.,event association
+,,How did they first know each other?,event association
+,,A combination of art and music sounds fantastic.,event association
+,,I know because they're actually launching a gallery together.,event association
+5,verb1,did,
+,verb2,has,
+,subj,The firefighter,
+,vp1,painted the house on Thanksgiving,
+,vp2,has been keeping a diary for fifteen years,
+,prn,she,
+,name1,Christina,
+,name2,Roberto,
+,vp1_cont,"No, it wasn't on Thanksgiving.",lexical overlap
+,,I don't think it was the house.,lexical overlap
+,,Why would a firefighter paint a house?,lexical overlap
+,,On Thanksgiving?,lexical overlap
+,,Whose house was this?,lexical overlap
+,,Was that part of the community service she had to do?,situational inference
+,,That's why she was looking for a big brush the other day!,situational inference
+,,Do you know if she had her uniform on while getting that done?,situational inference
+,,That sounds like a productive way to spend a day.,situational inference
+,,Did anyone recognize the change?,situational inference
+,,That's an interesting way to spend the holiday.,event association
+,,Is rennovating part of a firefighter's job?,event association
+,,Is that a holiday ritual for her?,event association
+,,In what color?,event association
+,,I heard she did that on Christmas as well.,event association
+,vp2_cont,Fifteen years is a lot.,lexical overlap
+,,How did she get motivated to keep a diary for so long?,lexical overlap
+,,i still don't understand why people keep a diary.,lexical overlap
+,,"Hey, my neighbor has been doing that for fifteen years, too!",lexical overlap
+,,"That's admirable, I don't even know how to spell a diary.",lexical overlap
+,,She should publish it!,situational inference
+,,Do you think she can make the content public?,situational inference
+,,That kind of discipline says a lot about her character.,situational inference
+,,I really admire people who do things consistently.,situational inference
+,,She might become a writer one day.,situational inference
+,,That's a lot of recording of her personal history.,event association
+,,That single notebook must contains lots of different experiences.,event association
+,,I'm curious what she writes about.,event association
+,,Journaling is quite therapeutic.,event association
+,,I bet she has lots of stories to write.,event association
+6,verb1,did,
+,verb2,has,
+,subj,The researcher,
+,vp1,performed a piece by Mozart,
+,vp2,has undergone chemotherapy,
+,prn,he,
+,name1,Veronica,
+,name2,Harrison,
+,vp1_cont,Which piece by Mozart did he perform?,lexical overlap
+,,I'm a big fan of Mozart!,lexical overlap
+,,I heard last time he performed at a big concert hall.,lexical overlap
+,,"It wasn't just a piece, it was multiple pieces of Mozart!",lexical overlap
+,,"What do you mean performed, he killed it!",lexical overlap
+,,He must be an intellectual with lots of talent.,situational inference
+,,How does he keep that work life balance?,situational inference
+,,I thought he was tone deaf.,situational inference
+,,I'm not surprised because his parents are both famous conductors.,situational inference
+,,"Good for him, but he and I seem to have a different taste.",situational inference
+,,"Cool, did he have any training in classical music?",event association
+,,Is his research related to music in any aspect?,event association
+,,Was it a solo performance or part of an ensemble?,event association
+,,Which instrument did he play?,event association
+,,It was actually his entire research group that prepared for the concert.,event association
+,vp2_cont,Chemotherapy can be so challenging.,lexical overlap
+,,"It can be a long road, but chemotherapy can make people stronger.",lexical overlap
+,,I hope he's also watching his diet along with the chemotheraphy.,lexical overlap
+,,How many chemotherapy sessions does he have to go through?,lexical overlap
+,,Is chemotherapy expensive?,lexical overlap
+,,How is he doing now?,situational inference
+,,Are there ways that we can help him?,situational inference
+,,That's why he's lost so much weight the past few months.,situational inference
+,,Tell him that I'm here if he needs anyone who can talk to.,situational inference
+,,I hope he has a strong support system.,situational inference
+,,I hope he recovers soon.,event association
+,,It's admirable that he's going through that treatment while juggling lots of family issues.,event association
+,,What kind of cancer is he being treated for?,event association
+,,Is he responding well to the treatment?,event association
+,,I hope there aren't any side effects.,event association
+7,verb1,did,
+,verb2,has,
+,subj,The violinist,
+,vp1,bought an ice cream cake for dessert,
+,vp2,has lost a child,
+,prn,she,
+,name1,Isabel,
+,name2,Sebastian,
+,vp1_cont,Is that her favorite dessert?,lexical overlap
+,,"Is that an ice cream, or a cake?",lexical overlap
+,,"I'm not surprised, she loves dessert.",lexical overlap
+,,"I've never had an ice cream cake, what is it like?",lexical overlap
+,,Did she just get one cake?,lexical overlap
+,,Was it for a celebration?,situational inference
+,,I hope it didn't melt on her way back!,situational inference
+,,That sounds like a good treat after a long practice session.,situational inference
+,,I thought she said she was on a diet.,situational inference
+,,"Right, last week was her seventh wedding anniversary.",situational inference
+,,I bet it was delicious!,event association
+,,Do you know much it was?,event association
+,,I bet she got a strawberry flavor.,event association
+,,I wonder if she got it from that new bakery across the street.,event association
+,,I thought she baked it.,event association
+,vp2_cont,Are you saying that the child is missing?,lexical overlap
+,,She lost her child?,lexical overlap
+,,How did she lose her child?,lexical overlap
+,,Losing a child is unimaginable.,lexical overlap
+,,Where was the child last seen?,lexical overlap
+,,This is such a tragedy.,situational inference
+,,I don't even know what to say.,situational inference
+,,I hope she's seeing a counselor.,situational inference
+,,She should go through this alone.,situational inference
+,,That's heartbreaking.,situational inference
+,,Loss like that is so difficult to handle.,event association
+,,"Her sister passed away just a month ago, too.",event association
+,,Grief can manifest in so many ways.,event association
+,,How's the rest of the family doing?,event association
+,,Did she have ongoing medical issues?,event association
+8,verb1,did,
+,verb2,has,
+,subj,The nun,
+,vp1,used to get high grades in high school,
+,vp2,has just turned 40,
+,prn,she,
+,name1,Meghan,
+,name2,Luke,
+,vp1_cont,"It wasn't just in high school, she did great in middle school, too.",lexical overlap
+,,How high are we talking about?,lexical overlap
+,,Was it just in high school?,lexical overlap
+,,And she gets low grades?,lexical overlap
+,,"Well, the one who used to get high grades was her sister, not her.",lexical overlap
+,,She must have worked really hard!,situational inference
+,,It sounds like she's always been disciplined.,situational inference
+,,What made her become a nun after that?,situational inference
+,,Is that why she came to have a strong faith in divine power?,situational inference
+,,That makes sense--being a nun requires a lot of dedication.,situational inference
+,,What subjects was she good at?,event association
+,,Do you know if she had a favorite subject?,event association
+,,Did she go to a religious school?,event association
+,,I wonder if her education had an influence on her faith.,event association
+,,"High grades, holy habits.",event association
+,vp2_cont,How does she feel about turning 40?,lexical overlap
+,,"Forty is not an easy age, I can tell you that.",lexical overlap
+,,"Well, they say life begins at 40!",lexical overlap
+,,What does turning 40 mean for her faith journey?,lexical overlap
+,,I guess 40 is the new holy.,lexical overlap
+,,"She looks so young, though!",situational inference
+,,How does her community celebrate milestones like this?,situational inference
+,,She must have so many stories and experiences by now.,situational inference
+,,"Does this mean she's now officially a ""seasoned"" nun?",situational inference
+,,Her mannerism came off as those of someone who's gone through more than that.,situational inference
+,,"I didn't know that, happy birthday to her!",event association
+,,She's in the prime of her life.,event association
+,,What has she accomplished by this point in her life?,event association
+,,I bet that's turning into a new chapter in her life.,event association
+,,I hope she's having a joyful celebration!,event association
+9,verb1,did,
+,verb2,is,
+,subj,The analyst,
+,vp1,forgot to do the laundry,
+,vp2,is a U.S. immigrant from Vietnam,
+,prn,he,
+,name1,Jonah,
+,name2,Aaron,
+,vp1_cont,As if it's his first time to forget to do the laundry.,lexical overlap
+,,Does he ever do the laundry?,lexical overlap
+,,"I get it, laundry piles up fast.",lexical overlap
+,,That's not the only thing he forgot to do.,lexical overlap
+,,"Doing the laundry is too boring for him, huh.",lexical overlap
+,,"Does he not know how to plan, even as an analyst?",situational inference
+,,"That's understandable, the market was skyrocketing yesterday.",situational inference
+,,"It's okay, he seemed quite distracted these days.",situational inference
+,,Did he get too busy with work?,situational inference
+,,He seemed overwhelmed with work-related things.,situational inference
+,,He tends to overlook doing daily chores.,event association
+,,I hope he has other stuff to wear.,event association
+,,We should get a washing machine at the office for him.,event association
+,,He didn't have detergent in the first place.,event association
+,,I guess having clean clothes wasn't in his priority.,event association
+,vp2_cont,When did he move to the U.S.?,lexical overlap
+,,I didn't know he was Vietnamese.,lexical overlap
+,,"Did his family immigrated to the U.S., too?",lexical overlap
+,,That's why he was tuned into all the immigration laws.,lexical overlap
+,,That's why he speaks Vietnamese so fluently.,lexical overlap
+,,It's great of have people with a rich cultural background.,situational inference
+,,Diversity in the workplace is always a plus.,situational inference
+,,I thought he was born here because he doesn't have an accent!,situational inference
+,,Maybe that's why he has a different perspective than anybody else.,situational inference
+,,American dream!,situational inference
+,,Did he moved for work?,event association
+,,"Interesting upbringing, but it doesn't surprise me.",event association
+,,What kind of visa status does he have?,event association
+,,Does he have a green card?,event association
+,,He has a good combination of skills and experiences!,event association
+10,verb1,did,is
+,verb2,is,
+,subj,The soccer player,
+,vp1,hired a teenager to mow the lawn,
+,vp2,is sitting on the blue couch,
+,prn,he,
+,name1,Trenton,
+,name2,Nicholas,
+,vp1_cont,Was he too busy to handle the lawn himself?,lexical overlap
+,,Why a teenager?,lexical overlap
+,,Did he know the teenager before hiring them?,lexical overlap
+,,I guess he was trying to the teenager a chance to earn some money.,lexical overlap
+,,I didn’t know the soccer player needed someone to mow the lawn!,lexical overlap
+,,That makes sense given how busy he is.,situational inference
+,,Do they live nearby?,situational inference
+,,How did they make that arrangement in the first place?,situational inference
+,,Was this part of a campaign for his sponsorship?,situational inference
+,,I hope that doesn't go against the law.,situational inference
+,,How did he find someone to do that chore?,event association
+,,"I already knew about that, but who exactly ended up doing the work?",event association
+,,That's one way to handle chores.,event association
+,,Do you know how much he's paying that kid?,event association
+,,It's nice to offer young people opportunities.,event association
+,vp2_cont,Is there a reason why he prefers to sit on a blue couch?,lexical overlap
+,,"Well, it's actually a green couch.",lexical overlap
+,,"Not sitting, he just lied down.",lexical overlap
+,,Looks like someone's a big fan of couches.,lexical overlap
+,,"His hair, shirts, pants, and everything are blue.",lexical overlap
+,,He looks quite relaxed in that setting.,situational inference
+,,Is this a break from training?,situational inference
+,,"Apparently, it's his pre-game ritual.",situational inference
+,,Is he trying to take a short nap?,situational inference
+,,It must be a moment of relaxation.,situational inference
+,,I guess his legs were tired.,event association
+,,Five minutes ago he was lounging in a hammock.,event association
+,,His coach is also resting on the bench.,event association
+,,Yes he's chilling there even sipping coffee.,event association
+,,"I'm not surprised because he said his favorite activity is lying on a beanbag, reading books.",event association
+11,verb1,did,
+,verb2,is,
+,subj,The customer,
+,vp1,suggested a good cleaning company to Ashley,
+,vp2,is reliably calm under pressure,
+,prn,she,
+,name1,Zachary,
+,name2,Alondra,
+,vp1_cont,I thought Ashley was the real expert in cleaning.,lexical overlap
+,,What do you mean by a good cleaning company?,lexical overlap
+,,I didn't even know there are companies for cleaning.,lexical overlap
+,,Last time she suggested a good catering company.,lexical overlap
+,,Do you think Ashley will take that suggestion?,lexical overlap
+,,It's nice that someone was kind enough to talk to her.,situational inference
+,,Word-of-mouth advice often turns out to be the most reliable.,situational inference
+,,I'm not surprised because that lady talks to everybody in the department store.,situational inference
+,,Now someone's going to tidy up their house.,situational inference
+,,"Of course, she's a walking consultant.",situational inference
+,,I wonder if she'll take the advice and reach out.,event association
+,,I think it was a good recommendation.,event association
+,,It was a timely suggestion since Ashley needed some tidying up.,event association
+,,I hope it's a reliable place.,event association
+,,That's all she did?,event association
+,vp2_cont,"Yes, always so calm.",lexical overlap
+,,"Indeed, her calmness is truly impressive.",lexical overlap
+,,"I know her sister, and she is calm, too.",lexical overlap
+,,Staying calm under pressure is second. nature to her.,lexical overlap
+,,Her calm demeanor makes the clerk's job so much eaiser.,lexical overlap
+,,Maybe it's because she's been practicing mediation.,situational inference
+,,It makes sense that she worked as an ER nurse for five years.,situational inference
+,,But her partner is the exact opposite of that.,situational inference
+,,No wonder she spent years managing high-stakes negotiations.,situational inference
+,,"Interestingly, her sibling is nothing like her in that regard.",situational inference
+,,"Yes, even in the most chaotic situations.",event association
+,,"She went through a lot in life, and it shaped her resilience and composure.",event association
+,,It isn't just a natural trait; it's a testament to her perserverence.,event association
+,,"Exactly, she always stays composed.",event association
+,,"Right, she remains steady no matter the circumstances.",event association
+12,verb1,did,
+,verb2,is,
+,subj,The programmer,
+,vp1,used to drink three cups of coffee every day,
+,vp2,is about to fall asleep,
+,prn,she,
+,name1,Allison,
+,name2,Lindsay,
+,vp1_cont,Now she's cut back to just one cup of coffee per day.,lexical overlap
+,,"Three cups of coffee sounds like a lot, but a lot of programmers do that.",lexical overlap
+,,I wonder if she still drink that much coffee now.,lexical overlap
+,,I hope she didn't replace coffee with energy drinks.,lexical overlap
+,,Three cups of coffee a day sounds like a true programmer habit.,lexical overlap
+,,I'm guessing she was working on some intense projects back then.,situational inference
+,,I bet her schedule was packed with non-stop tasks.,situational inference
+,,I wouldn't be surprised if she was on back-to-back calls.,situational inference
+,,That kind of routine suggests a lot of stress and deadlines.,situational inference
+,,That sounds like a coping mechanism during her exam season in college.,situational inference
+,,"She would drink lots of green tea, too.",event association
+,,"Some people say it was bad habit, but I don't quite agree.",event association
+,,I think she developed that habit during her startup phase.,event association
+,,It sounds like her routine while preparing for that coding competition.,event association
+,,She used to own a fancy espresso machine as well.,event association
+,vp2_cont,"She probably had little sleep, and it's becoming hard to focus.",lexical overlap
+,,She's just any seconds away from falling asleep.,lexical overlap
+,,Are you sure she's not pretending to be asleep?,lexical overlap
+,,"Well, she looks like she's going to fall asleep, but she won't actually sleep.",lexical overlap
+,,You should keep her from falling asleep!,lexical overlap
+,,"The work has been piling up, and now she's paying the price.",situational inference
+,,Her mind is probably clouded after too many hours of work.,situational inference
+,,"With all the debugging, she's probably worn out by now.",situational inference
+,,"It's the end of a long coding marathon, and fatigue has set in.",situational inference
+,,"After that big push to finalize the feature, she's running on empty.",situational inference
+,,Her body is signaling for rest after such an intense coding session.,event association
+,,The project's demands have led her to this point of fatigue.,event association
+,,She's probably been immersed in this task for hours without a real break.,event association
+,,She's ready to doze off.,event association
+,,I can see sheer exhaustion on her face.,event association
+13,verb1,did,
+,verb2,was,
+,subj,The swimmer,
+,vp1,forgot to lock the door,
+,vp2,was on a diet,
+,prn,she,
+,name1,Lucas,
+,name2,Arianna,
+,vp1_cont,How could she forget to lock the door?,lexical overlap
+,,The door is wide open now.,lexical overlap
+,,"Well, the door was already broken in the first place.",lexical overlap
+,,"I mean, she didn't even have the key to the door.",lexical overlap
+,,She's not the first person to forget to lock the door!,lexical overlap
+,,There's no privacy now!,situational inference
+,,She was probably focused on other things.,situational inference
+,,Probably she was rushing out.,situational inference
+,,She seemed quite distracted these days.,situational inference
+,,It's a pretty common mistake that athletes make after a long practice.,situational inference
+,,She's been saying that things slip her mind more often lately.,event association
+,,Her memory doesn't seem as sharp as it used to be.,event association
+,,She's quite oblivious to many things.,event association
+,,She tends to overlook many things.,event association
+,,She's quite inattentive to a lot of things.,event association
+,vp2_cont,"Yes, the media was saying that she was on a pretty strict diet to enhance endurance.",lexical overlap
+,,"After a long off-season, her diet helped her regain form quickly.",lexical overlap
+,,"With the regional championships near, her diet became critical.",lexical overlap
+,,She adjusted her diet to align with the training cycle.,lexical overlap
+,,Her diet was especially important as she prepared for the Olympic qualifiers.,lexical overlap
+,,She was trying to stay lean and agile.,situational inference
+,,It was part of her strategy to stay in top physical condition.,situational inference
+,,It was all about maximizing her speed and performance in the water.,situational inference
+,,The coach thought it was essential for her recovery after intense training.,situational inference
+,,That was just one aspect of a disciplined approach to her training.,situational inference
+,,It was her effort to stay in peak shape.,event association
+,,She was focusing on high-protein meals.,event association
+,,She avoided any foods that could hinder her training.,event association
+,,She was making sure to eat the right balance of nutrients.,event association
+,,She was limiting her carb intake before the big race.,event association
+14,verb1,did,
+,verb2,was,
+,subj,The optician,
+,vp1,had a flat tire,
+,vp2,was talking to the tall nurse,
+,prn,she,
+,name1,Cole,
+,name2,Shelby,
+,vp1_cont,She had to call a tow truck for help with the flat tire.,lexical overlap
+,,That flat tire left her stranded on the side of the road.,lexical overlap
+,,But she was able to change the tire before she had to leave for work.,lexical overlap
+,,The tire issue happened and so she couldn't go run errands.,lexical overlap
+,,She had barely made it out of the parking lot when the flat tire happened.,lexical overlap
+,,That's why she was late!,situational inference
+,,"Because of that, she had to cancel her first appointment.",situational inference
+,,But glad that didn't happen in the middle of a highway.,situational inference
+,,"It couldn't have come at a worse time, right before she had an interview.",situational inference
+,,That's bizarre because she bought her car just last week!,situational inference
+,,"It took longer than expected to fix, and so she couldn't make it to meeting.",event association
+,,She had no idea how long it would take to resolve it.,event association
+,,She didn't realize how long the repair would take.,event association
+,,Luckily she remembered to call the insurance company to resolve the issue.,event association
+,,But she had a spare in her trunk.,event association
+,vp2_cont,"In fact, she was having an argument with the nurse.",lexical overlap
+,,"But wait, all nurses are tall.",lexical overlap
+,,There are two tall nurses -- which one?,lexical overlap
+,,She wasn't just talking -- she was yelling at the nurse.,lexical overlap
+,,What were they talking about?,lexical overlap
+,,Apparently the new equipment had some issues.,situational inference
+,,I thought they had a really bad fight!,situational inference
+,,It's because the outcomes of the recent test don't look good.,situational inference
+,,I heard the clinic was going through major layoffs.,situational inference
+,,She's trying to identify the person who leaked sensitive information.,situational inference
+,,They were discussing the patient's condition.,event association
+,,They were debating over the recent changes in the clinic's protocol.,event association
+,,They wanted to clarify some details with patient treatment.,event association
+,,They had some disagreement on the upcoming procedures.,event association
+,,She was walking through the instructions before the patient's eye exam.,event association
+15,verb1,did,
+,verb2,was,
+,subj,The volunteer,
+,vp1,used to dream to become a translator,
+,vp2,was mentioned in the newspaper,
+,prn,he,
+,name1,Carly,
+,name2,Heather,
+,vp1_cont,Apparently his mom is a quite famous translator.,lexical overlap
+,,"Well, he had so many other dreams.",lexical overlap
+,,That wasn't the only dream he had.,lexical overlap
+,,He no longer wants to become a translator.,lexical overlap
+,,He now trains people to become a translator.,lexical overlap
+,,But life took her down a different path.,situational inference
+,,His interests evolved into something else entirely.,situational inference
+,,But something else sparked him with a new passion.,situational inference
+,,But that was just a childhood dream.,situational inference
+,,But now he seems like someone who's lost hope.,situational inference
+,,It's understandable because he speaks so many different languages.,event association
+,,His career pivot came after working as a bilingual assistant in a non-profit.,event association
+,,I think he even majored in linguistics or a foreign language.,event association
+,,That explains why he works as a part-time interpreter.,event association
+,,Is that how he started tutoring you?,event association
+,vp2_cont,Why was he in the newspaper?,lexical overlap
+,,Not just newspapers but magainzes as well!,lexical overlap
+,,He was mentioned for his involvement in the community garden project.,lexical overlap
+,,Which newspaper?,lexical overlap
+,,I don't think he deserves to be featured in a newspaper.,lexical overlap
+,,He is now a celebrity!,situational inference
+,,Did he do anything wrong?,situational inference
+,,No wonder he's been receiving so many calls from his friends!,situational inference
+,,His parents must be so proud of him.,situational inference
+,,It's because he played a major role during the disaster relief.,situational inference
+,,Even in magainzes!,event association
+,,He must have done something truly impactful to be featured.,event association
+,,He's now getting interview requests.,event association
+,,I've been seeing his interviews a lot lately.,event association
+,,Even the local radio station talked about him!,event association
+16,verb1,did,
+,verb2,was,
+,subj,The inspector,
+,vp1,went to Target to buy some carrots,
+,vp2,was isolated from society for a long time,
+,prn,he,
+,name1,Ricardo,
+,name2,Peter,
+,vp1_cont,Why did he need carrots?,lexical overlap
+,,Why Target?,lexical overlap
+,,Are carrots important for inspection?,lexical overlap
+,,He must be a big fan of carrots.,lexical overlap
+,,I didn't know he likes carrots.,lexical overlap
+,,I guess there wasn't a local grocery store nearby.,situational inference
+,,Sounds like he's undercover in the produce aisle.,situational inference
+,,Is that what he's interrogating next?,situational inference
+,,Maybe he's trying to have a better eyesight to see things more clearly!,situational inference
+,,I heard that he's on a diet.,situational inference
+,,He said he was in the mood for something healthy.,event association
+,,"Not just that, he got a whole ingredient for baking a cake.",event association
+,,I wonder what kind of meal he's preparing for.,event association
+,,I'm curious if he's trying out a new recipe.,event association
+,,It's probably for his dinner.,event association
+,vp2_cont,How did he get isolated for so long?,lexical overlap
+,,For how long?,lexical overlap
+,,Did he like being isolated?,lexical overlap
+,,Did he lose contact with his families while he was isolated?,lexical overlap
+,,I would go crazy if I ever get isolated from the society.,lexical overlap
+,,It's no surprise he struggles with trust.,situational inference
+,,I wonder how he managed to deal with loneliness.,situational inference
+,,He was stranded in an island for four years.,situational inference
+,,Wasn't he stationed at that outpost?,situational inference
+,,"It's similar to what happened during his stint in the mountains, isn't it?",situational inference
+,,It must have been difficult for him to reconnect with people.,event association
+,,I imagine it's been hard for him to reintegrate.,event association
+,,It sounds like he had to figure out ways to cope with being alone.,event association
+,,Being separated from people sounds quite challenging.,event association
+,,How did he survive being secluded?,event association
+17,verb1,did,
+,verb2,would,
+,subj,The attendant,
+,vp1,won the annual cake-baking contest,
+,vp2,would call the landlord every night,
+,prn,he,
+,name1,Andres,
+,name2,Shawn,
+,vp1_cont,What's a cake-baking contest?,lexical overlap
+,,Is it a renowned contest?,lexical overlap
+,,Where did the contest happen?,lexical overlap
+,,I didn't know he was into cake-baking.,lexical overlap
+,,I wonder how long he prepared for the contest.,lexical overlap
+,,I'll call him for my next birthday!,situational inference
+,,It’s clear he has a real gift for creating something exceptional.,situational inference
+,,That will definitely boost his catering business.,situational inference
+,,It sounds like he found a new career.,situational inference
+,,"Yes, I heard even the judges licked their plates!",situational inference
+,,He was last year's winner!,event association
+,,He never loses anything.,event association
+,,i heard his brother got the second prize.,event association
+,,"The competition must have been tough, but he pulled through.",event association
+,,The judges must have been impressed by the flavor and presentation.,event association
+,vp2_cont,"Honestly, I'd feel sorry for the landlord too.",lexical overlap
+,,Every night?,lexical overlap
+,,I feel bad for the landlord.,lexical overlap
+,,I don't blame him because the landlord hasn't been taking care of the heater.,lexical overlap
+,,I get why the landlord might be fed up.,lexical overlap
+,,That must have been exhausting for both.,situational inference
+,,That's some next-level stalking!,situational inference
+,,It sounds like someone needs to change their number.,situational inference
+,,I bet someone's phone was always on silent.,situational inference
+,,Someone definitely needed a little chill.,situational inference
+,,Was it related to overdue rent?,event association
+,,I guess the building had persistent issues.,event association
+,,Was there some ongoing dispute?,event association
+,,I bet it was about a leaky pipe.,event association
+,,Was it about repairs or something more serious?,event association
+18,verb1,did,
+,verb2,would,
+,subj,The columnist,
+,vp1,had a nightmare for the first time in years,
+,vp2,would read books at a park nearby,
+,prn,he,
+,name1,Adriana,
+,name2,Mitchell,
+,vp1_cont,What was the nightmare?,lexical overlap
+,,Are you sure he wasn't confused with his editor just calling him?,lexical overlap
+,,I wonder what triggered the nightmare after so many years.,lexical overlap
+,,Do you think his writing topics influenced the nightmare?,lexical overlap
+,,"No, he said he had a nightmare just last week too.",lexical overlap
+,,Maybe that recent event stirred those old fears.,situational inference
+,,I heard he had a loss in his family recently.,situational inference
+,,That movie last night might be the culprit.,situational inference
+,,Freud might say it's a manifestation of unresolved issues surfacing.,situational inference
+,,"I bet it was about accidentally hitting ""Reply All.""",situational inference
+,,Maybe he dreamed he missed his column deadline.,event association
+,,Bet he dreamed he showed up to a live interview unprepared.,event association
+,,Was his dream about forgetting the name of the interviewee?,event association
+,,Perhaps he dreamed about catching a typo on his front page article.,event association
+,,Was the dream about the deadline?,event association
+,vp2_cont,I think he was in the park for some blind dates.,lexical overlap
+,,"He would read anywhere, not just at the park.",lexical overlap
+,,What kind of books did he enjoy reading?,lexical overlap
+,,Which park?,lexical overlap
+,,That's surprising; I've never seen him read books.,lexical overlap
+,,He enjoyed it except for some random strangers trying to talking to him.,situational inference
+,,"Yes, until some teenagers would begin their impromptu yoga class right next to him.",situational inference
+,,Were the flocking pigeons part of his activity?,situational inference
+,,Except for the times when an ice cream truck had loud music playing.,situational inference
+,,But he didn't like when kids ran around yelling.,situational inference
+,,That's a good way to take a break.,event association
+,,That sounds quite peaceful.,event association
+,,Is that his favorite pasttime?,event association
+,,He really enjoyed the tranquility there.,event association
+,,"Right, he would be often spotted under a tree, scribbling notes as he read.",event association
+19,verb1,did,
+,verb2,would,
+,subj,The nanny,
+,vp1,got engaged this month,
+,vp2,would eat bananas at night,
+,prn,she,
+,name1,Arianna,
+,name2,Katie,
+,vp1_cont,That's awesome she got finally engaged!,lexical overlap
+,,I thought she was already engaged last month?,lexical overlap
+,,Who did she get engaged to?,lexical overlap
+,,That took long for her to get engaged.,lexical overlap
+,,It's great to hear that she's officially engaged now!,lexical overlap
+,,I bet she's looking forward to the future!,situational inference
+,,Will she stop coming to take care of kids now?,situational inference
+,,"I guess now we know what her next ""commitment"" is!",situational inference
+,,Is she still going to have time to babysit?,situational inference
+,,I'm not sure if she's ready for a new chapter in her life.,situational inference
+,,I wonder when the wedding will be.,event association
+,,Did she mention how the proposal went?,event association
+,,Do we get to meet the lucky partner?,event association
+,,I hope she juggles well he nanny duties with wedding prep.,event association
+,,Is she already planning the details of the wedding?,event association
+,vp2_cont,Bananas were her go-to choice during those late hours.,lexical overlap
+,,"All sorts of fruit, actually, not just bananas.",lexical overlap
+,,"Yes, every night, without fail.",lexical overlap
+,,I think she eats nothing but bananas.,lexical overlap
+,,"Not bananas, but papayas.",lexical overlap
+,,She probably wanted something light.,situational inference
+,,A secret monkey in disguise?,situational inference
+,,Perhaps she thought that would help her stay a-peel-ling the next day.,situational inference
+,,That's a healthy habit.,situational inference
+,,Maybe it was her way of keeping energy up.,situational inference
+,,"I mean, it is the perfect food to grab quickly.",event association
+,,I think it's the ideal snack to grab on the go.,event association
+,,And no other fruits?,event association
+,,Is she allergic to other fruits?,event association
+,,That's why she always stopped by grocery stores!,event association
+20,verb1,did,
+,verb2,would,
+,subj,The motorcyclist,
+,vp1,seemed very eager to return home,
+,vp2,would wear glasses in the day time,
+,prn,she,
+,name1,Garrett,
+,name2,Steven,
+,vp1_cont,"Well, she's eager about anything.",lexical overlap
+,,She has a home?,lexical overlap
+,,Why is she so eager?,lexical overlap
+,,What is she so excited about?,lexical overlap
+,,Where does she call home?,lexical overlap
+,,She probably has a warm meal waiting for her.,situational inference
+,,Maybe she's trying to beat the rush hour traffic.,situational inference
+,,"Yeah, it's about time when the kids return from school.",situational inference
+,,Her favorite TV is about to start.,situational inference
+,,I bet -- she wore a jacket that was too light for today's weather.,situational inference
+,,Maybe she's eager to get back to his family.,event association
+,,She's excited to lie down on her couch.,event association
+,,Where does she live?,event association
+,,What is she so excited about?,event association
+,,What's making her so thrilled?,event association
+,vp2_cont,Those are special glasses customized just for her.,lexical overlap
+,,Those are safety glasses protecting her eyes from the sun.,lexical overlap
+,,Those glasses would help maintain clear sight without squinting.,lexical overlap
+,,She said it's important to have a good pair of glasses especially when you're riding fast.,lexical overlap
+,,Those glasses would come in handy when it's windy.,lexical overlap
+,,She resembled a secret agent.,situational inference
+,,It was because she didn't want to be recognized.,situational inference
+,,That was her way of being in disguise.,situational inference
+,,That was her way of going incognito.,situational inference
+,,"She wanted to avoid drawing attention to herself, but it actually had the opposite effect.",situational inference
+,,It's important to wear those since she rides in the daylight.,event association
+,,She wears them to block the glare of the sun.,event association
+,,They give her better visibility.,event association
+,,It makes sense to shield the eyes from UV rays.,event association
+,,"Yes, those are a must-have especially on sunny days.",event association
+21,verb1,does,
+,verb2,did,
+,subj,The nurse,
+,vp1,has lots of interest in French cuisine,
+,vp2,recently adopted a rescue dog,
+,prn,he,
+,name1,Marco,
+,name2,Elizabeth,
+,vp1_cont,And I heard he loves experimenting with French recipes.,lexical overlap
+,,"Yes, he is always trying out new French dishes.",lexical overlap
+,,That's why he talks about French pastries all the time!,lexical overlap
+,,He could even write a guidebook on French dining etiquette.,lexical overlap
+,,His fridge is probably 90 percent French cheese.,lexical overlap
+,,"Let me guess, his dream is to have a pet chicken name Coq au Vin.",situational inference
+,,He probably thinks ketchup is a mortal sin.,situational inference
+,,He must have an impressive collection of copper pans.,situational inference
+,,That explains his fascination with Michelin-starred restaurants.,situational inference
+,,His family also owns a vineyard somewhere.,situational inference
+,,No wonder he's planning a trip to Paris soon.,event association
+,,He should know the difference between a croissant and a pain au chocolat.,event association
+,,I wouldn't be shocked if his next vacation is a culinary tour in France.,event association
+,,I'm guessing he can name every region in France by its wines.,event association
+,,No wonder he always has fresh baguettes on the counter.,event association
+,vp2_cont,I'm glad the dog now has a home.,lexical overlap
+,,I'm sure the dog will be well taken care of.,lexical overlap
+,,The dog will bring so much joy to him.,lexical overlap
+,,Adopting a rescue dog suits his caring nature.,lexical overlap
+,,I hope the dog helps him unwind after a long shift.,lexical overlap
+,,"Hopefully, that will help him get more outdoor exercise.",situational inference
+,,He'll start knitting little sweaters for it.,situational inference
+,,I bet he's given away his favorite spot on the couch already!,situational inference
+,,Looks like someone signed up for endless belly rubs.,situational inference
+,,He would need more coffee for those early morning walks!,situational inference
+,,Doesn't he have four cats already?,event association
+,,"He volunteers at a shelter, too.",event association
+,,It makes sense chose to help an animal in need.,event association
+,,"I'm not surprised since he's known for putting others first, be they human or animal.",event association
+,,That reflects his selfless personality so well.,event association
+22,verb1,does,
+,verb2,did,
+,subj,The industrialist,
+,vp1,occasionally writes a blog about historical figures,
+,vp2,had a good sleep,
+,prn,he,
+,name1,Omar,
+,name2,Isaac,
+,vp1_cont,What kind of historical figures?,lexical overlap
+,,Where can I find the blog posts?,lexical overlap
+,,"Well, more than occasionally.",lexical overlap
+,,I like how he blends business insights with historical analysis in his posts.,lexical overlap
+,,"I read a couple of his blog posts, and they are quite insightful.",lexical overlap
+,,He must have a keen eye for identifying patterns across eras.,situational inference
+,,Does he write his blogs with a quill and parchment for authenticity?,situational inference
+,,I hope he doesn't start dressing like a 18th-century worker.,situational inference
+,,That explains the recent debate he started on Napoleon's strategies.,situational inference
+,,No wonder he keeps quoting Churchill in meetings.,situational inference
+,,"Yes, particularly industrial innovators.",event association
+,,"He's always shown great passion for writing, so I'm not surprised.",event association
+,,Is that why he keeps visiting museums on weekends?,event association
+,,He always had a knack for storytelling.,event association
+,,I see why he is interested in archival materials.,event association
+,vp2_cont,I'm glad he had a good night's sleep!,lexical overlap
+,,"Well, he always gets good sleep.",lexical overlap
+,,He actually had good sleep after that debacle last night?,lexical overlap
+,,How did he manage to sleep well with all that noise?,lexical overlap
+,,That's remarkable that he got any good sleep amidst all that loud music.,lexical overlap
+,,No wonder he is so productive today.,situational inference
+,,That's why he looked so refreshed this morning.,situational inference
+,,It makes sense why he's in such a joyful mood now.,situational inference
+,,That explains why he was ahead of schedule today.,situational inference
+,,I bet the team meeting went a lot smoother.,situational inference
+,,I guess he took the advice to switch off his phone before bed.,event association
+,,I wonder if he meditated before bed.,event association
+,,I wonder if he practices deep breathing exercises last night.,event association
+,,I guess he dimmed the lights early last night.,event association
+,,Maybe he used that new weighted blanket he bought.,event association
+23,verb1,does,
+,verb2,did,
+,subj,The therapist,
+,vp1,wants to get married soon,
+,vp2,took a flight from Newark to Los Angeles,
+,prn,she,
+,name1,Sofia,
+,name2,Cody,
+,vp1_cont,I thought she was already married!,lexical overlap
+,,She wanted to get married ever since she turned 20.,lexical overlap
+,,I'm sure she'll get married in the next couple of years.,lexical overlap
+,,But last time she said she wasn't sure if she wanted to get married.,lexical overlap
+,,Does her boyfriend also want to get married?,lexical overlap
+,,Sounds like her relationship is going really well.,situational inference
+,,Do you think she's ready to balance her career and personal life?,situational inference
+,,It sounds like she's in a pretty good spot with her partner.,situational inference
+,,"Do you think she's financially prepared, though?",situational inference
+,,Do you think she's emotionally ready for such a big change?,situational inference
+,,She's been dreaming about it for a very long time.,event association
+,,She must be in a committed relationship.,event association
+,,Is she dating anyone though?,event association
+,,She's been fantasizing about that future for years.,event association
+,,I didn't think she was in a serious relationship.,event association
+,vp2_cont,And then she arrived in Los Angeles just in time for the next meeting.,lexical overlap
+,,I hope she had a smooth flight!,lexical overlap
+,,Why did she choose Newark?,lexical overlap
+,,What was happening in Los Angeles?,lexical overlap
+,,She met her ex-wife on that flight.,lexical overlap
+,,Is that why she is feeling nauseous?,situational inference
+,,How did she manage to get through without an ID?,situational inference
+,,She redeemed her credit card miles for it.,situational inference
+,,I hope she didn't start psychoanalyzing the people sitting next to her.,situational inference
+,,She had to use her techniques to calm herself down while going through security.,situational inference
+,,I heard there was a lot of turbulence.,event association
+,,"Unfortunately, she lost her luggage at the airport.",event association
+,,Do you know which airline she flew with?,event association
+,,She bought the tickets using her credit card mileage.,event association
+,,She paid extra for the legroom.,event association
+24,verb1,does,
+,verb2,did,
+,subj,The judge,
+,vp1,hates horror movies,
+,vp2,prepared for the meal,
+,prn,she,
+,name1,Hanna,
+,name2,Makenzie,
+,vp1_cont,"Yeah, some people just can't handle horror.",lexical overlap
+,,Maybe it's just that she's never watched a good horror movie.,lexical overlap
+,,I don't like horror movies either.,lexical overlap
+,,Perhaps her first horror movie was so bad.,lexical overlap
+,,I guess she's seen enough horror in her job already!,lexical overlap
+,,Sounds like she doesn't want something that's adrenaline-pumping.,situational inference
+,,Guess she prefers something with less screaming and more logic.,situational inference
+,,I'm sure she'd want something more peaceful after a long day in court.,situational inference
+,,She doesn't like Halloween either.,situational inference
+,,"Maybe horror movies are just too much of a ""guilty"" pleasure for her.",situational inference
+,,I guess the suspense is a bit too much for her.,event association
+,,"I imagine she doesn't like being scared, even by fiction.",event association
+,,Some people just don't enjoy being frightened.,event association
+,,I wonder if she likes comedies instead.,event association
+,,Maybe she prefers to watch lighter films to unwind after a heavy day.,event association
+,vp2_cont,What kind of meal did she prepare?,lexical overlap
+,,I think the meal is for the banquet today.,lexical overlap
+,,I think it's a special meal that she prepared for a lawyer friend's retirement.,lexical overlap
+,,Was the meal for the visiting judge from the other court?,lexical overlap
+,,"I think she was hosting an event, not just preparing a meal.",lexical overlap
+,,I didn't expect her to have time for that!,situational inference
+,,I imagine she wanted to make the annual event more memorable!,situational inference
+,,Maybe it's for a legal symposium or a networking event.,situational inference
+,,She did it for a charity fundraiser.,situational inference
+,,I guess she was trying to make the event in the evening quite special!,situational inference
+,,Was that for the Thanksgiving dinner?,event association
+,,She might be cooking to celebrate one of the team members' birthdays.,event association
+,,She is hosting a formal dinner for the legal team.,event association
+,,I didn't know she had culinary skills.,event association
+,,I hope what she made was vegan-friendly.,event association
+25,verb1,does,
+,verb2,has,
+,subj,The magician,
+,vp1,laughs very loudly,
+,vp2,has been collecting fridge magnets for five years,
+,prn,he,
+,name1,Jillian,
+,name2,Rebecca,
+,vp1_cont,He laughs all the time.,lexical overlap
+,,He laughs so loud that he can wake up with neighbors.,lexical overlap
+,,Maybe he just laughs to distract from the trick.,lexical overlap
+,,Why is his laugh so loud?,lexical overlap
+,,Maybe the laugh was the real magic all along.,lexical overlap
+,,"That's one way to break the tension during a show, I guess.",situational inference
+,,That might be the highlight of the act.,situational inference
+,,That's much better than crying on stage.,situational inference
+,,"Honestly, that might be more entertaining than pulling a rabbit out of a hat.",situational inference
+,,Or was that just a sound effect?,situational inference
+,,Is this a magic show or a comedy act?,event association
+,,He always cracks himself up!,event association
+,,Was there a fun joke?,event association
+,,Someone's having an absolute blast up there.,event association
+,,I think that's a good way to keep the energy high during a performance.,event association
+,vp2_cont,I bet it's more than five years.,lexical overlap
+,,Do you know why magnets in particular?,lexical overlap
+,,What's so special about collecting fridge magnets?,lexical overlap
+,,Where he would get magnets?,lexical overlap
+,,So the fridge is the real star of the show?,lexical overlap
+,,The real magic would be finding space for all of them.,situational inference
+,,That could be a nice museum exhibit.,situational inference
+,,That's a real commitment to sticking to something!,situational inference
+,,That's a nice way to ensure visitors are entertained coming to his place.,situational inference
+,,Does he focus on a particular style or just go with the flow?,situational inference
+,,That's quite the dedication to gathering trinkets!,event association
+,,Is there a theme to his little treasures?,event association
+,,I wonder what inspired that particular hobby.,event association
+,,I wonder if there's a story behind each piece.,event association
+,,I'd love to see how he organizes all those little mementos.,event association
+26,verb1,does,
+,verb2,has,
+,subj,The tenant,
+,vp1,plans to go apple picking tomorrow,
+,vp2,has been earning money by making YouTube videos,
+,prn,she,
+,name1,Melissa,
+,name2,Makenzie,
+,vp1_cont,How many apples is she planning to pick?,lexical overlap
+,,But it'll will rain tomorrow.,lexical overlap
+,,Is there an apple farm nearby?,lexical overlap
+,,She should bring a cooler for all the extra apples she'll pick.,lexical overlap
+,,She might need a cart to overhaul all the apples.,lexical overlap
+,,Does she have a big basket?,situational inference
+,,Tell her to bring comfy pants and shoes!,situational inference
+,,I should pick up some ingredients to make a pie out of those!,situational inference
+,,She should bring a hat to shield herself from the sun.,situational inference
+,,Would she need help carrying everything back?,situational inference
+,,How far is the orchard?,event association
+,,Sounds like a delightful seasonal excursion!,event association
+,,Who's joining her for this outdoor event?,event association
+,,That should be a perfect activity to spend the afternoon.,event association
+,,It must be nice to get out in the nature for a while.,event association
+,vp2_cont,How much does she earn?,lexical overlap
+,,What kind of videos does she make?,lexical overlap
+,,YouTube must be a good profitable platform.,lexical overlap
+,,That's fascinating -- I don't even have an account on YouTube.,lexical overlap
+,,You knew ten years ago that you could make money through YouTube!,lexical overlap
+,,How many subscribers does she have?,situational inference
+,,"Who knew ""filming yourself talking"" would become the next big career move?",situational inference
+,,She just needs to say hello to the camera in her pajamas.,situational inference
+,,She's running her business while lying on the couch!,situational inference
+,,You smile at the camera and that's it?,situational inference
+,,She's pretty good at creating new content.,event association
+,,Does she get a steady income?,event association
+,,She makes a decent living out of it.,event association
+,,Is that her regular job?,event association
+,,Where does the revenue come from?,event association
+27,verb1,does,
+,verb2,has,
+,subj,The farmer,
+,vp1,rides a bike to the nearest park,
+,vp2,has been a fan of Rihanna since her debut,
+,prn,he,
+,name1,Parker,
+,name2,Chloe,
+,vp1_cont,I didn't know he knew how to bike.,lexical overlap
+,,How far is the nearest park?,lexical overlap
+,,I thought he got his bike stolen.,lexical overlap
+,,Which park does he usually go to?,lexical overlap
+,,Are you sure he goes to a park?,lexical overlap
+,,When did he get a bike?,situational inference
+,,I hope he wears a helmet!,situational inference
+,,But it's only 100 meters away!,situational inference
+,,I bet he goes there for a nap.,situational inference
+,,But there are bears out there!,situational inference
+,,That's a nice way to enjoy nature and be surrounded by greenery.,event association
+,,His dog's favorite playground is there.,event association
+,,"But today, he got stuck in the hay while trying to take a shortcut.",event association
+,,But sometimes he drives his tractor instead.,event association
+,,"But today, he got caught in the mud while trying to take a faster route",event association
+,vp2_cont,Rihanna's music is always on his playlist.,lexical overlap
+,,He even has a Rihanna shirt.,lexical overlap
+,,He was caught humming one of Rihanna's songs the other day.,lexical overlap
+,,He is probably one of her longest fans.,lexical overlap
+,,When was her debut?,lexical overlap
+,,Even his cows will moo rhythmically.,situational inference
+,,"I bet the tractor hums ""Umbrella"" on a rainy day.",situational inference
+,,He's even considering building a dedicated museum.,situational inference
+,,To the extent that it's almost his religion.,situational inference
+,,He might even create a shrine.,situational inference
+,,I thought he was a fan of Ariana Grande.,event association
+,,I thought he listened to only classical music.,event association
+,,"In fact, he is an expert on pop music.",event association
+,,He would go to all of her concerts when she was in town.,event association
+,,He spent so much to get all the albums.,event association
+28,verb1,does,
+,verb2,has,
+,subj,The chemist,
+,vp1,has lots of Korean friends,
+,vp2,has been in town for 10 years,
+,prn,she,
+,name1,Evelyn,
+,name2,Jasmin,
+,vp1_cont,How does she have lots of Korean friends?,lexical overlap
+,,Is she Korean?,lexical overlap
+,,Does she speak Korean?,lexical overlap
+,,"Well, not just Korean friends -- she just has lots of friends.",lexical overlap
+,,Are all of her Korean friends chemists?,lexical overlap
+,,Is that why she's been going to language classes lately?,situational inference
+,,That gives me an idea of where she'll go for her next summer vacation.,situational inference
+,,Does she also like spicy food?,situational inference
+,,Now it makes sense why she had so many BBQ parties.,situational inference
+,,Is that why she's been stocking up so many beauty products.,situational inference
+,,Did they meet at an Asian cooking class?,event association
+,,That's how she got into K-dramas.,event association
+,,Is it because she likes K-pop?,event association
+,,I heard she met all of them at that conference that took place in Seoul.,event association
+,,Now I understand her fascination with learning Hangul.,event association
+,vp2_cont,I thought she recently moved to a different town.,lexical overlap
+,,Which town does she live in?,lexical overlap
+,,Are you saying 10 years is too long?,lexical overlap
+,,How long have you been in town?,lexical overlap
+,,"No, she's been in town for more than 20 years actually.",lexical overlap
+,,"Yes, that's why every newcomer goes to talk to her.",situational inference
+,,She is practically a landmark at this point!,situational inference
+,,She can be elected mayor.,situational inference
+,,"Right, isn't there even a bench named after her?",situational inference
+,,Now she's looking for somewhere else to live.,situational inference
+,,She must be friends with all the local shops.,event association
+,,She is quite knowledgeable about all the events happening in her neighborhood.,event association
+,,She must have so many episodes to share about her neighbors.,event association
+,,"Even so, she would get lost finding her way back home.",event association
+,,"Do you think she'll get a second house, now that she's settled?",event association
+29,verb1,does,
+,verb2,is,
+,subj,The scientist,
+,vp1,loves reading Russian books,
+,vp2,is not good at riding a bike,
+,prn,he,
+,name1,Henry,
+,name2,Shawn,
+,vp1_cont,"He loves anything that's Russian, basically.",lexical overlap
+,,Do you know who his favorite Russian author is?,lexical overlap
+,,"Well, he also writes books in Russian.",lexical overlap
+,,Last time he told he hates reading Russian books!,lexical overlap
+,,I guess it makes sense because his family is from Russian.,lexical overlap
+,,"Do you think he enjoys the cold weather, too?",situational inference
+,,No wonder he named his dog Tolstoy.,situational inference
+,,That explains why he was looking into Cyrillic the other day.,situational inference
+,,Perhaps he's trying to get new research insights from Pushkin's poetry.,situational inference
+,,Is that why he hired an assistant named Dostoevksy?,situational inference
+,,What genres does he like?,event association
+,,Is there a library where he can read those?,event association
+,,Is there a particular era that he likes?,event association
+,,He says he likes the style of narrative in the novels.,event association
+,,He actually owns a publishing company specifically for those books.,event association
+,vp2_cont,That's interesting because he's quite good at fixing bikes.,lexical overlap
+,,What makes you say that he's not a good bike rider?,lexical overlap
+,,How could he not be good at riding a bike?,lexical overlap
+,,Hasn't he learned to bike when he was little?,lexical overlap
+,,"I mean, riding a bike is not easy.",lexical overlap
+,,He might have spent more time in the lab than outdoors.,situational inference
+,,That's what happens when you prioritize intellectual pursuits over physical activities.,situational inference
+,,I guess getting research done left little time for hobbies.,situational inference
+,,He was treating the activity more as an engineering problem than a physical skill.,situational inference
+,,I guess knowing about Newton's laws was not enough.,situational inference
+,,Does he know to drive?,event association
+,,But he is quite skilled at roller blades.,event association
+,,He says he forgets to pedal.,event association
+,,He's kept asking about the optimal angle for steering.,event association
+,,He's more interested in the radius of wheels.,event association
+30,verb1,does,
+,verb2,is,
+,subj,The driver,
+,vp1,enjoys extreme sports,
+,vp2,is always trustworthy,
+,prn,she,
+,name1,Carly,
+,name2,Diana,
+,vp1_cont,What kind of extreme sports does she like?,lexical overlap
+,,"Well, she enjoys everything.",lexical overlap
+,,How did she get into extreme sports?,lexical overlap
+,,But her husband is completely against extreme sports.,lexical overlap
+,,Does she only like extreme sports?,lexical overlap
+,,No wonder she was driving so wildy that night.,situational inference
+,,"She calls every land change a ""stunt maneuver.""",situational inference
+,,"Is that why she considers road signs just ""suggestions""?",situational inference
+,,That's why her insurance premiums are higher than ours.,situational inference
+,,Is that why she just jumps over speed bumps?,situational inference
+,,"She does skydiving, mountain biking, and snowboarding.",event association
+,,She competed for an off-road race recently.,event association
+,,She's planning a road trip to the Grand Canyon for cliff diving.,event association
+,,She did skydiving to celebrate her 30th birthday.,event association
+,,But she's also quite calm and enjoys meditation.,event association
+,vp2_cont,What makes her trustworthy?,lexical overlap
+,,How do you know she's trustworthy?,lexical overlap
+,,I'm surprised that you consider her trustworthy.,lexical overlap
+,,"She doesn't look trustworthy at all, though.",lexical overlap
+,,"She is trusthworthy, but not always.",lexical overlap
+,,I can even tell her my PIN.,situational inference
+,,I can share all my secrets with her.,situational inference
+,,"That's a relief, especially in unpredictable weather!",situational inference
+,,I feel safe telling her anything. ,situational inference
+,,Does this mean no sudden detours to pick up their laundry?,situational inference
+,,"I know, she is quite punctual.",event association
+,,"That's comforting, especially during uncertain times!",event association
+,,"That's reassuring, especially when reliability matters most!",event association
+,,"I agree, she's incredibly reliable.",event association
+,,I like that especially when consistency is hard to find.,event association
+31,verb1,does,
+,verb2,is,
+,subj,The banker,
+,vp1,has a very slick hairstyle,
+,vp2,is extremely fickle and demanding,
+,prn,she,
+,name1,Nathaniel,
+,name2,Preston,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+32,verb1,does,
+,verb2,is,
+,subj,The solider,
+,vp1,has a good recipe for cooking chicken breast,
+,vp2,is wearing a wedding ring,
+,prn,he,
+,name1,Ariana,
+,name2,Cassandra,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+33,verb1,does,
+,verb2,was,
+,subj,The cashier,
+,vp1,hates snow,
+,vp2,was listening to classical music,
+,prn,she,
+,name1,Bailey,
+,name2,Gabriela,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+34,verb1,does,
+,verb2,was,
+,subj,The comedian,
+,vp1,cares a lot about the environment,
+,vp2,was born in 1992,
+,prn,he,
+,name1,Carlos,
+,name2,Kelly,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+35,verb1,does,
+,verb2,was,
+,subj,The librarian,
+,vp1,takes a vitamin everyday,
+,vp2,was being chased by a few people,
+,prn,he,
+,name1,Melissa,
+,name2,Marco,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+36,verb1,does,
+,verb2,was,
+,subj,The comedian,
+,vp1,has red hair,
+,vp2,was mentioned in the newspaper,
+,prn,she,
+,name1,Nicole,
+,name2,Mackenzie,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+37,verb1,does,
+,verb2,would,
+,subj,The actress,
+,vp1,has a neat handwriting,
+,vp2,would wear a yellow hat on sunny days,
+,prn,she,
+,name1,Ethan,
+,name2,Gregory,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+38,verb1,does,
+,verb2,would,
+,subj,The make-up artist,
+,vp1,occasionally writes a blog about historical figures,
+,vp2,would drive to the nearest library when the weather is bad,
+,prn,he,
+,name1,Jaden,
+,name2,Adam,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+39,verb1,does,
+,verb2,would,
+,subj,The colleague,
+,vp1,usually drives three hours a day,
+,vp2,would stay out late on the weekends,
+,prn,she,
+,name1,Travis,
+,name2,Bethany,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+40,verb1,does,
+,verb2,would,
+,subj,The musician,
+,vp1,never forgets to greet people with with a big smile,
+,vp2,would buy lottery tickets on the weekends,
+,prn,he,
+,name1,Courtney,
+,name2,Lindsey,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+41,verb1,has,
+,verb2,did,
+,subj,The hairdresser,
+,vp1,has lost a child,
+,vp2,used to go to school in Japan,
+,prn,he,
+,name1,Emmanuel,
+,name2,Alan,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+42,verb1,has,
+,verb2,did,
+,subj,The diver,
+,vp1,has just turned 40,
+,vp2,had a car accident last night,
+,prn,she,
+,name1,Alexandra,
+,name2,Cesar,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+43,verb1,has,
+,verb2,did,
+,subj,The anthropologist,
+,vp1,has been staying in Hawaii for two months,
+,vp2,went out for a date,
+,prn,he,
+,name1,Taylor,
+,name2,Alex,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+44,verb1,has,
+,verb2,did,
+,subj,The model,
+,vp1,has been dreaming of buying a private jet,
+,vp2,went to the post office,
+,prn,she,
+,name1,Natalie,
+,name2,Carly,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+45,verb1,,
+,verb2,,
+,subj,,
+,vp1,,
+,vp2,,
+,prn,,
+,name1,,
+,name2,,
+,vp1_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,vp2_cont,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,lexical overlap
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,situational inference
+,,,event association
+,,,event association
+,,,event association
+,,,event association
+,,,event association
