@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument("--eval-path", type=str, default="data/stimuli/kim22-full.csv")
     parser.add_argument("--model", type=str, default="gpt2-medium")
     parser.add_argument("--results-dir", type=str, default="data/results/kim22")
-    parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--device", type=str, default="cuda:0")
 
     args = parser.parse_args()
