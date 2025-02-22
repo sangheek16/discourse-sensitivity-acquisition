@@ -1,0 +1,76 @@
+---
+title: "mangen"
+author: "Sanghee J. Kim"
+date: "2025-02-22"
+output: html_document
+---
+
+```{r Empty environment, echo=FALSE}
+rm(list=ls())
+```
+
+```{r}
+require(readr)
+require(dplyr)
+require(ggplot2)
+require(RColorBrewer)
+```
+
+```{r}
+RESULTS_DIR <- file.path("..", "data", "results", "mangen")
+FIG_DIR <- file.path("..", "analysis", "figures")
+
+ifelse(!dir.exists(file.path(FIG_DIR, "mangen")), 
+       dir.create(file.path(FIG_DIR, "mangen"), recursive = TRUE), FALSE)
+```
+
+```{r}
+save_plot = TRUE
+```
+
+```{r}
+file_names <- list.files(path = RESULTS_DIR, pattern = ".csv", full.names = FALSE)
+```
+
+```{r}
+df_combined <- do.call(rbind, lapply(file_names, function(file) {
+  file_path <- file.path(results_path, file)
+  df <- read_csv(file_path, show_col_types = FALSE)
+  df$model_name <- sub("\\.csv$", "", file)
+  
+  df # return dataframe
+}))
+```
+
+```{r}
+df_summary <- df_combined %>%
+  group_by(cont_target, cont_type, model_name) %>%
+  summarize(mean_avg_logprob = mean(avg_logprob, na.rm = TRUE), .groups = "drop")
+
+p <- ggplot(df_combined, aes(x = cont_target, y = avg_logprob, fill = model_name)) + 
+  geom_boxplot(position = "dodge") + 
+  theme_minimal() + 
+  facet_grid(~ cont_type) + 
+  labs(title = "Sequential log probabilities", 
+       x = "Continuation target content", 
+       y = "Average sequential log probabilities") + 
+  scale_y_continuous(limits = c(-4.5, -4)) + 
+  guides(fill = guide_legend(title = "Model name")) + 
+  scale_x_discrete(labels = c('mc' = 'main', 'arc' = 'appositive')) + 
+  scale_fill_brewer(palette = "Set2")  # colorblind-friendly palette
+
+print(p)
+
+if (save_plot == TRUE) {
+  formats <- c("pdf", "svg")
+  lapply(formats, function(ext) {
+    ggsave(
+      plot = p,
+      width = 6, 
+      height = 3, 
+      dpi = 600, 
+      filename = file.path(FIG_DIR, "mangen", paste0("average.", ext))
+    )
+  })
+}
+```
