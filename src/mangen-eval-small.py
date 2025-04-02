@@ -18,6 +18,7 @@ from minicons import scorer
 
 # initialize model
 model = "distilgpt2" # TODO: change this
+
 model_name = model.replace("", "") # TODO: change this
 lm = scorer.IncrementalLMScorer(model, device='cpu') # TODO: change this
 
@@ -36,4 +37,4 @@ df_avg.rename(columns={'logprob': 'avg_logprob'}, inplace=True)
 
 # save results
 pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True) # creates if it does not exist
-df_avg.to_csv(f"{results_dir}/{model_name}.csv", index=False) # save
+df_avg.to_csv(f"{results_dir}/{model_name}.csv", index=False) # save'

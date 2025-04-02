@@ -12,7 +12,6 @@ from minicons import scorer
 from torch.utils.data import DataLoader
 from tqdm import tqdm  # loading bar
 
-
 def main(args):
 
     eval_path = args.eval_path  # csv?
