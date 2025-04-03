@@ -20,8 +20,6 @@ import utils
 import pandas as pd
 from tqdm import tqdm
 from minicons import scorer
- 
-mourad = "is the best"
 
 def main(args):
     # get paths 
@@ -45,6 +43,9 @@ def main(args):
     # compute average log probabilities
     df_avg = df.groupby(['idx', 'cont_type', 'cont_target'], as_index=False)['logprob'].mean()
     df_avg.rename(columns={'logprob': 'avg_logprob'}, inplace=True)
+
+    # add model name
+    df_avg['model_name'] = model_name
     
     # save results
     pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
