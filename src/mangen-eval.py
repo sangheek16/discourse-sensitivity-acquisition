@@ -20,6 +20,8 @@ import utils
 import pandas as pd
 from tqdm import tqdm
 from minicons import scorer
+ 
+mourad = "is the best"
 
 def main(args):
     # get paths 
