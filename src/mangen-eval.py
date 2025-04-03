@@ -41,15 +41,14 @@ def main(args):
     df['logprob'] = df['stimuli'].progress_apply(lambda x: lm.sequence_score(x)[0])
     
     # compute average log probabilities
-    df_avg = df.groupby(['idx', 'cont_type', 'cont_target'], as_index=False)['logprob'].mean()
-    df_avg.rename(columns={'logprob': 'avg_logprob'}, inplace=True)
-
-    # add model name
-    df_avg['model_name'] = model_name
+    # df_avg = df.groupby(['idx', 'cont_type', 'cont_target'], as_index=False)['logprob'].mean()
+    # df_avg.rename(columns={'logprob': 'avg_logprob'}, inplace=True)
+    # df_avg['model_name'] = model_name
     
     # save results
     pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
-    df_avg.to_csv(f"{results_dir}/{model_name}.csv", index=False)
+    # df_avg.to_csv(f"{results_dir}/{model_name}.csv", index=False)
+    df.to_csv(f"{results_dir}/{model_name}.csv", index=False)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

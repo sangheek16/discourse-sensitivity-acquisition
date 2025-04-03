@@ -23,13 +23,15 @@ model_name = model.replace("", "") # TODO: change this
 lm = scorer.IncrementalLMScorer(model, device='cpu') # TODO: change this
 
 # load dataset
-eval_path = '../data/stimuli/manual-full.csv' # TODO: change this
-results_dir = '../data/results/mangen' # TODO: change this
+eval_path = 'data/stimuli/manual-full.csv' # TODO: change this
+results_dir = 'data/results/mangen' # TODO: change this
 df = pd.read_csv(eval_path)
 
 # get logprobs
 tqdm.pandas()
 df['logprob'] = df['stimuli'].progress_apply(lambda x: lm.sequence_score(x)[0])
+
+breakpoint()
 
 # compute average logprobs
 df_avg = df.groupby(['idx', 'cont_type', 'cont_target'], as_index=False)['logprob'].mean()
@@ -37,4 +39,4 @@ df_avg.rename(columns={'logprob': 'avg_logprob'}, inplace=True)
 
 # save results
 pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True) # creates if it does not exist
-df_avg.to_csv(f"{results_dir}/{model_name}.csv", index=False) # save'
+df_avg.to_csv(f"{results_dir}/{TEST_model_name}.csv", index=False) # save'

@@ -1,4 +1,4 @@
-# # quick test
+# quick test
 # declare -a models=(distilgpt2)
 
 # for model in "${models[@]}"; do
