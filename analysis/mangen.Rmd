@@ -34,7 +34,7 @@ file_names <- list.files(path = RESULTS_DIR, pattern = ".csv", full.names = FALS
 
 ```{r}
 df_combined <- do.call(rbind, lapply(file_names, function(file) {
-  file_path <- file.path(results_path, file)
+  file_path <- file.path(RESULTS_DIR, file)
   df <- read_csv(file_path, show_col_types = FALSE)
   df$model_name <- sub("\\.csv$", "", file)
   
@@ -43,21 +43,32 @@ df_combined <- do.call(rbind, lapply(file_names, function(file) {
 ```
 
 ```{r}
-df_summary <- df_combined %>%
-  group_by(cont_target, cont_type, model_name) %>%
-  summarize(mean_avg_logprob = mean(avg_logprob, na.rm = TRUE), .groups = "drop")
+df_combined <- df_combined %>%
+  mutate(model_name = sapply(strsplit(model_name, "_"), function(x) rev(x)[1]))
 
-p <- ggplot(df_combined, aes(x = cont_target, y = avg_logprob, fill = model_name)) + 
-  geom_boxplot(position = "dodge") + 
+df_combined <- df_combined %>%
+  mutate(model_name = sapply(strsplit(model_name, "-deduped"), function(x) (x)[[1]][1]))
+```
+
+```{r}
+length(unique(df_combined$model_name))
+unique(df_combined$model_name)
+```
+
+```{r}
+p <- ggplot(df_combined, aes(x = cont_target, y = logprob, color = cont_type)) + 
+  geom_boxplot(position = position_dodge(width = 0.75), outlier.shape = NA) + 
   theme_minimal() + 
-  facet_grid(~ cont_type) + 
+  facet_wrap(~ model_name, ncol = 5) +  # 5 columns, rows adjust automatically
   labs(title = "Sequential log probabilities", 
        x = "Continuation target content", 
        y = "Average sequential log probabilities") + 
-  scale_y_continuous(limits = c(-4.5, -4)) + 
-  guides(fill = guide_legend(title = "Model name")) + 
+  # scale_y_continuous(limits = c(-4.5, -4)) + 
+  guides(color = guide_legend(title = "Continuation Type")) +  # Legend for color
   scale_x_discrete(labels = c('mc' = 'main', 'arc' = 'appositive')) + 
-  scale_fill_brewer(palette = "Set2")  # colorblind-friendly palette
+  scale_color_brewer(palette = "Set2") +  # Use color instead of fill
+  theme(legend.position = "bottom",
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
 
 print(p)
 
@@ -66,8 +77,49 @@ if (save_plot == TRUE) {
   lapply(formats, function(ext) {
     ggsave(
       plot = p,
-      width = 6, 
-      height = 3, 
+      width = 10, 
+      height = 10, 
+      dpi = 600, 
+      filename = file.path(FIG_DIR, "mangen", paste0("average-cont_type.", ext))
+    )
+  })
+}
+```
+
+```{r}
+df_summary <- df_combined %>%
+  group_by(cont_target, model_name) %>%
+  summarize(
+    mean_avg_logprob = mean(avg_logprob, na.rm = TRUE),
+    ci_lower = mean_avg_logprob - 1.96 * sd(avg_logprob, na.rm = TRUE) / sqrt(n()),
+    ci_upper = mean_avg_logprob + 1.96 * sd(avg_logprob, na.rm = TRUE) / sqrt(n()),
+    .groups = "drop"
+  )
+
+p <- ggplot(df_summary, aes(x = cont_target, y = mean_avg_logprob)) + 
+  geom_point(position = position_dodge(width = 0.75), size = 1, shape = 16) + 
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), 
+                position = position_dodge(width = 0.75), width = 0.2) + 
+  theme_minimal() + 
+  facet_wrap(~ model_name, ncol = 5) +  # 5 columns, rows adjust automatically
+  labs(title = "Sequential log probabilities", 
+       x = "Continuation target content", 
+       y = "Average sequential log probabilities") + 
+  # scale_y_continuous(limits = c(-4.5, -4)) + 
+  scale_x_discrete(labels = c('mc' = 'main', 'arc' = 'appositive')) + 
+  scale_color_brewer(palette = "Set2") +  # Use color instead of fill
+  theme(legend.position = "bottom",
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+
+print(p)
+
+if (save_plot == TRUE) {
+  formats <- c("pdf", "svg")
+  lapply(formats, function(ext) {
+    ggsave(
+      plot = p,
+      width = 10, 
+      height = 10, 
       dpi = 600, 
       filename = file.path(FIG_DIR, "mangen", paste0("average.", ext))
     )
