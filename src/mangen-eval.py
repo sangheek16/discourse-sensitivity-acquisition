@@ -25,6 +25,7 @@ def main(args):
     # get paths 
     eval_path = args.eval_path
     results_dir = args.results_dir
+    pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
 
     # load the model
     model = args.model
@@ -46,7 +47,6 @@ def main(args):
     # df_avg['model_name'] = model_name
     
     # save results
-    pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
     # df_avg.to_csv(f"{results_dir}/{model_name}.csv", index=False)
     df.to_csv(f"{results_dir}/{model_name}.csv", index=False)
 
