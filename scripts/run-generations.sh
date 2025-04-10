@@ -1,11 +1,11 @@
-# TODO: mangen-eval.py currently doesn't take batch_size as an argument
+# TODO: generations.py currently doesn't take batch_size as an argument
 
 # quick test
-declare -a models=(distilgpt2)
+declare -a models=(meta-llama/Meta-Llama-3-8B-Instruct)
 
 for model in "${models[@]}"; do
     echo "Running $model"
-    python src/mangen-eval.py --model $model --batch_size 128 --device cuda:0 --eval-path "data/stimuli/manual-full.csv" --results-dir "data/results/mangen"
+    python src/generations.py --model $model --device cuda:0 --eval-path 'data/used_items.csv' --results-dir 'data/results/generations'
 done
 
 # small models, high batch size

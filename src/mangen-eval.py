@@ -1,6 +1,10 @@
 '''
 -----------------------------------------------------------
-NOTE:   this is a code that calculates average logprobs
+TODO:   use DataLoader
+TODO:   include batch_size
+
+
+NOTE:   this code generates logprobs
         of the manually generated sentences.
         it averages the 15 continuations given the MC;
         and the 15 continuations given the ARC content.
@@ -8,15 +12,13 @@ NOTE:   this is a code that calculates average logprobs
 NOTE:   workflow
 
         1. get logprobs for each sequence
-        2. compute average logprobs by item & continuation
-        3. compare [move on to R script]
+        2. compare [move on to R script]
 
 -----------------------------------------------------------
 '''
 
 import argparse
 import pathlib
-import utils
 import pandas as pd
 from tqdm import tqdm
 from minicons import scorer
@@ -56,7 +58,6 @@ if __name__ == "__main__":
     parser.add_argument("--eval-path", type=str, required=True, help="csv file")
     parser.add_argument("--results-dir", type=str, required=True)
     parser.add_argument("--model", type=str, required=True)
-    parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--device", type=str, default="cuda:0", help="choose cuda:0 or cpu")
     
     args = parser.parse_args()
