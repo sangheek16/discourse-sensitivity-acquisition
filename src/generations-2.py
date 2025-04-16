@@ -10,9 +10,7 @@ import utils
 
 def generate_batch_output(contexts, n_return, tokenizer, model, device):
     prompts = [f"Please respond to the following message as naturally as possible.\nUser: {ctx}" for ctx in contexts]
-    
-    # breakpoint()
-    
+        
     encoded = tokenizer(prompts, padding=True, return_tensors="pt").to(device)
 
     set_seed(1024)
@@ -26,11 +24,7 @@ def generate_batch_output(contexts, n_return, tokenizer, model, device):
         temperature=0.9
     )
 
-    # breakpoint()
-
     decoded = tokenizer.batch_decode(generations, skip_special_tokens=True)
-
-    # breakpoint()
 
     # Group outputs using slicing
     grouped_outputs = []
@@ -40,10 +34,7 @@ def generate_batch_output(contexts, n_return, tokenizer, model, device):
         outputs = [s.split(context)[-1].strip() for s in decoded[start:end]]
         grouped_outputs.append(outputs)
 
-    # breakpoint()
-
     return grouped_outputs
-
 
 def main(args, template):
     eval_path = args.eval_path
@@ -57,13 +48,12 @@ def main(args, template):
     df = pd.read_csv(eval_path)
 
     eval_data = utils.read_csv_dict(eval_path)
-    eval_dl = DataLoader(eval_data[:4], batch_size=args.batch_size)
+    eval_dl = DataLoader(eval_data, batch_size=args.batch_size)
 
     all_generations_vp1 = []
     all_generations_vp2 = []
 
     for batch in tqdm(eval_dl):
-        # print(batch)
         contexts_vp1 = [
             template.substitute(name1=batch['name1'][i], name2=batch['name2'][i], subj=batch['subj'][i], vp=batch['vp1'][i])
             for i in range(args.batch_size)
@@ -72,11 +62,8 @@ def main(args, template):
             template.substitute(name1=batch['name1'][i], name2=batch['name2'][i], subj=batch['subj'][i], vp=batch['vp2'][i])
             for i in range(args.batch_size)
         ]
-        # print(contexts_vp1)
-        # breakpoint()
 
         gens_vp1 = generate_batch_output(contexts_vp1, args.num_return, tokenizer, model, args.device)
-        print(gens_vp1)
         gens_vp2 = generate_batch_output(contexts_vp2, args.num_return, tokenizer, model, args.device)
 
         all_generations_vp1.extend(gens_vp1)
@@ -85,24 +72,36 @@ def main(args, template):
     df['generations_vp1'] = all_generations_vp1
     df['generations_vp2'] = all_generations_vp2
 
-    output_path = results_dir / f"{args.model.replace('/', '_')}.csv"
-    df.to_csv(output_path, index=False)
-    print(f"* -- saving {args.model} data to: {output_path} -- *")
+    breakpoint()
+
+    print(f"* -- Saving {args.model} data to: {results_dir} -- *")
+    df.to_csv(results_dir / f"{args.model.replace('/', '_')}.csv", index=False)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
+    # === When using a script ===
     # parser.add_argument("--eval-path", type=str, required=True)
     # parser.add_argument("--results-dir", type=str, required=True)
     # parser.add_argument("--model", type=str, required=True)
+    
+    # === One try-out (using GPU) ===
+    # parser.add_argument("--eval-path", type=str, required=False, default='data/used_items.csv', help="CSV file path")
+    # parser.add_argument("--results-dir", type=str, required=False, default='data/results/generations')
+    # parser.add_argument("--batch-size", type=int, default=5)
+    # parser.add_argument("--num-return", type=int, default=30)
+    # parser.add_argument("--model", type=str, required=False, default='meta-llama/Meta-Llama-3-8B-Instruct')
+    # parser.add_argument("--device", type=str, default="cuda:0")
+
+    # === One try-out (using CPU) ===
     parser.add_argument("--eval-path", type=str, required=False, default='data/used_items.csv', help="CSV file path")
     parser.add_argument("--results-dir", type=str, required=False, default='data/results/generations')
-    parser.add_argument("--model", type=str, required=False, default='meta-llama/Meta-Llama-3-8B-Instruct')
+    parser.add_argument("--batch-size", type=int, default=2)
+    parser.add_argument("--num-return", type=int, default=10)
+    parser.add_argument("--model", type=str, required=False, default="HuggingFaceTB/SmolLM2-135M-Instruct")
+    parser.add_argument("--device", type=str, default="cpu")
 
-    parser.add_argument("--device", type=str, default="cuda:0")
-    parser.add_argument("--batch-size", type=int, default=4)
-    parser.add_argument("--num-return", type=int, default=15)
-
+    # === Global options ===
     template = Template('$name1 said, "$subj $vp", and $name2 replied, ')
     args = parser.parse_args()
     main(args, template)
