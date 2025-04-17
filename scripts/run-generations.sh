@@ -40,10 +40,10 @@ done
 #         --template "\$name1 said, \"\$subj \$vp\", and \$name2 replied, "
 # done
 
-## large instruction-tuned models, small batch size
-# declare -a models=(
+# large instruction-tuned models, small batch size
+declare -a models=(
     # -- COMPLETED
-    # meta-llama/Meta-Llama-3-8B-Instruct
+    meta-llama/Meta-Llama-3-8B-Instruct
         # NOTE: Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
         # NOTE: Below are the messages that showed up:
         # * -- Saving meta-llama/Meta-Llama-3-8B-Instruct data to: data/results/generations -- *
@@ -53,17 +53,17 @@ done
 
     # -- CANDIDATES
     # mistralai/Mistral-7B-Instruct-v0.3 
-        ## NOTE: Not authorized
+    #     # NOTE: Not authorized
     # google/gemma-7b-it
-        ## NOTE: Out of memory
-# )
+    #     # NOTE: Out of memory
+)
 
-# for model in "${models[@]}"; do
-#     echo "Running $model"
-#     python src/generations.py \
-#         --eval-path "data/used_items.csv" \
-#         --results-dir "data/results/generations" \
-#         --model $model \
-#         --batch-size 16 \
-#         --template "\$name1 said, \"\$subj \$vp\", and \$name2 replied, "
-# done
+for model in "${models[@]}"; do
+    echo "Running $model"
+    python src/generations.py \
+        --eval-path "data/used_items.csv" \
+        --results-dir "data/results/generations" \
+        --model $model \
+        --batch-size 16 \
+        --template "\$name1 said, \"\$subj \$vp\", and \$name2 replied, "
+done

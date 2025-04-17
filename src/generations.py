@@ -7,21 +7,62 @@ import torch
 from torch.utils.data import DataLoader
 from transformers import set_seed, AutoTokenizer, AutoModelForCausalLM
 import utils
+import re
+
+# TODO: this function either doesn't seem to properly work
+#       or it's already at the generation stage that a full
+#       sentence is not showing up.
+
+def trim_to_sentence_end(text):
+    text = text.strip().strip('"').strip()  # remove double quotes
+    # Cut at last full stop punctuation
+    match = re.search(r'([.!?])(\s*["\']?\s*)$', text)
+    if match:
+        end_idx = match.end()
+        return text[:end_idx].strip()
+    return text.strip()
+
+def clean_response(s, prefix):
+    # TODO: Somehow this doesn't work for \nAssistant:
+    s = s.strip()
+    clean_s = s.split(prefix)[-1]
+    return clean_s
 
 def generate_batch_output(contexts, n_return, tokenizer, model, device):
-    prompts = [f"Please respond to the following message as naturally as possible.\nUser: {ctx}" for ctx in contexts]
-        
+    # instruction_prefix = "Then the other person said:"
+    # prompts = [f'{ctx} {instruction_prefix}' for ctx in contexts]
+
+    # instruction_prefix = "\nAssistant:"
+    # prompts = [f"The following is a natural, friendly conversation.\nUser: {ctx} \nAssistant:" for ctx in contexts]
+
+    instruction_prefix = "\nUser:"
+    prompts = [f"Please respond to the following message as naturally as possible. \nUser: {ctx}" for ctx in contexts]
+     
     encoded = tokenizer(prompts, padding=True, return_tensors="pt").to(device)
 
     set_seed(1024)
 
+    # TODO: Is this ensuring that the response ends as a full sentence?
+    eos_tok_id = tokenizer.eos_token_id 
+
     generations = model.generate(
         **encoded, 
         num_return_sequences=n_return, 
-        max_length=50, 
+
+        # max_length=50, 
+        # top_p=0.8, 
+        # temperature=0.9,
+
+        max_length=60,
+        # top_p = None,
+        temperature=0.7,
+        top_k=50,
+
+        eos_token_id=eos_tok_id,
+        repetition_penalty=1.2,  # >1.0 penalizes repeated generations
+
         do_sample=True,
-        top_p=0.8, 
-        temperature=0.9
+        length_penalty=1.0
     )
 
     decoded = tokenizer.batch_decode(generations, skip_special_tokens=True)
@@ -32,6 +73,10 @@ def generate_batch_output(contexts, n_return, tokenizer, model, device):
         start = i * n_return
         end = start + n_return
         outputs = [s.split(context)[-1].strip() for s in decoded[start:end]]
+
+        outputs = [trim_to_sentence_end(s) for s in outputs]
+        outputs = [clean_response(s, instruction_prefix) for s in outputs]
+        
         grouped_outputs.append(outputs)
 
     return grouped_outputs
