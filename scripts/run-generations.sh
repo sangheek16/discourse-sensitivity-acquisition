@@ -1,35 +1,69 @@
-# TODO: generations.py currently doesn't take batch_size as an argument
+## small instruction-tuned models, high batch size
+declare -a models=(
+    # -- COMPLETED
+    HuggingFaceTB/SmolLM2-135M-Instruct
 
-# quick test
-declare -a models=(meta-llama/Meta-Llama-3-8B-Instruct)
+    # -- CANDIDATES
+)
 
 for model in "${models[@]}"; do
     echo "Running $model"
-    python src/generations.py --model $model --device cuda:0 --eval-path 'data/used_items.csv' --results-dir 'data/results/generations'
+    python src/generations.py \
+        --eval-path "data/used_items.csv" \
+        --results-dir "data/results/generations" \
+        --model $model \
+        --batch-size 128 \
+        --template "\$name1 said, \"\$subj \$vp\", and \$name2 replied, "
 done
 
-# small models, high batch size
-# declare -a models=(gpt2 gpt2-medium gpt2-large EleutherAI/pythia-70m-deduped EleutherAI/pythia-160m-deduped
-#     EleutherAI/pythia-410m-deduped facebook/opt-125m facebook/opt-350m)
+## medium instruction-tuned models, medium batch size
+# declare -a models=(
+#     # -- CANDIDATES
+#         # facebook/opt-iml-1.3b 
+#             ## NOTE: CUDA out of memory
+#             ## This process has 34.12 GiB memory in use;
+#             ## GPU 0 has a total capacity of 47.50 GiB of which 13.37 GiB is free
+#         # tiiuae/falcon-rw-1b-instruct
+#         # mosaicml/mpt-1b-redpajama-200b-instruct
+#         # togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1nvidia-smi
+#         # google/gemma-2b-it
+#         # allenai/OLMo-7B-Instruct
+# )
 
 # for model in "${models[@]}"; do
 #     echo "Running $model"
-#     python src/mangen-eval.py --model $model --batch_size 128 --device cuda:0 --eval-path "data/stimuli/manual-full.csv" --results-dir "data/results/mangen"
+#     python src/generations.py \
+#         --eval-path "data/used_items.csv" \
+#         --results-dir "data/results/generations" \
+#         --model $model \
+#         --batch-size 64 \
+#         --template "\$name1 said, \"\$subj \$vp\", and \$name2 replied, "
 # done
 
-# # medium models, medium batch size
-# declare -a models=(EleutherAI/pythia-1.4b-deduped EleutherAI/pythia-2.8b-deduped
-#     EleutherAI/pythia-6.9b-deduped google/Gemma-2-2B allenai/OLMo-2-1124-7B facebook/opt-1.3b facebook/opt-2.7b gpt2-xl)
+## large instruction-tuned models, small batch size
+# declare -a models=(
+    # -- COMPLETED
+    # meta-llama/Meta-Llama-3-8B-Instruct
+        # NOTE: Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+        # NOTE: Below are the messages that showed up:
+        # * -- Saving meta-llama/Meta-Llama-3-8B-Instruct data to: data/results/generations -- *
+        # scripts/run-generations.sh: line 57: h-size: command not found
+        # scripts/run-generations.sh: line 59: syntax error near unexpected token `done'
+        # scripts/run-generations.sh: line 59: `done'
+
+    # -- CANDIDATES
+    # mistralai/Mistral-7B-Instruct-v0.3 
+        ## NOTE: Not authorized
+    # google/gemma-7b-it
+        ## NOTE: Out of memory
+# )
 
 # for model in "${models[@]}"; do
 #     echo "Running $model"
-#     python src/mangen-eval.py --model $model --batch_size 64 --device cuda:0 --eval-path "data/stimuli/manual-full.csv" --results-dir "data/results/mangen"
-# done
-
-# # bigger models, smaller batch size
-# declare -a models=(EleutherAI/pythia-12b-deduped google/Gemma-2-9B facebook/opt-6.7b)
-
-# for model in "${models[@]}"; do
-#     echo "Running $model"
-#     python src/mangen-eval.py --model $model --batch_size 16 --device cuda:0 --eval-path "data/stimuli/manual-full.csv" --results-dir "data/results/mangen"
+#     python src/generations.py \
+#         --eval-path "data/used_items.csv" \
+#         --results-dir "data/results/generations" \
+#         --model $model \
+#         --batch-size 16 \
+#         --template "\$name1 said, \"\$subj \$vp\", and \$name2 replied, "
 # done
