@@ -175,7 +175,7 @@ def generate_batch_output(contexts, n_return, tokenizer, model, device):
             end = start + n_return
 
             # Process and split the responses
-            outputs = [s.split(context)[-1].strip() for s in decoded[start:end]]
+            # outputs = [s.split(context)[-1].strip() for s in decoded[start:end]]
 
             # Tokenize to sentences and filter out empty elements
             new_complete_sents = [
@@ -283,6 +283,7 @@ if __name__ == "__main__":
     # parser.add_argument("--batch-size", type=int, default=5)
     # parser.add_argument("--num-return", type=int, default=30)
     # parser.add_argument("--model", type=str, required=False, default='meta-llama/Meta-Llama-3-8B-Instruct')
+    # parser.add_argument("--model", type=str, required=False, default='HuggingFaceTB/SmolLM2-135M-Instruct')
     # parser.add_argument("--device", type=str, default="cuda:0")
     # parser.add_argument("--template", type=str, required=False, default='$name1 said, "$subj $vp", and $name2 replied, ')
 
