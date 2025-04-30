@@ -170,6 +170,8 @@ def generate_batch_output(contexts, n_return, tokenizer, model, device):
 
             decoded = tokenizer.batch_decode(generations, skip_special_tokens=True)
 
+            breakpoint()
+
             # Group outputs using slicing
             start = i * n_return
             end = start + n_return

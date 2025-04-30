@@ -1,4 +1,8 @@
 *.DS_Store
+*_sandbox.ipynb
+
+gens_*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

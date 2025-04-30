@@ -1,6 +1,6 @@
-'''
+"""
 Just some util functions that I use quite often...
-'''
+"""
 
 import csv
 import json
@@ -36,10 +36,12 @@ def read_file(path):
         if i.strip() != ""
     ]
 
+
 def write_file(path, data):
     with open(path, "w", encoding="utf-8") as f:
         for line in data:
             f.write(line + "\n")
+
 
 def belongingness(tup1, tup2):
     """is tup1 contained in tup2?"""
@@ -70,6 +72,22 @@ def write_jsonl(data, path):
             f.write(json.dumps(line) + "\n")
 
 
+def write_json(data, path):
+    json_object = json.dumps(data, indent=4)
+
+    # Writing to sample.json
+    with open(path, "w") as f:
+        f.write(json_object)
+
+
 def divide_chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i : i + n]
+
+
+def write_csv(data, path, header=None):
+    with open(path, "w") as f:
+        writer = csv.writer(f)
+        if header:
+            writer.writerow(header)
+        writer.writerows(data)
