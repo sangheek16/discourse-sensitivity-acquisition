@@ -7,8 +7,8 @@ from itertools import product
 ARC_TEMPLATE = Template("$subj, who $vp1, $vp2.")
 COORDINATION_TEMPLATE = Template("$subj $vp1 and $vp2.")
 
-NO = ["No,", "Thats not true. No,", "Nope,"]
-WAIT = ["Wait no,", "Hey, wait a minute. No,", "Hang on a minute. No,"]
+NO = ["No.", "That's not true.", "Nope."]
+WAIT = ["Wait no.", "Hey, wait a minute.", "Hang on a minute."]
 
 
 def arc_template(subj, vp1, vp2, **kwargs):
@@ -50,6 +50,7 @@ idx = 1
 for i, item in enumerate(items):
     swapped_item = swap_item(item)
     continuation1, continuation2 = reject_sentences(**item)
+    continuation1, continuation2 = continuation1.capitalize(), continuation2.capitalize()
     arc = arc_template(**item)
     arc_swapped = arc_template(**swapped_item)
     coord = coordination(**item)
@@ -130,5 +131,5 @@ for i, item in enumerate(items):
         coords.append(coord_entry_swapped)
 
 
-utils.write_dict_list_to_csv(arcs, "data/stimuli/kim22-arc-dc-pmi.csv")
-utils.write_dict_list_to_csv(coords, "data/stimuli/kim22-coord-dc-pmi.csv")
+utils.write_dict_list_to_csv(arcs, "data/stimuli/kim22-arc-dcpmi.csv")
+utils.write_dict_list_to_csv(coords, "data/stimuli/kim22-coord-dcpmi.csv")
