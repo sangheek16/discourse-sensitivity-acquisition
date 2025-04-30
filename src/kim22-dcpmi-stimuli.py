@@ -102,8 +102,8 @@ for i, item in enumerate(items):
             "preamble": arc_swapped,
             "no": rc[0],
             "wait": rc[1],
-            "continuation1": continuation1,
-            "continuation2": continuation2,
+            "continuation1": continuation2,
+            "continuation2": continuation1,
         }
 
         coord_entry_swapped = {
@@ -117,8 +117,8 @@ for i, item in enumerate(items):
             "preamble": coord_swapped,
             "no": rc[0],
             "wait": rc[1],
-            "continuation1": continuation1,
-            "continuation2": continuation2,
+            "continuation1": continuation2,
+            "continuation2": continuation1,
         }
 
         idx += 2
