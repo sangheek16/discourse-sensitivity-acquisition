@@ -11,12 +11,12 @@ for model in "${models[@]}"; do
         --eval-path data/stimuli/kim22-arc-dcpmi.csv \
         --results-dir data/results/kim22-arc-dcpmi/
 
-    python src/dcpmi.py \
-        --model $model \
-        --batch_size 16 \
-        --instruct \
-        --eval-path data/stimuli/kim22-coord-dcpmi.csv \
-        --results-dir data/results/kim22-coord-dcpmi/
+    # python src/dcpmi.py \
+    #     --model $model \
+    #     --batch_size 16 \
+    #     --instruct \
+    #     --eval-path data/stimuli/kim22-coord-dcpmi.csv \
+    #     --results-dir data/results/kim22-coord-dcpmi/
 done
 
 
@@ -32,9 +32,9 @@ for model in "${models[@]}"; do
         --eval-path data/stimuli/kim22-arc-dcpmi.csv \
         --results-dir data/results/kim22-arc-dcpmi/
 
-    python src/dcpmi.py \
-        --model $model \
-        --batch_size 16 \
-        --eval-path data/stimuli/kim22-coord-dcpmi.csv \
-        --results-dir data/results/kim22-coord-dcpmi/
+    # python src/dcpmi.py \
+    #     --model $model \
+    #     --batch_size 16 \
+    #     --eval-path data/stimuli/kim22-coord-dcpmi.csv \
+    #     --results-dir data/results/kim22-coord-dcpmi/
 done
