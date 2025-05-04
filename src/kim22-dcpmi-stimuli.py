@@ -7,8 +7,8 @@ from itertools import product
 ARC_TEMPLATE = Template("$subj, who $vp1, $vp2.")
 COORDINATION_TEMPLATE = Template("$subj $vp1 and $vp2.")
 
-NO = ["No.", "That's not true.", "Nope."]
-WAIT = ["Wait no.", "Hey, wait a minute.", "Hang on a minute."]
+NO = ["No,", "That's not true.", "I doubt that.", "I don't think so."]
+WAIT = ["Wait no,", "Hey, wait a minute.", "Hold on.", "Wait."]
 
 
 def arc_template(subj, vp1, vp2, **kwargs):
