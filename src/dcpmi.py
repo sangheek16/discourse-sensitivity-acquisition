@@ -106,6 +106,9 @@ def main(args):
                     "wait_prefix": chat_template(
                         item_copy["preamble"], None, lm.tokenizer, item["wait"]
                     ),
+                    "prefix_headerfree": chat_template(
+                        item_copy["preamble"], None, lm.tokenizer, None
+                    ),
                 }
             )
         else:
@@ -121,6 +124,9 @@ def main(args):
                         item_copy["preamble"],
                     )
                     + item["wait"],
+                    "prefix_headerfree": dialog_template(
+                        item["name1"], item["name2"], item_copy["preamble"]
+                    ),
                 }
             )
 
@@ -138,11 +144,19 @@ def main(args):
         no_prefix = batch["no_prefix"]
         wait_prefix = batch["wait_prefix"]
 
+        prefix_headerfree = batch["prefix_headerfree"]
+
         no = batch["no"]
         wait = batch["wait"]
 
         continuation1 = batch["continuation1"]
         continuation2 = batch["continuation2"]
+
+        resp_no_c1 = [f"{header} {c}" for header, c in zip(no, continuation1)]
+        resp_no_c2 = [f"{header} {c}" for header, c in zip(no, continuation2)]
+
+        resp_wait_c1 = [f"{header} {c}" for header, c in zip(wait, continuation1)]
+        resp_wait_c2 = [f"{header} {c}" for header, c in zip(wait, continuation2)]
 
         if "gpt2" in model_name or "pythia" in model_name:
             bos_tok = True
@@ -162,6 +176,38 @@ def main(args):
             wait_prefix, continuation2, bos_token=bos_tok, bow_correction=True
         )
 
+        response_no_c1 = lm.conditional_score(
+            prefix_headerfree,
+            resp_no_c1,
+            separator="",
+            bos_token=bos_tok,
+            bow_correction=True,
+        )
+
+        response_no_c2 = lm.conditional_score(
+            prefix_headerfree,
+            resp_no_c2,
+            separator="",
+            bos_token=bos_tok,
+            bow_correction=True,
+        )
+
+        response_wait_c1 = lm.conditional_score(
+            prefix_headerfree,
+            resp_wait_c1,
+            separator="",
+            bos_token=bos_tok,
+            bow_correction=True,
+        )
+
+        response_wait_c2 = lm.conditional_score(
+            prefix_headerfree,
+            resp_wait_c2,
+            separator="",
+            bos_token=bos_tok,
+            bow_correction=True,
+        )
+
         no_c1 = lm.conditional_score(
             no, continuation1, bos_token=bos_tok, bow_correction=True
         )
@@ -175,6 +221,20 @@ def main(args):
             wait, continuation2, bos_token=bos_tok, bow_correction=True
         )
 
+        no_control = lm.conditional_score(
+            no_prefix,
+            ["this is a sentence."] * len(no_prefix),
+            bos_token=bos_tok,
+            bow_correction=True,
+        )
+
+        wait_control = lm.conditional_score(
+            wait_prefix,
+            ["this is a sentence."] * len(no_prefix),
+            bos_token=bos_tok,
+            bow_correction=True,
+        )
+
         for item in zip(
             idx,
             no_prefix_c1,
@@ -185,6 +245,12 @@ def main(args):
             no_c2,
             wait_c1,
             wait_c2,
+            no_control,
+            wait_control,
+            response_no_c1,
+            response_no_c2,
+            response_wait_c1,
+            response_wait_c2,
         ):
             results.append([*item])
 
@@ -203,6 +269,12 @@ def main(args):
             "no_c2",
             "wait_c1",
             "wait_c2",
+            "no_control",
+            "wait_control",
+            "response_no_c1",
+            "response_no_c2",
+            "response_wait_c1",
+            "response_wait_c2",
         ],
     )
 
