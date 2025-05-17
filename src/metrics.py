@@ -135,6 +135,7 @@ def main(args):
     print(formatted_stimuli[:2])
 
     eval_dl = DataLoader(formatted_stimuli, batch_size=args.batch_size)
+    # eval_dl = DataLoader(formatted_stimuli[:2], batch_size=2)
 
     results = []
 
@@ -170,6 +171,8 @@ def main(args):
             bow_correction=True,
             reduction=lambda x: x.sum().item(),
         )
+
+        # print(f"Prefix: {no_prefix}\n\nContinuation: {continuation1}\n\nScores = {no_prefix_c1}")
         no_prefix_c2 = lm.conditional_score(
             no_prefix,
             continuation2,
@@ -200,6 +203,7 @@ def main(args):
             bow_correction=True,
             reduction=lambda x: x.sum().item(),
         )
+        # print(f"Prefix: {prefix_headerfree}\n\nContinuation: {resp_no_c1}\n\nScores = {response_no_c1}")
 
         response_no_c2 = lm.conditional_score(
             prefix_headerfree,
@@ -264,6 +268,8 @@ def main(args):
             bow_correction=True,
             reduction=lambda x: x.sum().item(),
         )
+
+        # print(f"Prefix: {no_prefix}\n\nContinuation: {no_control}\n\nScores = {no_control}")
 
         wait_control = lm.conditional_score(
             wait_prefix,

@@ -9,15 +9,15 @@ for model in "${models[@]}"; do
         --model $model \
         --batch_size 16 \
         --instruct \
-        --eval-path data/stimuli/kim22-arc-dcpmi.csv \
-        --results-dir data/results/kim22-arc-dcpmi/
+        --eval-path data/stimuli/kim22-arc.csv \
+        --results-dir data/results/kim22-arc-metrics/
 
     python src/metrics.py \
         --model $model \
         --batch_size 16 \
         --instruct \
-        --eval-path data/stimuli/kim22-coord-dcpmi.csv \
-        --results-dir data/results/kim22-coord-dcpmi/
+        --eval-path data/stimuli/kim22-coord.csv \
+        --results-dir data/results/kim22-coord-metrics/
 done
 
 
@@ -31,12 +31,12 @@ for model in "${models[@]}"; do
     python src/metrics.py \
         --model $model \
         --batch_size 16 \
-        --eval-path data/stimuli/kim22-arc-dcpmi.csv \
-        --results-dir data/results/kim22-arc-dcpmi/
+        --eval-path data/stimuli/kim22-arc.csv \
+        --results-dir data/results/kim22-arc-metrics/
 
     python src/metrics.py \
         --model $model \
         --batch_size 16 \
-        --eval-path data/stimuli/kim22-coord-dcpmi.csv \
-        --results-dir data/results/kim22-coord-dcpmi/
+        --eval-path data/stimuli/kim22-coord.csv \
+        --results-dir data/results/kim22-coord-metrics/
 done
