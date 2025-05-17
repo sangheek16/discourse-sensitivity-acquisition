@@ -164,16 +164,32 @@ def main(args):
             bos_tok = False
 
         no_prefix_c1 = lm.conditional_score(
-            no_prefix, continuation1, bos_token=bos_tok, bow_correction=True
+            no_prefix,
+            continuation1,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
         no_prefix_c2 = lm.conditional_score(
-            no_prefix, continuation2, bos_token=bos_tok, bow_correction=True
+            no_prefix,
+            continuation2,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
         wait_prefix_c1 = lm.conditional_score(
-            wait_prefix, continuation1, bos_token=bos_tok, bow_correction=True
+            wait_prefix,
+            continuation1,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
         wait_prefix_c2 = lm.conditional_score(
-            wait_prefix, continuation2, bos_token=bos_tok, bow_correction=True
+            wait_prefix,
+            continuation2,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         response_no_c1 = lm.conditional_score(
@@ -182,6 +198,7 @@ def main(args):
             separator="",
             bos_token=bos_tok,
             bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         response_no_c2 = lm.conditional_score(
@@ -190,6 +207,7 @@ def main(args):
             separator="",
             bos_token=bos_tok,
             bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         response_wait_c1 = lm.conditional_score(
@@ -198,6 +216,7 @@ def main(args):
             separator="",
             bos_token=bos_tok,
             bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         response_wait_c2 = lm.conditional_score(
@@ -206,33 +225,52 @@ def main(args):
             separator="",
             bos_token=bos_tok,
             bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         no_c1 = lm.conditional_score(
-            no, continuation1, bos_token=bos_tok, bow_correction=True
+            no,
+            continuation1,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
         no_c2 = lm.conditional_score(
-            no, continuation2, bos_token=bos_tok, bow_correction=True
+            no,
+            continuation2,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
         wait_c1 = lm.conditional_score(
-            wait, continuation1, bos_token=bos_tok, bow_correction=True
+            wait,
+            continuation1,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
         wait_c2 = lm.conditional_score(
-            wait, continuation2, bos_token=bos_tok, bow_correction=True
+            wait,
+            continuation2,
+            bos_token=bos_tok,
+            bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         no_control = lm.conditional_score(
             no_prefix,
-            ["this is a sentence."] * len(no_prefix),
+            ["this is a sentence"] * len(no_prefix),
             bos_token=bos_tok,
             bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         wait_control = lm.conditional_score(
             wait_prefix,
-            ["this is a sentence."] * len(no_prefix),
+            ["this is a sentence"] * len(no_prefix),
             bos_token=bos_tok,
             bow_correction=True,
+            reduction=lambda x: x.sum().item(),
         )
 
         for item in zip(
