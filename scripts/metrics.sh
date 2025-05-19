@@ -12,12 +12,12 @@ for model in "${models[@]}"; do
         --eval-path data/stimuli/kim22-arc.csv \
         --results-dir data/results/kim22-arc-metrics/
 
-    python src/metrics.py \
-        --model $model \
-        --batch_size 16 \
-        --instruct \
-        --eval-path data/stimuli/kim22-coord.csv \
-        --results-dir data/results/kim22-coord-metrics/
+    # python src/metrics.py \
+    #     --model $model \
+    #     --batch_size 16 \
+    #     --instruct \
+    #     --eval-path data/stimuli/kim22-coord.csv \
+    #     --results-dir data/results/kim22-coord-metrics/
 done
 
 
@@ -34,9 +34,9 @@ for model in "${models[@]}"; do
         --eval-path data/stimuli/kim22-arc.csv \
         --results-dir data/results/kim22-arc-metrics/
 
-    python src/metrics.py \
-        --model $model \
-        --batch_size 16 \
-        --eval-path data/stimuli/kim22-coord.csv \
-        --results-dir data/results/kim22-coord-metrics/
+    # python src/metrics.py \
+    #     --model $model \
+    #     --batch_size 16 \
+    #     --eval-path data/stimuli/kim22-coord.csv \
+    #     --results-dir data/results/kim22-coord-metrics/
 done

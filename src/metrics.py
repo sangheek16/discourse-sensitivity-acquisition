@@ -195,75 +195,75 @@ def main(args):
             reduction=lambda x: x.sum().item(),
         )
 
-        response_no_c1 = lm.conditional_score(
-            prefix_headerfree,
-            resp_no_c1,
-            separator="",
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
-        # print(f"Prefix: {prefix_headerfree}\n\nContinuation: {resp_no_c1}\n\nScores = {response_no_c1}")
+        # response_no_c1 = lm.conditional_score(
+        #     prefix_headerfree,
+        #     resp_no_c1,
+        #     separator="",
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
+        # # print(f"Prefix: {prefix_headerfree}\n\nContinuation: {resp_no_c1}\n\nScores = {response_no_c1}")
 
-        response_no_c2 = lm.conditional_score(
-            prefix_headerfree,
-            resp_no_c2,
-            separator="",
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
+        # response_no_c2 = lm.conditional_score(
+        #     prefix_headerfree,
+        #     resp_no_c2,
+        #     separator="",
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
 
-        response_wait_c1 = lm.conditional_score(
-            prefix_headerfree,
-            resp_wait_c1,
-            separator="",
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
+        # response_wait_c1 = lm.conditional_score(
+        #     prefix_headerfree,
+        #     resp_wait_c1,
+        #     separator="",
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
 
-        response_wait_c2 = lm.conditional_score(
-            prefix_headerfree,
-            resp_wait_c2,
-            separator="",
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
+        # response_wait_c2 = lm.conditional_score(
+        #     prefix_headerfree,
+        #     resp_wait_c2,
+        #     separator="",
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
 
-        no_c1 = lm.conditional_score(
-            no,
-            continuation1,
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
-        no_c2 = lm.conditional_score(
-            no,
-            continuation2,
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
-        wait_c1 = lm.conditional_score(
-            wait,
-            continuation1,
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
-        wait_c2 = lm.conditional_score(
-            wait,
-            continuation2,
-            bos_token=bos_tok,
-            bow_correction=True,
-            reduction=lambda x: x.sum().item(),
-        )
+        # no_c1 = lm.conditional_score(
+        #     no,
+        #     continuation1,
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
+        # no_c2 = lm.conditional_score(
+        #     no,
+        #     continuation2,
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
+        # wait_c1 = lm.conditional_score(
+        #     wait,
+        #     continuation1,
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
+        # wait_c2 = lm.conditional_score(
+        #     wait,
+        #     continuation2,
+        #     bos_token=bos_tok,
+        #     bow_correction=True,
+        #     reduction=lambda x: x.sum().item(),
+        # )
 
         no_control = lm.conditional_score(
             no_prefix,
-            ["this is a sentence"] * len(no_prefix),
+            ["That is ok"] * len(no_prefix),
             bos_token=bos_tok,
             bow_correction=True,
             reduction=lambda x: x.sum().item(),
@@ -273,7 +273,7 @@ def main(args):
 
         wait_control = lm.conditional_score(
             wait_prefix,
-            ["this is a sentence"] * len(no_prefix),
+            ["That is ok"] * len(no_prefix),
             bos_token=bos_tok,
             bow_correction=True,
             reduction=lambda x: x.sum().item(),
@@ -285,16 +285,16 @@ def main(args):
             no_prefix_c2,
             wait_prefix_c1,
             wait_prefix_c2,
-            no_c1,
-            no_c2,
-            wait_c1,
-            wait_c2,
+            # no_c1,
+            # no_c2,
+            # wait_c1,
+            # wait_c2,
             no_control,
             wait_control,
-            response_no_c1,
-            response_no_c2,
-            response_wait_c1,
-            response_wait_c2,
+            # response_no_c1,
+            # response_no_c2,
+            # response_wait_c1,
+            # response_wait_c2,
         ):
             results.append([*item])
 
@@ -309,16 +309,16 @@ def main(args):
             "no_prefix_c2",
             "wait_prefix_c1",
             "wait_prefix_c2",
-            "no_c1",
-            "no_c2",
-            "wait_c1",
-            "wait_c2",
+            # "no_c1",
+            # "no_c2",
+            # "wait_c1",
+            # "wait_c2",
             "no_control",
             "wait_control",
-            "response_no_c1",
-            "response_no_c2",
-            "response_wait_c1",
-            "response_wait_c2",
+            # "response_no_c1",
+            # "response_no_c2",
+            # "response_wait_c1",
+            # "response_wait_c2",
         ],
     )
 

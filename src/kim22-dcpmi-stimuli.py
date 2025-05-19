@@ -23,7 +23,7 @@ def coordination(subj, vp1, vp2, **kwargs):
 
 
 def reject_sentences(verb1, verb2, prn, **kwargs):
-    return f"{prn} {verb1} not.", f"{prn} {verb2} not."
+    return f"{prn} {verb1} not", f"{prn} {verb2} not"
 
 
 def swap_item(item):
