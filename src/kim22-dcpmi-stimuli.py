@@ -8,7 +8,7 @@ ARC_TEMPLATE = Template("$subj, who $vp1, $vp2.")
 COORDINATION_TEMPLATE = Template("$subj $vp1 and $vp2.")
 
 NO = ["No.", "That's not true.", "I doubt that.", "I don't think so."]
-WAIT = ["Wait no.", "Hey, wait a minute.", "Hold on.", "Wait."]
+WAIT = ["Wait no.", "Hey, wait a minute.", "Hold on.", "Hang on, hang on."]
 
 
 def arc_template(subj, vp1, vp2, **kwargs):
@@ -131,5 +131,5 @@ for i, item in enumerate(items):
         coords.append(coord_entry_swapped)
 
 
-utils.write_dict_list_to_csv(arcs, "data/stimuli/kim22-arc-dcpmi.csv")
-utils.write_dict_list_to_csv(coords, "data/stimuli/kim22-coord-dcpmi.csv")
+utils.write_dict_list_to_csv(arcs, "data/stimuli/kim22-arc.csv")
+utils.write_dict_list_to_csv(coords, "data/stimuli/kim22-coord.csv")
