@@ -23,7 +23,7 @@ arc_results %>%
     wait_c2_relative = exp(wait_prefix_c2)/(exp(wait_prefix_c2) + exp(wait_control)),
   ) %>%
   # select(model, idx, no_c1_dcpmi:wait_c2_dcpmi) %>%
-  inner_join(kim22_arc) %>%
+  inner_join(kim22_arc) %>% View()
   select(-name1, -name2) %>%
   mutate(
     # exp1_1 = wait_c1_dcpmi - no_c1_dcpmi,
@@ -60,7 +60,7 @@ arc_results %>%
   )
 
 kim22_arc %>%
-  distinct(rejection_id, no, wait)
+  distinct(rejection_id, no, wait) %>% View()
 
 
 arc_results %>%
@@ -85,15 +85,15 @@ arc_results %>%
   select(-name1, -name2) %>%
   mutate(
     # exp1_1 = wait_c1_dcpmi - no_c1_dcpmi,
-    # exp1_1 = wait_c1_relative - no_c1_relative,
-    exp1_1 = wait_prefix_c1 - no_prefix_c1,
+    exp1_1 = wait_c1_relative - no_c1_relative,
+    # exp1_1 = wait_prefix_c1 - no_prefix_c1,
     # exp1_2 = wait_c2_dcpmi - no_c2_dcpmi,
     # exp1_2 = wait_prefix_c2 - no_prefix_c2,
     # exp1_3 = wait_prefix_c2 - wait_prefix_c1,
     # exp1_3 = wait_c1_dcpmi - wait_c2_dcpmi,
     # exp2_1 = no_c2_dcpmi - no_c1_dcpmi,
-    exp2_1 = no_prefix_c2 - no_prefix_c1,
-    # exp2_1 = no_c2_relative - no_c1_relative,
+    # exp2_1 = no_prefix_c2 - no_prefix_c1,
+    exp2_1 = no_c2_relative - no_c1_relative,
     # exp2_2 = (no_c2_dcpmi - no_c1_dcpmi) - (wait_c2_dcpmi - wait_c1_dcpmi)
     # exp2_2 = (no_prefix_c2 - no_prefix_c1) - (wait_prefix_c2 - wait_prefix_c1)
   ) %>%
