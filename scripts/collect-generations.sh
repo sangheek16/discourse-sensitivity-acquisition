@@ -1,5 +1,5 @@
 
-# bash scripts/collect-generations-model.sh meta-llama/Meta-Llama-3-8B-Instruct llama-3-8b-instruct
+bash scripts/collect-generations-model.sh meta-llama/Meta-Llama-3-8B-Instruct llama-3-8b-instruct
 
 bash scripts/collect-generations-model.sh Qwen/Qwen2.5-0.5B-Instruct qwen2.5-500m-instruct
 
