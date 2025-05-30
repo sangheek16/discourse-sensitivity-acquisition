@@ -91,3 +91,25 @@ def write_csv(data, path, header=None):
         if header:
             writer.writerow(header)
         writer.writerows(data)
+
+
+def read_json(file_path):
+    """
+    Reads a JSON file and returns the parsed Python object.
+
+    Parameters:
+        file_path (str): The path to the JSON file.
+
+    Returns:
+        dict or list: The data loaded from the JSON file.
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        return data
+    except FileNotFoundError:
+        print(f"Error: File not found - {file_path}")
+    except json.JSONDecodeError:
+        print(f"Error: File is not a valid JSON - {file_path}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")

@@ -46,7 +46,11 @@ rejection_combos = list(product(NO, WAIT))
 arcs = []
 coords = []
 
+unique_arcs = []
+unique_coords = []
+
 idx = 1
+# unique_idx = 1
 for i, item in enumerate(items):
     swapped_item = swap_item(item)
     continuation1, continuation2 = reject_sentences(**item)
@@ -55,6 +59,51 @@ for i, item in enumerate(items):
     arc_swapped = arc_template(**swapped_item)
     coord = coordination(**item)
     coord_swapped = coordination(**swapped_item)
+
+    # unique stimuli
+
+    arc_entry = {
+        "item": i + 1,
+        "swapped": "False",
+        "type": "arc",
+        "name1": item["name1"],
+        "name2": item["name2"],
+        "preamble": arc,
+    }
+
+    coord_entry = {
+        "item": i + 1,
+        "swapped": "False",
+        "type": "coord",
+        "name1": item["name1"],
+        "name2": item["name2"],
+        "preamble": coord,
+    }
+
+    # generate one for reversed
+
+    arc_entry_swapped = {
+        "item": i + 1,
+        "swapped": "True",
+        "type": "arc",
+        "name1": swapped_item["name1"],
+        "name2": swapped_item["name2"],
+        "preamble": arc_swapped,
+    }
+
+    coord_entry_swapped = {
+        "item": i + 1,
+        "swapped": "True",
+        "type": "coord",
+        "name1": swapped_item["name1"],
+        "name2": swapped_item["name2"],
+        "preamble": coord_swapped,
+    }
+
+    unique_arcs.append(arc_entry)
+    unique_arcs.append(arc_entry_swapped)
+    unique_coords.append(coord_entry)
+    unique_coords.append(coord_entry_swapped)
 
     for rc_id, rc in enumerate(rejection_combos):
 
@@ -131,5 +180,8 @@ for i, item in enumerate(items):
         coords.append(coord_entry_swapped)
 
 
-utils.write_dict_list_to_csv(arcs, "data/stimuli/kim22-arc.csv")
-utils.write_dict_list_to_csv(coords, "data/stimuli/kim22-coord.csv")
+# utils.write_dict_list_to_csv(arcs, "data/stimuli/kim22-arc.csv")
+# utils.write_dict_list_to_csv(coords, "data/stimuli/kim22-coord.csv")
+
+utils.write_dict_list_to_csv(unique_arcs, "data/stimuli/kim22-arc-unique.csv")
+utils.write_dict_list_to_csv(unique_coords, "data/stimuli/kim22-coord-unique.csv")

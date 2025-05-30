@@ -1,0 +1,601 @@
+item,swapped,type,name1,name2,preamble
+1,False,coord,Erika,Cameron,The teacher met the Illinois governor at a Greek restaurant and finds humor in the worst situations.
+1,True,coord,Erika,Cameron,The teacher finds humor in the worst situations and met the Illinois governor at a Greek restaurant.
+2,False,coord,Adrian,Autumn,The reporter opened a new bank account today and volunteers regularly at a local church.
+2,True,coord,Adrian,Autumn,The reporter volunteers regularly at a local church and opened a new bank account today.
+3,False,coord,Martin,Haley,The painter used to play badminton and volunteers regularly at a local church.
+3,True,coord,Martin,Haley,The painter volunteers regularly at a local church and used to play badminton.
+4,False,coord,Avery,Taylor,The journalist recently adopted a rescue dog and has two Bengal cats.
+4,True,coord,Avery,Taylor,The journalist has two Bengal cats and recently adopted a rescue dog.
+5,False,coord,Alexander,Anthony,The professor missed a train this morning and drinks two bottles of wine every day.
+5,True,coord,Alexander,Anthony,The professor drinks two bottles of wine every day and missed a train this morning.
+6,False,coord,Gage,Lillian,The plumber used to dream to become a translator and usually drives three hours a day.
+6,True,coord,Gage,Lillian,The plumber usually drives three hours a day and used to dream to become a translator.
+7,False,coord,Sebastian,Francisco,The reporter committed a felony and has a neat handwriting.
+7,True,coord,Sebastian,Francisco,The reporter has a neat handwriting and committed a felony.
+8,False,coord,Abigail,Alondra,The pharmacist walked toward the stray dog and has lots of Korean friends.
+8,True,coord,Abigail,Alondra,The pharmacist has lots of Korean friends and walked toward the stray dog.
+9,False,coord,Owen,John,The sculptor had a bad dream and has a pianist friend.
+9,True,coord,Owen,John,The sculptor has a pianist friend and had a bad dream.
+10,False,coord,Cesar,Christina,The nurse met the Illinois governor at a Greek restaurant and looks confident.
+10,True,coord,Cesar,Christina,The nurse looks confident and met the Illinois governor at a Greek restaurant.
+11,False,coord,Christina,Roberto,The firefighter painted the house on Thanksgiving and has been keeping a diary for 15 years.
+11,True,coord,Christina,Roberto,The firefighter has been keeping a diary for 15 years and painted the house on Thanksgiving.
+12,False,coord,Veronica,Harrison,The researcher performed a piece by Mozart and has undergone chemotherapy.
+12,True,coord,Veronica,Harrison,The researcher has undergone chemotherapy and performed a piece by Mozart.
+13,False,coord,Isabel,Sebastian,The violinist bought an ice cream cake for dessert and has lost a child.
+13,True,coord,Isabel,Sebastian,The violinist has lost a child and bought an ice cream cake for dessert.
+14,False,coord,Jorge,Grace,The runner walked toward the stray dog and has been keeping a diary for 15 years.
+14,True,coord,Jorge,Grace,The runner has been keeping a diary for 15 years and walked toward the stray dog.
+15,False,coord,Laura,Caleb,The caterer walked toward the stray dog and has been dreaming of buying a private jet.
+15,True,coord,Laura,Caleb,The caterer has been dreaming of buying a private jet and walked toward the stray dog.
+16,False,coord,Meghan,Luke,The nun used to get high grades in high school and has worked in the industry for more than 10 years.
+16,True,coord,Meghan,Luke,The nun has worked in the industry for more than 10 years and used to get high grades in high school.
+17,False,coord,Madelyn,Haley,The climber bought an ice cream cake for dessert and has been participating in marathons since last year.
+17,True,coord,Madelyn,Haley,The climber has been participating in marathons since last year and bought an ice cream cake for dessert.
+18,False,coord,Camryn,Dominic,The reporter seemed very eager to return home and has just turned 40.
+18,True,coord,Camryn,Dominic,The reporter has just turned 40 and seemed very eager to return home.
+19,False,coord,Ariana,Raymond,The industrialist used to sing in a choir on the weekends and has collected about 100 movie posters so far.
+19,True,coord,Ariana,Raymond,The industrialist has collected about 100 movie posters so far and used to sing in a choir on the weekends.
+20,False,coord,Alondra,Tiffany,The athlete went to the post office and has been checking the clock for five hours.
+20,True,coord,Alondra,Tiffany,The athlete has been checking the clock for five hours and went to the post office.
+21,False,coord,Jonah,Aaron,The analyst forgot to do the laundry and is a U.S. immigrant from Vietnam.
+21,True,coord,Jonah,Aaron,The analyst is a U.S. immigrant from Vietnam and forgot to do the laundry.
+22,False,coord,Makayla,Victor,The industrialist opened a new bank account today and is wearing a wedding ring.
+22,True,coord,Makayla,Victor,The industrialist is wearing a wedding ring and opened a new bank account today.
+23,False,coord,Sean,Nathan,The publicist met the Illinois governor at a Greek restaurant and is extremely fickle and demanding.
+23,True,coord,Sean,Nathan,The publicist is extremely fickle and demanding and met the Illinois governor at a Greek restaurant.
+24,False,coord,Trenton,Nicholas,The soccer player hired a teenager to mow the lawn and is sitting on the blue couch.
+24,True,coord,Trenton,Nicholas,The soccer player is sitting on the blue couch and hired a teenager to mow the lawn.
+25,False,coord,Zachary,Alondra,The customer suggested a good cleaning company to Ashley and is reliably clam under pressure.
+25,True,coord,Zachary,Alondra,The customer is reliably clam under pressure and suggested a good cleaning company to Ashley.
+26,False,coord,Shawn,Rebecca,The detective opened a new bank account today and is discreet and good at thinking fast.
+26,True,coord,Shawn,Rebecca,The detective is discreet and good at thinking fast and opened a new bank account today.
+27,False,coord,Alejandro,Henry,The choreographer hired a teenager to mow the lawn and is extremely fickle and demanding.
+27,True,coord,Alejandro,Henry,The choreographer is extremely fickle and demanding and hired a teenager to mow the lawn.
+28,False,coord,Joseph,Andres,The scientist got an autograph from a famous book writer and is about to fall asleep.
+28,True,coord,Joseph,Andres,The scientist is about to fall asleep and got an autograph from a famous book writer.
+29,False,coord,Kathryn,Benjamin,The psychologist used to get high grades in high school and is eccentric and difficult to control.
+29,True,coord,Kathryn,Benjamin,The psychologist is eccentric and difficult to control and used to get high grades in high school.
+30,False,coord,Allison,Lindsay,The programmer used to drink three cups of coffee every day and is about to fall asleep.
+30,True,coord,Allison,Lindsay,The programmer is about to fall asleep and used to drink three cups of coffee every day.
+31,False,coord,Lucas,Arianna,The swimmer forgot to lock the door and was on a diet.
+31,True,coord,Lucas,Arianna,The swimmer was on a diet and forgot to lock the door.
+32,False,coord,Cole,Shelby,The optician had a flat tire and was talking to the tall nurse.
+32,True,coord,Cole,Shelby,The optician was talking to the tall nurse and had a flat tire.
+33,False,coord,Gregory,Elizabeth,The counselor hired a teenager to mow the lawn and was nervous about the upcoming debate.
+33,True,coord,Gregory,Elizabeth,The counselor was nervous about the upcoming debate and hired a teenager to mow the lawn.
+34,False,coord,Maya,Jordyn,The soccer player used to play for the youth soccer team in 2009 and was sitting on a rocking chair.
+34,True,coord,Maya,Jordyn,The soccer player was sitting on a rocking chair and used to play for the youth soccer team in 2009.
+35,False,coord,Carly,Heather,The volunteer used to dream to become a translator and was mentioned in the newspaper.
+35,True,coord,Carly,Heather,The volunteer was mentioned in the newspaper and used to dream to become a translator.
+36,False,coord,Gavin,Jeffrey,The teacher missed a train this morning and was pulled over for drunk driving.
+36,True,coord,Gavin,Jeffrey,The teacher was pulled over for drunk driving and missed a train this morning.
+37,False,coord,Ricardo,Peter,The inspector went to Target to buy some carrots and was isolated from society for a long time.
+37,True,coord,Ricardo,Peter,The inspector was isolated from society for a long time and went to Target to buy some carrots.
+38,False,coord,Samuel,Jasmin,The motorcyclist used to play for the youth soccer team in 2009 and was famous in Italy.
+38,True,coord,Samuel,Jasmin,The motorcyclist was famous in Italy and used to play for the youth soccer team in 2009.
+39,False,coord,Travis,Michaela,The animator felt so sleepy all day and was happy to be outside in the sunny weather.
+39,True,coord,Travis,Michaela,The animator was happy to be outside in the sunny weather and felt so sleepy all day.
+40,False,coord,Evan,Luis,The anthropologist went out for a date and was solving a crossword puzzle.
+40,True,coord,Evan,Luis,The anthropologist was solving a crossword puzzle and went out for a date.
+41,False,coord,Andres,Shawn,The attendant won the annual cake-baking contest and would call the landlord every night.
+41,True,coord,Andres,Shawn,The attendant would call the landlord every night and won the annual cake-baking contest.
+42,False,coord,Adriana,Mitchell,The columnist had a nightmare for the first time in years and would read books at a park nearby.
+42,True,coord,Adriana,Mitchell,The columnist would read books at a park nearby and had a nightmare for the first time in years.
+43,False,coord,Lily,Heather,The dentist met the Illinois governor at a Greek restaurant and would go to the park for a walk in the evenings.
+43,True,coord,Lily,Heather,The dentist would go to the park for a walk in the evenings and met the Illinois governor at a Greek restaurant.
+44,False,coord,Arianna,Katie,The nanny got engaged this month and would eat bananas at night.
+44,True,coord,Arianna,Katie,The nanny would eat bananas at night and got engaged this month.
+45,False,coord,Adrian,Margaret,The barista biked to downtown yesterday and would wake up early on Christmas Eve.
+45,True,coord,Adrian,Margaret,The barista would wake up early on Christmas Eve and biked to downtown yesterday.
+46,False,coord,Mckenna,Rachel,The librarian went to the post office and would sleep on the couch.
+46,True,coord,Mckenna,Rachel,The librarian would sleep on the couch and went to the post office.
+47,False,coord,Shawn,Andre,The counselor came back home late at night yesterday and would go out for a picnic on Sundays.
+47,True,coord,Shawn,Andre,The counselor would go out for a picnic on Sundays and came back home late at night yesterday.
+48,False,coord,Jasmine,Avery,The animator had a nightmare for the first time in years and would make pasta for dinner.
+48,True,coord,Jasmine,Avery,The animator would make pasta for dinner and had a nightmare for the first time in years.
+49,False,coord,Nicholas,Skylar,The motorcyclist forgot to do the laundry and would wear glasses in the day time.
+49,True,coord,Nicholas,Skylar,The motorcyclist would wear glasses in the day time and forgot to do the laundry.
+50,False,coord,Garrett,Steven,The nanny seemed very eager to return home and would wear glasses in the day time.
+50,True,coord,Garrett,Steven,The nanny would wear glasses in the day time and seemed very eager to return home.
+51,False,coord,Marco,Elizabeth,The nurse has lots of interest in French cuisine and recently adopted a rescue dog.
+51,True,coord,Marco,Elizabeth,The nurse recently adopted a rescue dog and has lots of interest in French cuisine.
+52,False,coord,Omar,Isaac,The industrialist occasionally writes a blog about historical figures and had a good sleep.
+52,True,coord,Omar,Isaac,The industrialist had a good sleep and occasionally writes a blog about historical figures.
+53,False,coord,Mckenna,Katie,The receptionist always has fun stories to tell and decided to purchase a minivan.
+53,True,coord,Mckenna,Katie,The receptionist decided to purchase a minivan and always has fun stories to tell.
+54,False,coord,Isabel,Diana,The hairdresser usually trains all year for the national competition and felt so sleepy all day.
+54,True,coord,Isabel,Diana,The hairdresser felt so sleepy all day and usually trains all year for the national competition.
+55,False,coord,Sofia,Cody,The therapist wants to get married soon and took a flight from Newark to Los Angeles.
+55,True,coord,Sofia,Cody,The therapist took a flight from Newark to Los Angeles and wants to get married soon.
+56,False,coord,Hanna,Makenzie,The judge hates horror movies and prepared for the meal.
+56,True,coord,Hanna,Makenzie,The judge prepared for the meal and hates horror movies.
+57,False,coord,Adrian,Skylar,The soccer player has three sons and used to get high grades in high school.
+57,True,coord,Adrian,Skylar,The soccer player used to get high grades in high school and has three sons.
+58,False,coord,Mario,Jasmine,The diplomat plans to go apple picking tomorrow and worked out late at night.
+58,True,coord,Mario,Jasmine,The diplomat worked out late at night and plans to go apple picking tomorrow.
+59,False,coord,Cassandra,Bailey,The attendant frequently gives extreme opinions without backing them up and prepared for the meal.
+59,True,coord,Cassandra,Bailey,The attendant prepared for the meal and frequently gives extreme opinions without backing them up.
+60,False,coord,Dalton,Alexandra,The overseer reads eight books a month and hired a teenager to mow the lawn.
+60,True,coord,Dalton,Alexandra,The overseer hired a teenager to mow the lawn and reads eight books a month.
+61,False,coord,Maggie,Trinity,The barista occasionally writes a blog about historical figures and has been in town for 10 years.
+61,True,coord,Maggie,Trinity,The barista has been in town for 10 years and occasionally writes a blog about historical figures.
+62,False,coord,Hector,Shelby,The Marine wears a fancy watch and has been checking the clock for five hours.
+62,True,coord,Hector,Shelby,The Marine has been checking the clock for five hours and wears a fancy watch.
+63,False,coord,Jillian,Rebecca,The magician laughs very loudly and has been collecting fridge magnets for five years.
+63,True,coord,Jillian,Rebecca,The magician has been collecting fridge magnets for five years and laughs very loudly.
+64,False,coord,Melissa,Makenzie,The tenant plans to go apple picking tomorrow and has been earning money by making YouTube videos.
+64,True,coord,Melissa,Makenzie,The tenant has been earning money by making YouTube videos and plans to go apple picking tomorrow.
+65,False,coord,Juan,Hunter,The architect plans to go apple picking tomorrow and has lost a child.
+65,True,coord,Juan,Hunter,The architect has lost a child and plans to go apple picking tomorrow.
+66,False,coord,Parker,Chloe,The farmer rides a bike to the nearest park and has been working out for two hours.
+66,True,coord,Parker,Chloe,The farmer has been working out for two hours and rides a bike to the nearest park.
+67,False,coord,Evelyn,Jasmin,The chemist has lots of Korean friends and has been in town for 10 years.
+67,True,coord,Evelyn,Jasmin,The chemist has been in town for 10 years and has lots of Korean friends.
+68,False,coord,Chelsea,Xavier,The rapper occasionally writes a blog about historical figures and has been staying in Hawaii for two months.
+68,True,coord,Chelsea,Xavier,The rapper has been staying in Hawaii for two months and occasionally writes a blog about historical figures.
+69,False,coord,Camryn,Patrick,The teacher knows some card tricks and has been earning money by making YouTube videos.
+69,True,coord,Camryn,Patrick,The teacher has been earning money by making YouTube videos and knows some card tricks.
+70,False,coord,Andrea,Isabel,The nun rides a bike to the nearest park and has been in town for 10 years.
+70,True,coord,Andrea,Isabel,The nun has been in town for 10 years and rides a bike to the nearest park.
+71,False,coord,Amber,Kendra,The chemist likes bungee jumping and is wearing a wedding ring.
+71,True,coord,Amber,Kendra,The chemist is wearing a wedding ring and likes bungee jumping.
+72,False,coord,Ian,Marcus,The columnist has a good recipe for cooking chicken breast and is always trustworthy.
+72,True,coord,Ian,Marcus,The columnist is always trustworthy and has a good recipe for cooking chicken breast.
+73,False,coord,Henry,Shawn,The scientist loves reading Russian books and is not good at riding a bike.
+73,True,coord,Henry,Shawn,The scientist is not good at riding a bike and loves reading Russian books.
+74,False,coord,Carly,Diana,The driver enjoys extreme sports and is always trustworthy.
+74,True,coord,Carly,Diana,The driver is always trustworthy and enjoys extreme sports.
+75,False,coord,Nathaniel,Preston,The banker has a very slick hairstyle and is extremely fickle and demanding.
+75,True,coord,Nathaniel,Preston,The banker is extremely fickle and demanding and has a very slick hairstyle.
+76,False,coord,Dakota,Laura,The climber climbs trees for recreation and is never late.
+76,True,coord,Dakota,Laura,The climber is never late and climbs trees for recreation.
+77,False,coord,Benjamin,Danielle,The stewardess wears a fancy watch and is reliably clam under pressure.
+77,True,coord,Benjamin,Danielle,The stewardess is reliably clam under pressure and wears a fancy watch.
+78,False,coord,Ariana,Cassandra,The solider has a good recipe for cooking chicken breast and is wearing a wedding ring.
+78,True,coord,Ariana,Cassandra,The solider is wearing a wedding ring and has a good recipe for cooking chicken breast.
+79,False,coord,Jose,Jorge,The banker has a pianist friend and is an avid foodie.
+79,True,coord,Jose,Jorge,The banker is an avid foodie and has a pianist friend.
+80,False,coord,Garrett,Joseph,The senator finds humor in the worst situations and is not good at riding a bike.
+80,True,coord,Garrett,Joseph,The senator is not good at riding a bike and finds humor in the worst situations.
+81,False,coord,Alexa,Nathaniel,The author laughs very loudly and was nervous about the stressful situation.
+81,True,coord,Alexa,Nathaniel,The author was nervous about the stressful situation and laughs very loudly.
+82,False,coord,Angelica,Aaron,The judge finds humor in the worst situations and was nervous about the upcoming debate.
+82,True,coord,Angelica,Aaron,The judge was nervous about the upcoming debate and finds humor in the worst situations.
+83,False,coord,Bailey,Gabriela,The cashier hates snow and was listening to classical music.
+83,True,coord,Bailey,Gabriela,The cashier was listening to classical music and hates snow.
+84,False,coord,Carlos,Kelly,The comedian cares a lot about the environment and was born in 1992.
+84,True,coord,Carlos,Kelly,The comedian was born in 1992 and cares a lot about the environment.
+85,False,coord,Carlos,Amanda,The surgeon has a pianist friend and was pulled over for drunk driving.
+85,True,coord,Carlos,Amanda,The surgeon was pulled over for drunk driving and has a pianist friend.
+86,False,coord,Dominic,Alexandria,The housekeeper has lots of friends and was being chased by a few people.
+86,True,coord,Dominic,Alexandria,The housekeeper was being chased by a few people and has lots of friends.
+87,False,coord,Nicole,Mackenzie,The comedian has red hair and was mentioned in the newspaper.
+87,True,coord,Nicole,Mackenzie,The comedian was mentioned in the newspaper and has red hair.
+88,False,coord,Katie,Alexandria,The florist enjoys baking apple pies and was born in 1992.
+88,True,coord,Katie,Alexandria,The florist was born in 1992 and enjoys baking apple pies.
+89,False,coord,Melissa,Marco,The librarian takes a vitamin everyday and was being chased by a few people.
+89,True,coord,Melissa,Marco,The librarian was being chased by a few people and takes a vitamin everyday.
+90,False,coord,Wyatt,Richard,The waitress wears a fancy watch and was upset about the cleanliness of City Hall.
+90,True,coord,Wyatt,Richard,The waitress was upset about the cleanliness of City Hall and wears a fancy watch.
+91,False,coord,Charles,Christina,The soccer player occasionally writes a blog about historical figures and would go to the movies every week.
+91,True,coord,Charles,Christina,The soccer player would go to the movies every week and occasionally writes a blog about historical figures.
+92,False,coord,Alejandro,Roberto,The volunteer usually drives three hours a day and would have oatmeal for breakfast.
+92,True,coord,Alejandro,Roberto,The volunteer would have oatmeal for breakfast and usually drives three hours a day.
+93,False,coord,Jaden,Harrison,The therapist has two sisters and would wear a yellow hat on sunny days.
+93,True,coord,Jaden,Harrison,The therapist would wear a yellow hat on sunny days and has two sisters.
+94,False,coord,Ethan,Gregory,The actress has a neat handwriting and would wear a yellow hat on sunny days.
+94,True,coord,Ethan,Gregory,The actress would wear a yellow hat on sunny days and has a neat handwriting.
+95,False,coord,Travis,Bethany,The colleague usually drives three hours a day and would stay out late on the weekends.
+95,True,coord,Travis,Bethany,The colleague would stay out late on the weekends and usually drives three hours a day.
+96,False,coord,Nicolas,Blake,The researcher loves reading Russian books and would eat bananas at night.
+96,True,coord,Nicolas,Blake,The researcher would eat bananas at night and loves reading Russian books.
+97,False,coord,Courtney,Lindsey,The musician never forgets to greet people with with a big smile and would buy lottery tickets on the weekends.
+97,True,coord,Courtney,Lindsey,The musician would buy lottery tickets on the weekends and never forgets to greet people with with a big smile.
+98,False,coord,Steven,Max,The overseer hates horror movies and would swim in the Lake on Monday mornings.
+98,True,coord,Steven,Max,The overseer would swim in the Lake on Monday mornings and hates horror movies.
+99,False,coord,Erik,Cole,The reporter finds humor in the worst situations and would make pasta for dinner.
+99,True,coord,Erik,Cole,The reporter would make pasta for dinner and finds humor in the worst situations.
+100,False,coord,Jaden,Adam,The make-up artist occasionally writes a blog about historical figures and would drive to the nearest library when the weather is bad.
+100,True,coord,Jaden,Adam,The make-up artist would drive to the nearest library when the weather is bad and occasionally writes a blog about historical figures.
+101,False,coord,Logan,Mariah,The technician has been keeping a diary for 15 years and brought a new plant home.
+101,True,coord,Logan,Mariah,The technician brought a new plant home and has been keeping a diary for 15 years.
+102,False,coord,Emmanuel,Alan,The hairdresser has lost a child and used to go to school in Japan.
+102,True,coord,Emmanuel,Alan,The hairdresser used to go to school in Japan and has lost a child.
+103,False,coord,Naomi,Maya,The director has been neighbors with the mayor and attended a free yoga lesson.
+103,True,coord,Naomi,Maya,The director attended a free yoga lesson and has been neighbors with the mayor.
+104,False,coord,Alexandra,Cesar,The diver has just turned 40 and had a car accident last night.
+104,True,coord,Alexandra,Cesar,The diver had a car accident last night and has just turned 40.
+105,False,coord,Brenda,Nathaniel,The soccer player has been a long time fan of Ariana Grande and used to visit the gourmet regularly.
+105,True,coord,Brenda,Nathaniel,The soccer player used to visit the gourmet regularly and has been a long time fan of Ariana Grande.
+106,False,coord,Taylor,Alex,The anthropologist has been staying in Hawaii for two months and went out for a date.
+106,True,coord,Taylor,Alex,The anthropologist went out for a date and has been staying in Hawaii for two months.
+107,False,coord,Elizabeth,Conner,The swimmer has been working out for two hours and forgot to do the laundry.
+107,True,coord,Elizabeth,Conner,The swimmer forgot to do the laundry and has been working out for two hours.
+108,False,coord,Crystal,Arianna,The accountant has been chosen to audition for the All Stars game and forgot to lock the door.
+108,True,coord,Crystal,Arianna,The accountant forgot to lock the door and has been chosen to audition for the All Stars game.
+109,False,coord,Kaylee,Andres,The Marine has undergone chemotherapy and used to play badminton.
+109,True,coord,Kaylee,Andres,The Marine used to play badminton and has undergone chemotherapy.
+110,False,coord,Natalie,Carly,The model has been dreaming of buying a private jet and went to the post office.
+110,True,coord,Natalie,Carly,The model went to the post office and has been dreaming of buying a private jet.
+111,False,coord,Jayden,Naomi,The technician has been chosen to audition for the All Stars game and volunteers regularly at a local church.
+111,True,coord,Jayden,Naomi,The technician volunteers regularly at a local church and has been chosen to audition for the All Stars game.
+112,False,coord,Luis,Alec,The shop owner has worked in the industry for more than 10 years and always greets kindly.
+112,True,coord,Luis,Alec,The shop owner always greets kindly and has worked in the industry for more than 10 years.
+113,False,coord,Colin,Edwin,The firefighter has been earning money by making YouTube videos and has strong opinions about all kinds of things.
+113,True,coord,Colin,Edwin,The firefighter has strong opinions about all kinds of things and has been earning money by making YouTube videos.
+114,False,coord,Zoe,Brady,The detective has been dreaming of buying a private jet and has a very slick hairstyle.
+114,True,coord,Zoe,Brady,The detective has a very slick hairstyle and has been dreaming of buying a private jet.
+115,False,coord,Morgan,Ashley,The soccer player has worked in the industry for more than 10 years and frequently gives extreme opinions without backing them up.
+115,True,coord,Morgan,Ashley,The soccer player frequently gives extreme opinions without backing them up and has worked in the industry for more than 10 years.
+116,False,coord,Alejandro,Joseph,The musician has been working out for two hours and usually drives three hours a day.
+116,True,coord,Alejandro,Joseph,The musician usually drives three hours a day and has been working out for two hours.
+117,False,coord,Marissa,Jillian,The receptionist has been a fan of Rihanna since her debut and takes a vitamin everyday.
+117,True,coord,Marissa,Jillian,The receptionist takes a vitamin everyday and has been a fan of Rihanna since her debut.
+118,False,coord,Isabelle,Mckenna,The customer has been neighbors with the mayor and rides a bike to the nearest park.
+118,True,coord,Isabelle,Mckenna,The customer rides a bike to the nearest park and has been neighbors with the mayor.
+119,False,coord,Tristan,Alicia,The receptionist has been earning money by making YouTube videos and has lots of friends.
+119,True,coord,Tristan,Alicia,The receptionist has lots of friends and has been earning money by making YouTube videos.
+120,False,coord,Molly,Cameron,The nun has worked in the industry for more than 10 years and has two sisters.
+120,True,coord,Molly,Cameron,The nun has two sisters and has worked in the industry for more than 10 years.
+121,False,coord,Cassidy,Sierra,The optician has been working out for two hours and is reading a newly released sci-fi book.
+121,True,coord,Cassidy,Sierra,The optician is reading a newly released sci-fi book and has been working out for two hours.
+122,False,coord,Kenneth,Steven,The volunteer has been neighbors with the mayor and is a U.S. immigrant from Vietnam.
+122,True,coord,Kenneth,Steven,The volunteer is a U.S. immigrant from Vietnam and has been neighbors with the mayor.
+123,False,coord,Heather,Jacqueline,The attendant has undergone chemotherapy and is learning Spanish.
+123,True,coord,Heather,Jacqueline,The attendant is learning Spanish and has undergone chemotherapy.
+124,False,coord,Miguel,Maria,The scientist has been staying in Hawaii for two months and is reading a newly released sci-fi book.
+124,True,coord,Miguel,Maria,The scientist is reading a newly released sci-fi book and has been staying in Hawaii for two months.
+125,False,coord,Madison,Edward,The bartender has collected about 100 movie posters so far and is good at communication.
+125,True,coord,Madison,Edward,The bartender is good at communication and has collected about 100 movie posters so far.
+126,False,coord,Meghan,Jasmin,The chef has been staying in Hawaii for two months and is always on time.
+126,True,coord,Meghan,Jasmin,The chef is always on time and has been staying in Hawaii for two months.
+127,False,coord,Dakota,Jasmine,The publicist has been neighbors with the mayor and is an avid foodie.
+127,True,coord,Dakota,Jasmine,The publicist is an avid foodie and has been neighbors with the mayor.
+128,False,coord,Dalton,Jonathan,The caterer has been checking the clock for five hours and is subscribed to seventy different newsletters.
+128,True,coord,Dalton,Jonathan,The caterer is subscribed to seventy different newsletters and has been checking the clock for five hours.
+129,False,coord,Cody,Carly,The technician has been in town for 10 years and is reliably clam under pressure.
+129,True,coord,Cody,Carly,The technician is reliably clam under pressure and has been in town for 10 years.
+130,False,coord,Preston,Laura,The producer has been around for a while and is standing next to the tree.
+130,True,coord,Preston,Laura,The producer is standing next to the tree and has been around for a while.
+131,False,coord,Martin,Avery,The technician has been dreaming of buying a private jet and was involved in a car accident the other day.
+131,True,coord,Martin,Avery,The technician was involved in a car accident the other day and has been dreaming of buying a private jet.
+132,False,coord,Alexander,Cole,The attendant has been around for a while and was born in Ecuador.
+132,True,coord,Alexander,Cole,The attendant was born in Ecuador and has been around for a while.
+133,False,coord,Kayla,Shelby,The violinist has been earning money by making YouTube videos and was listening to classical music.
+133,True,coord,Kayla,Shelby,The violinist was listening to classical music and has been earning money by making YouTube videos.
+134,False,coord,Daisy,Jasmine,The writer has been checking the clock for five hours and was famous in Italy.
+134,True,coord,Daisy,Jasmine,The writer was famous in Italy and has been checking the clock for five hours.
+135,False,coord,Samuel,Anna,The dancer has been checking the clock for five hours and was happy to be outside in the sunny weather.
+135,True,coord,Samuel,Anna,The dancer was happy to be outside in the sunny weather and has been checking the clock for five hours.
+136,False,coord,Megan,Marissa,The florist has been around for a while and was famous in Italy.
+136,True,coord,Megan,Marissa,The florist was famous in Italy and has been around for a while.
+137,False,coord,Leslie,Jennifer,The photographer has worked in the industry for more than 10 years and was pulled over for drunk driving.
+137,True,coord,Leslie,Jennifer,The photographer was pulled over for drunk driving and has worked in the industry for more than 10 years.
+138,False,coord,Kyle,Adrian,The bartender has lost a child and was scared about the loud noises coming from a nearby building.
+138,True,coord,Kyle,Adrian,The bartender was scared about the loud noises coming from a nearby building and has lost a child.
+139,False,coord,Charles,Kara,The comedian has lost a child and was surprised about the exciting news.
+139,True,coord,Charles,Kara,The comedian was surprised about the exciting news and has lost a child.
+140,False,coord,Desiree,Jack,The detective has been chosen to audition for the All Stars game and was angry.
+140,True,coord,Desiree,Jack,The detective was angry and has been chosen to audition for the All Stars game.
+141,False,coord,Camryn,Madison,The nanny has been keeping a diary for 15 years and would buy lottery tickets on the weekends.
+141,True,coord,Camryn,Madison,The nanny would buy lottery tickets on the weekends and has been keeping a diary for 15 years.
+142,False,coord,Hailey,Dominic,The linguist has lost a child and would go to the park for a walk in the evenings.
+142,True,coord,Hailey,Dominic,The linguist would go to the park for a walk in the evenings and has lost a child.
+143,False,coord,Timothy,Malik,The solider has been neighbors with the mayor and would drink coffee after lunch.
+143,True,coord,Timothy,Malik,The solider would drink coffee after lunch and has been neighbors with the mayor.
+144,False,coord,Jordan,Selena,The researcher has been collecting fridge magnets for five years and would have oatmeal for breakfast.
+144,True,coord,Jordan,Selena,The researcher would have oatmeal for breakfast and has been collecting fridge magnets for five years.
+145,False,coord,Bethany,Isabel,The journalist has been neighbors with the mayor and would drive to the nearest library when the weather is bad.
+145,True,coord,Bethany,Isabel,The journalist would drive to the nearest library when the weather is bad and has been neighbors with the mayor.
+146,False,coord,Abigail,Cameron,The counselor has been neighbors with the mayor and would sleep on the couch.
+146,True,coord,Abigail,Cameron,The counselor would sleep on the couch and has been neighbors with the mayor.
+147,False,coord,Connor,Elijah,The actor has collected about 100 movie posters so far and would drink coffee after lunch.
+147,True,coord,Connor,Elijah,The actor would drink coffee after lunch and has collected about 100 movie posters so far.
+148,False,coord,Antonio,Christina,The banker has collected about 100 movie posters so far and would always be late for meetings.
+148,True,coord,Antonio,Christina,The banker would always be late for meetings and has collected about 100 movie posters so far.
+149,False,coord,Landon,Brendan,The anthropologist has been a fan of Rihanna since her debut and would sleep on the couch.
+149,True,coord,Landon,Brendan,The anthropologist would sleep on the couch and has been a fan of Rihanna since her debut.
+150,False,coord,Lily,Edwin,The inspector has been checking the clock for five hours and would wake up early on Christmas Eve.
+150,True,coord,Lily,Edwin,The inspector would wake up early on Christmas Eve and has been checking the clock for five hours.
+151,False,coord,Sarah,Brianna,The attendant is reading a newly released sci-fi book and hired a teenager to mow the lawn.
+151,True,coord,Sarah,Brianna,The attendant hired a teenager to mow the lawn and is reading a newly released sci-fi book.
+152,False,coord,Kendall,Alejandro,The florist is quite risk averse and met the Illinois governor at a Greek restaurant.
+152,True,coord,Kendall,Alejandro,The florist met the Illinois governor at a Greek restaurant and is quite risk averse.
+153,False,coord,Lindsey,Briana,The customer is planning a honeymoon and got engaged this month.
+153,True,coord,Lindsey,Briana,The customer got engaged this month and is planning a honeymoon.
+154,False,coord,Mark,Tanner,The gardener is always trustworthy and used to visit the gourmet regularly.
+154,True,coord,Mark,Tanner,The gardener used to visit the gourmet regularly and is always trustworthy.
+155,False,coord,Alexia,Wyatt,The plumber is reliably clam under pressure and downloaded a rideshare app to go to the airport.
+155,True,coord,Alexia,Wyatt,The plumber downloaded a rideshare app to go to the airport and is reliably clam under pressure.
+156,False,coord,Shawn,Mitchell,The ballerina is reliably clam under pressure and forgot to lock the door.
+156,True,coord,Shawn,Mitchell,The ballerina forgot to lock the door and is reliably clam under pressure.
+157,False,coord,Jonathan,Brian,The accountant is a big fan of Harry Potter and used to play for the youth soccer team in 2009.
+157,True,coord,Jonathan,Brian,The accountant used to play for the youth soccer team in 2009 and is a big fan of Harry Potter.
+158,False,coord,Edwin,Emmanuel,The swimmer is reading a newly released sci-fi book and looked concerned about the weather tomorrow.
+158,True,coord,Edwin,Emmanuel,The swimmer looked concerned about the weather tomorrow and is reading a newly released sci-fi book.
+159,False,coord,Angela,Devon,The hairdresser is an avid foodie and went to the post office.
+159,True,coord,Angela,Devon,The hairdresser went to the post office and is an avid foodie.
+160,False,coord,Miranda,Victor,The fisherman is good at communication and got stung by a wasp the other day.
+160,True,coord,Miranda,Victor,The fisherman got stung by a wasp the other day and is good at communication.
+161,False,coord,Max,Liam,The nun is standing next to the tree and has red hair.
+161,True,coord,Max,Liam,The nun has red hair and is standing next to the tree.
+162,False,coord,Gabriela,George,The florist is tall and has strong opinions about all kinds of things.
+162,True,coord,Gabriela,George,The florist has strong opinions about all kinds of things and is tall.
+163,False,coord,Jorge,Mario,The musician is a proud New Yorker and frequently gives extreme opinions without backing them up.
+163,True,coord,Jorge,Mario,The musician frequently gives extreme opinions without backing them up and is a proud New Yorker.
+164,False,coord,Carter,Isabel,The anthropologist is standing next to the tree and usually trains all year for the national competition.
+164,True,coord,Carter,Isabel,The anthropologist usually trains all year for the national competition and is standing next to the tree.
+165,False,coord,Alex,Madeline,The dentist is a cordial person and enjoys having barbecues near the beach.
+165,True,coord,Alex,Madeline,The dentist enjoys having barbecues near the beach and is a cordial person.
+166,False,coord,Danielle,Ava,The tenant is about to fall asleep and rides a bike to the nearest park.
+166,True,coord,Danielle,Ava,The tenant rides a bike to the nearest park and is about to fall asleep.
+167,False,coord,Claire,Vincent,The diver is reading a newly released sci-fi book and takes a vitamin everyday.
+167,True,coord,Claire,Vincent,The diver takes a vitamin everyday and is reading a newly released sci-fi book.
+168,False,coord,Ava,Sara,The director is learning Spanish and hates horror movies.
+168,True,coord,Ava,Sara,The director hates horror movies and is learning Spanish.
+169,False,coord,Javier,Jocelyn,The writer is standing next to the tree and hates horror movies.
+169,True,coord,Javier,Jocelyn,The writer hates horror movies and is standing next to the tree.
+170,False,coord,Payton,Kendra,The make-up artist is eccentric and difficult to control and usually drives three hours a day.
+170,True,coord,Payton,Kendra,The make-up artist usually drives three hours a day and is eccentric and difficult to control.
+171,False,coord,Adriana,Heather,The manager is tall and has been a long time fan of Ariana Grande.
+171,True,coord,Adriana,Heather,The manager has been a long time fan of Ariana Grande and is tall.
+172,False,coord,Vanessa,Aidan,The model is a U.S. immigrant from Vietnam and has collected about 100 movie posters so far.
+172,True,coord,Vanessa,Aidan,The model has collected about 100 movie posters so far and is a U.S. immigrant from Vietnam.
+173,False,coord,Amanda,Jonathan,The reporter is always trustworthy and has worked in the industry for more than 10 years.
+173,True,coord,Amanda,Jonathan,The reporter has worked in the industry for more than 10 years and is always trustworthy.
+174,False,coord,Destiny,Antonio,The cheerleader is always on time and has collected about 100 movie posters so far.
+174,True,coord,Destiny,Antonio,The cheerleader has collected about 100 movie posters so far and is always on time.
+175,False,coord,Charles,Cesar,The photographer is reading a newly released sci-fi book and has been keeping a diary for 15 years.
+175,True,coord,Charles,Cesar,The photographer has been keeping a diary for 15 years and is reading a newly released sci-fi book.
+176,False,coord,Eric,Jada,The publicist is good looking and has been around for a while.
+176,True,coord,Eric,Jada,The publicist has been around for a while and is good looking.
+177,False,coord,Ashley,Danielle,The therapist is a proud New Yorker and has been staying in Hawaii for two months.
+177,True,coord,Ashley,Danielle,The therapist has been staying in Hawaii for two months and is a proud New Yorker.
+178,False,coord,Meghan,Isaiah,The stewardess is lying on the red futon and has worked in the industry for more than 10 years.
+178,True,coord,Meghan,Isaiah,The stewardess has worked in the industry for more than 10 years and is lying on the red futon.
+179,False,coord,Gregory,Brayden,The nanny is always trustworthy and has been around for a while.
+179,True,coord,Gregory,Brayden,The nanny has been around for a while and is always trustworthy.
+180,False,coord,Erica,Levi,The anthropologist is about to fall asleep and has been collecting fridge magnets for five years.
+180,True,coord,Erica,Levi,The anthropologist has been collecting fridge magnets for five years and is about to fall asleep.
+181,False,coord,Andre,Miranda,The bartender is good at communication and was disturbed by speeding cars outside.
+181,True,coord,Andre,Miranda,The bartender was disturbed by speeding cars outside and is good at communication.
+182,False,coord,Skylar,Sierra,The caterer is only in it for the money and was growing quite upset about the smell from the sink.
+182,True,coord,Skylar,Sierra,The caterer was growing quite upset about the smell from the sink and is only in it for the money.
+183,False,coord,Manuel,Lauren,The fisherman is good at communication and was angry.
+183,True,coord,Manuel,Lauren,The fisherman was angry and is good at communication.
+184,False,coord,Antonio,Camryn,The violinist is about to fall asleep and was on a diet.
+184,True,coord,Antonio,Camryn,The violinist was on a diet and is about to fall asleep.
+185,False,coord,Miguel,Harrison,The optician is planning a honeymoon and was surprised about the exciting news.
+185,True,coord,Miguel,Harrison,The optician was surprised about the exciting news and is planning a honeymoon.
+186,False,coord,Julia,Veronica,The runner is quite risk averse and was pulled over for drunk driving.
+186,True,coord,Julia,Veronica,The runner was pulled over for drunk driving and is quite risk averse.
+187,False,coord,Melissa,Oscar,The linguist is lying on the red futon and was born in 1992.
+187,True,coord,Melissa,Oscar,The linguist was born in 1992 and is lying on the red futon.
+188,False,coord,Brian,Claire,The nun is standing next to the tree and was growing quite upset about the smell from the sink.
+188,True,coord,Brian,Claire,The nun was growing quite upset about the smell from the sink and is standing next to the tree.
+189,False,coord,Michaela,William,The director is never late and was excited about the good news.
+189,True,coord,Michaela,William,The director was excited about the good news and is never late.
+190,False,coord,Micah,Holly,The psychologist is good at board games and was singing a song.
+190,True,coord,Micah,Holly,The psychologist was singing a song and is good at board games.
+191,False,coord,Katelyn,Amy,The nanny is planning a honeymoon and would go skiing in the winters.
+191,True,coord,Katelyn,Amy,The nanny would go skiing in the winters and is planning a honeymoon.
+192,False,coord,Peter,Mariah,The florist is always trustworthy and would buy lottery tickets on the weekends.
+192,True,coord,Peter,Mariah,The florist would buy lottery tickets on the weekends and is always trustworthy.
+193,False,coord,Selena,Lydia,The nun is good at communication and would stay out late on the weekends.
+193,True,coord,Selena,Lydia,The nun would stay out late on the weekends and is good at communication.
+194,False,coord,Alex,Alyssa,The tenant is only in it for the money and would stay out late on the weekends.
+194,True,coord,Alex,Alyssa,The tenant would stay out late on the weekends and is only in it for the money.
+195,False,coord,Ian,Spencer,The plumber is about to fall asleep and would go to the movies every week.
+195,True,coord,Ian,Spencer,The plumber would go to the movies every week and is about to fall asleep.
+196,False,coord,Sarah,Timothy,The photographer is wearing a wedding ring and would drink coffee after lunch.
+196,True,coord,Sarah,Timothy,The photographer would drink coffee after lunch and is wearing a wedding ring.
+197,False,coord,Britney,Anthony,The designer is a proud New Yorker and would go skiing in the winters.
+197,True,coord,Britney,Anthony,The designer would go skiing in the winters and is a proud New Yorker.
+198,False,coord,Hector,Rebecca,The caterer is extremely fickle and demanding and would go skiing in the winters.
+198,True,coord,Hector,Rebecca,The caterer would go skiing in the winters and is extremely fickle and demanding.
+199,False,coord,Maria,Gabriel,The shop owner is always on time and would always be late for meetings.
+199,True,coord,Maria,Gabriel,The shop owner would always be late for meetings and is always on time.
+200,False,coord,Richard,Julia,The pilot is subscribed to seventy different newsletters and would read books at a park nearby.
+200,True,coord,Richard,Julia,The pilot would read books at a park nearby and is subscribed to seventy different newsletters.
+201,False,coord,Richard,Luke,The colleague was pulled over for drunk driving and used to get high grades in high school.
+201,True,coord,Richard,Luke,The colleague used to get high grades in high school and was pulled over for drunk driving.
+202,False,coord,Andrew,Hope,The accountant was looking forward to going on a camping trip and opened a new bank account today.
+202,True,coord,Andrew,Hope,The accountant opened a new bank account today and was looking forward to going on a camping trip.
+203,False,coord,Rachel,Amber,The contactor was isolated from society for a long time and came back home late at night yesterday.
+203,True,coord,Rachel,Amber,The contactor came back home late at night yesterday and was isolated from society for a long time.
+204,False,coord,Michaela,Nicholas,The detective was pulled over for drunk driving and used to dream to become a translator.
+204,True,coord,Michaela,Nicholas,The detective used to dream to become a translator and was pulled over for drunk driving.
+205,False,coord,Kaitlyn,Victor,The detective was disturbed by speeding cars outside and worked with the choreographer.
+205,True,coord,Kaitlyn,Victor,The detective worked with the choreographer and was disturbed by speeding cars outside.
+206,False,coord,Kenneth,Nathaniel,The dentist was born in 1992 and watered the flowers in the garden.
+206,True,coord,Kenneth,Nathaniel,The dentist watered the flowers in the garden and was born in 1992.
+207,False,coord,Sophie,Amber,The reporter was excited about the good news and hid behind the trees.
+207,True,coord,Sophie,Amber,The reporter hid behind the trees and was excited about the good news.
+208,False,coord,Dominic,Anna,The violinist was born in 1992 and had a bad dream.
+208,True,coord,Dominic,Anna,The violinist had a bad dream and was born in 1992.
+209,False,coord,Katelyn,Katie,The teacher was nervous about the upcoming debate and forgot to do the laundry.
+209,True,coord,Katelyn,Katie,The teacher forgot to do the laundry and was nervous about the upcoming debate.
+210,False,coord,Alondra,Alexa,The tenant was trying to fix the broken window and seemed very eager to return home.
+210,True,coord,Alondra,Alexa,The tenant seemed very eager to return home and was trying to fix the broken window.
+211,False,coord,Evelyn,Malik,The optician was nervous about the stressful situation and has two sisters.
+211,True,coord,Evelyn,Malik,The optician has two sisters and was nervous about the stressful situation.
+212,False,coord,Christopher,Margaret,The analyst was listening to the radio and frequently gives extreme opinions without backing them up.
+212,True,coord,Christopher,Margaret,The analyst frequently gives extreme opinions without backing them up and was listening to the radio.
+213,False,coord,Isaiah,Ana,The receptionist was on a diet and has two sisters.
+213,True,coord,Isaiah,Ana,The receptionist has two sisters and was on a diet.
+214,False,coord,Hector,Luis,The overseer was happy about the cross-country road trip and likes bungee jumping.
+214,True,coord,Hector,Luis,The overseer likes bungee jumping and was happy about the cross-country road trip.
+215,False,coord,Leslie,Jorge,The swimmer was nervous about the stressful situation and finds humor in the worst situations.
+215,True,coord,Leslie,Jorge,The swimmer finds humor in the worst situations and was nervous about the stressful situation.
+216,False,coord,Kenneth,Micah,The customer was talking to the tall nurse and always greets kindly.
+216,True,coord,Kenneth,Micah,The customer always greets kindly and was talking to the tall nurse.
+217,False,coord,Aidan,Dawson,The violinist was upset about the cleanliness of City Hall and has lots of interest in French cuisine.
+217,True,coord,Aidan,Dawson,The violinist has lots of interest in French cuisine and was upset about the cleanliness of City Hall.
+218,False,coord,Jillian,Madeline,The farmer was disappointed with the weather and occasionally takes a nap after lunch.
+218,True,coord,Jillian,Madeline,The farmer occasionally takes a nap after lunch and was disappointed with the weather.
+219,False,coord,Riley,Marissa,The waitress was wearing thick clothes and loves reading Russian books.
+219,True,coord,Riley,Marissa,The waitress loves reading Russian books and was wearing thick clothes.
+220,False,coord,Jason,Riley,The psychologist was upset about the cleanliness of City Hall and laughs very loudly.
+220,True,coord,Jason,Riley,The psychologist laughs very loudly and was upset about the cleanliness of City Hall.
+221,False,coord,Kara,Elijah,The customer was on a diet and has undergone chemotherapy.
+221,True,coord,Kara,Elijah,The customer has undergone chemotherapy and was on a diet.
+222,False,coord,Cristian,Cody,The lawyer was nervous about the stressful situation and has been chosen to audition for the All Stars game.
+222,True,coord,Cristian,Cody,The lawyer has been chosen to audition for the All Stars game and was nervous about the stressful situation.
+223,False,coord,Cody,Chloe,The surgeon was angry and has worked in the industry for more than 10 years.
+223,True,coord,Cody,Chloe,The surgeon has worked in the industry for more than 10 years and was angry.
+224,False,coord,Chandler,Juan,The manager was listening to the radio and has been neighbors with the mayor.
+224,True,coord,Chandler,Juan,The manager has been neighbors with the mayor and was listening to the radio.
+225,False,coord,Jeremiah,Ian,The teacher was excited about the good news and has been collecting fridge magnets for five years.
+225,True,coord,Jeremiah,Ian,The teacher has been collecting fridge magnets for five years and was excited about the good news.
+226,False,coord,Diamond,Marcus,The swimmer was singing a song and has been working out for two hours.
+226,True,coord,Diamond,Marcus,The swimmer has been working out for two hours and was singing a song.
+227,False,coord,Zoe,Brooklyn,The housekeeper was born in Ecuador and has been participating in marathons since last year.
+227,True,coord,Zoe,Brooklyn,The housekeeper has been participating in marathons since last year and was born in Ecuador.
+228,False,coord,Alexander,Catherine,The counselor was famous in Italy and has been around for a while.
+228,True,coord,Alexander,Catherine,The counselor has been around for a while and was famous in Italy.
+229,False,coord,Ava,Alexandria,The analyst was upset about the cleanliness of City Hall and has been a fan of Rihanna since her debut.
+229,True,coord,Ava,Alexandria,The analyst has been a fan of Rihanna since her debut and was upset about the cleanliness of City Hall.
+230,False,coord,Grace,Nicolas,The linguist was disappointed with the weather and has been staying in Hawaii for two months.
+230,True,coord,Grace,Nicolas,The linguist has been staying in Hawaii for two months and was disappointed with the weather.
+231,False,coord,Carter,Garrett,The swimmer was nervous about the upcoming debate and is learning Spanish.
+231,True,coord,Carter,Garrett,The swimmer is learning Spanish and was nervous about the upcoming debate.
+232,False,coord,Veronica,Aaron,The drummer was happy to be outside in the sunny weather and is a big fan of Harry Potter.
+232,True,coord,Veronica,Aaron,The drummer is a big fan of Harry Potter and was happy to be outside in the sunny weather.
+233,False,coord,Amaya,Kenneth,The shop owner was disappointed with the weather and is extremely fickle and demanding.
+233,True,coord,Amaya,Kenneth,The shop owner is extremely fickle and demanding and was disappointed with the weather.
+234,False,coord,Aaron,Javier,The customer was unhappy about all the noise on the streets and is planning a honeymoon.
+234,True,coord,Aaron,Javier,The customer is planning a honeymoon and was unhappy about all the noise on the streets.
+235,False,coord,Sean,Eduardo,The columnist was born in Ecuador and is reading a newly released sci-fi book.
+235,True,coord,Sean,Eduardo,The columnist is reading a newly released sci-fi book and was born in Ecuador.
+236,False,coord,Lydia,Kayla,The linguist was wearing thick clothes and is always trustworthy.
+236,True,coord,Lydia,Kayla,The linguist is always trustworthy and was wearing thick clothes.
+237,False,coord,Kendall,Samantha,The researcher was on a diet and is not good at riding a bike.
+237,True,coord,Kendall,Samantha,The researcher is not good at riding a bike and was on a diet.
+238,False,coord,Alicia,Mario,The player was famous in Italy and is reading a newly released sci-fi book.
+238,True,coord,Alicia,Mario,The player is reading a newly released sci-fi book and was famous in Italy.
+239,False,coord,Dalton,Carly,The designer was sitting on a rocking chair and is an avid foodie.
+239,True,coord,Dalton,Carly,The designer is an avid foodie and was sitting on a rocking chair.
+240,False,coord,Omar,Avery,The bartender was mentioned in the newspaper and is extremely fickle and demanding.
+240,True,coord,Omar,Avery,The bartender is extremely fickle and demanding and was mentioned in the newspaper.
+241,False,coord,Mckenzie,Isaiah,The attendant was on a diet and would drive to the nearest library when the weather is bad.
+241,True,coord,Mckenzie,Isaiah,The attendant would drive to the nearest library when the weather is bad and was on a diet.
+242,False,coord,Wesley,Conner,The nurse was angry and would have oatmeal for breakfast.
+242,True,coord,Wesley,Conner,The nurse would have oatmeal for breakfast and was angry.
+243,False,coord,Madelyn,Victor,The administrator was disappointed with the weather and would swim in the Lake on Monday mornings.
+243,True,coord,Madelyn,Victor,The administrator would swim in the Lake on Monday mornings and was disappointed with the weather.
+244,False,coord,Oscar,Jada,The designer was surprised about the exciting news and would buy lottery tickets on the weekends.
+244,True,coord,Oscar,Jada,The designer would buy lottery tickets on the weekends and was surprised about the exciting news.
+245,False,coord,Sofia,Bethany,The cheerleader was scared about the loud noises coming from a nearby building and would drive to the nearest library when the weather is bad.
+245,True,coord,Sofia,Bethany,The cheerleader would drive to the nearest library when the weather is bad and was scared about the loud noises coming from a nearby building.
+246,False,coord,Makayla,Michaela,The actress was sitting on a rocking chair and would always be late for meetings.
+246,True,coord,Makayla,Michaela,The actress would always be late for meetings and was sitting on a rocking chair.
+247,False,coord,Diamond,Alejandra,The hairdresser was unhappy about all the noise on the streets and would make pasta for dinner.
+247,True,coord,Diamond,Alejandra,The hairdresser would make pasta for dinner and was unhappy about all the noise on the streets.
+248,False,coord,Zachary,Rachel,The chef was looking forward to going on a camping trip and would wear glasses in the day time.
+248,True,coord,Zachary,Rachel,The chef would wear glasses in the day time and was looking forward to going on a camping trip.
+249,False,coord,Alexander,Johnathan,The author was disappointed with the weather and would have salad and boiled eggs for lunch.
+249,True,coord,Alexander,Johnathan,The author would have salad and boiled eggs for lunch and was disappointed with the weather.
+250,False,coord,Victoria,Ethan,The farmer was on a diet and would wear glasses in the day time.
+250,True,coord,Victoria,Ethan,The farmer would wear glasses in the day time and was on a diet.
+251,False,coord,Morgan,Makayla,The producer would stay out late on the weekends and walked toward the stray dog.
+251,True,coord,Morgan,Makayla,The producer walked toward the stray dog and would stay out late on the weekends.
+252,False,coord,Derek,Charles,The runner would wake up early on Christmas Eve and got an autograph from a famous book writer.
+252,True,coord,Derek,Charles,The runner got an autograph from a famous book writer and would wake up early on Christmas Eve.
+253,False,coord,Payton,Jeremiah,The carpenter would go skiing in the winters and forgot to do the laundry.
+253,True,coord,Payton,Jeremiah,The carpenter forgot to do the laundry and would go skiing in the winters.
+254,False,coord,Mikayla,Samuel,The actress would have oatmeal for breakfast and suggested a good cleaning company to Ashley.
+254,True,coord,Mikayla,Samuel,The actress suggested a good cleaning company to Ashley and would have oatmeal for breakfast.
+255,False,coord,Andres,Erin,The solider would wake up early on Christmas Eve and won the annual cake-baking contest.
+255,True,coord,Andres,Erin,The solider won the annual cake-baking contest and would wake up early on Christmas Eve.
+256,False,coord,Abigail,Brittany,The lawyer would go out for a picnic on Sundays and used to work as part-time server.
+256,True,coord,Abigail,Brittany,The lawyer used to work as part-time server and would go out for a picnic on Sundays.
+257,False,coord,Martin,Kevin,The waitress would call the landlord every night and had a good sleep.
+257,True,coord,Martin,Kevin,The waitress had a good sleep and would call the landlord every night.
+258,False,coord,Sofia,Isaiah,The bartender would stay out late on the weekends and felt so sleepy all day.
+258,True,coord,Sofia,Isaiah,The bartender felt so sleepy all day and would stay out late on the weekends.
+259,False,coord,Kaylee,Alec,The painter would drive to the nearest library when the weather is bad and suggested a good cleaning company to Ashley.
+259,True,coord,Kaylee,Alec,The painter suggested a good cleaning company to Ashley and would drive to the nearest library when the weather is bad.
+260,False,coord,Nicole,Samantha,The nutritionist would make pasta for dinner and won the annual cake-baking contest.
+260,True,coord,Nicole,Samantha,The nutritionist won the annual cake-baking contest and would make pasta for dinner.
+261,False,coord,Ashlyn,Lucas,The librarian would have salad and boiled eggs for lunch and rides a bike to the nearest park.
+261,True,coord,Ashlyn,Lucas,The librarian rides a bike to the nearest park and would have salad and boiled eggs for lunch.
+262,False,coord,Caleb,Marissa,The producer would make pasta for dinner and has two Bengal cats.
+262,True,coord,Caleb,Marissa,The producer has two Bengal cats and would make pasta for dinner.
+263,False,coord,Cassandra,Ryan,The lawyer would complain about everything and frequently gives extreme opinions without backing them up.
+263,True,coord,Cassandra,Ryan,The lawyer frequently gives extreme opinions without backing them up and would complain about everything.
+264,False,coord,Miguel,Christopher,The architect would buy lottery tickets on the weekends and has lots of interest in French cuisine.
+264,True,coord,Miguel,Christopher,The architect has lots of interest in French cuisine and would buy lottery tickets on the weekends.
+265,False,coord,Joel,Phillip,The musician would wear a yellow hat on sunny days and enjoys hiking.
+265,True,coord,Joel,Phillip,The musician enjoys hiking and would wear a yellow hat on sunny days.
+266,False,coord,Makenzie,Caroline,The dancer would wake up early on Christmas Eve and owns a lot of jewelry.
+266,True,coord,Makenzie,Caroline,The dancer owns a lot of jewelry and would wake up early on Christmas Eve.
+267,False,coord,Jared,Morgan,The banker would stay out late on the weekends and finds humor in the worst situations.
+267,True,coord,Jared,Morgan,The banker finds humor in the worst situations and would stay out late on the weekends.
+268,False,coord,Kendra,Angel,The farmer would go hiking during the summer months and drinks two bottles of wine every day.
+268,True,coord,Kendra,Angel,The farmer drinks two bottles of wine every day and would go hiking during the summer months.
+269,False,coord,Alyssa,Landon,The motorcyclist would drive to the nearest library when the weather is bad and never forgets to greet people with with a big smile.
+269,True,coord,Alyssa,Landon,The motorcyclist never forgets to greet people with with a big smile and would drive to the nearest library when the weather is bad.
+270,False,coord,Kaylee,Crystal,The tenant would make pasta for dinner and enjoys hiking.
+270,True,coord,Kaylee,Crystal,The tenant enjoys hiking and would make pasta for dinner.
+271,False,coord,Malik,Hope,The painter would go skiing in the winters and has been a long time fan of Ariana Grande.
+271,True,coord,Malik,Hope,The painter has been a long time fan of Ariana Grande and would go skiing in the winters.
+272,False,coord,Karen,Sergio,The gardener would go to the park for a walk in the evenings and has been participating in marathons since last year.
+272,True,coord,Karen,Sergio,The gardener has been participating in marathons since last year and would go to the park for a walk in the evenings.
+273,False,coord,Cameron,Natalie,The swimmer would swim in the Lake on Monday mornings and has been a long time fan of Ariana Grande.
+273,True,coord,Cameron,Natalie,The swimmer has been a long time fan of Ariana Grande and would swim in the Lake on Monday mornings.
+274,False,coord,Vincent,Stephanie,The colleague would bake banana bread at night and has undergone chemotherapy.
+274,True,coord,Vincent,Stephanie,The colleague has undergone chemotherapy and would bake banana bread at night.
+275,False,coord,Gabriella,Nicolas,The contactor would go skiing in the winters and has been a fan of Rihanna since her debut.
+275,True,coord,Gabriella,Nicolas,The contactor has been a fan of Rihanna since her debut and would go skiing in the winters.
+276,False,coord,Ashlyn,Britney,The analyst would wake up early on Christmas Eve and has been keeping a diary for 15 years.
+276,True,coord,Ashlyn,Britney,The analyst has been keeping a diary for 15 years and would wake up early on Christmas Eve.
+277,False,coord,Jonathan,Wyatt,The Marine would go out for a picnic on Sundays and has been dreaming of buying a private jet.
+277,True,coord,Jonathan,Wyatt,The Marine has been dreaming of buying a private jet and would go out for a picnic on Sundays.
+278,False,coord,Nicholas,Hayley,The lecturer would have salad and boiled eggs for lunch and has been a fan of Rihanna since her debut.
+278,True,coord,Nicholas,Hayley,The lecturer has been a fan of Rihanna since her debut and would have salad and boiled eggs for lunch.
+279,False,coord,Patrick,Abigail,The philosopher would wear a yellow hat on sunny days and has been earning money by making YouTube videos.
+279,True,coord,Patrick,Abigail,The philosopher has been earning money by making YouTube videos and would wear a yellow hat on sunny days.
+280,False,coord,Wyatt,Margaret,The tenant would read books at a park nearby and has been neighbors with the mayor.
+280,True,coord,Wyatt,Margaret,The tenant has been neighbors with the mayor and would read books at a park nearby.
+281,False,coord,Monica,William,The reporter would have salad and boiled eggs for lunch and is an avid foodie.
+281,True,coord,Monica,William,The reporter is an avid foodie and would have salad and boiled eggs for lunch.
+282,False,coord,Abigail,Veronica,The author would sleep on the couch and is planning a honeymoon.
+282,True,coord,Abigail,Veronica,The author is planning a honeymoon and would sleep on the couch.
+283,False,coord,Michaela,Dominic,The administrator would read books at a park nearby and is always trustworthy.
+283,True,coord,Michaela,Dominic,The administrator is always trustworthy and would read books at a park nearby.
+284,False,coord,Devon,Isabel,The director would buy lottery tickets on the weekends and is lying on the red futon.
+284,True,coord,Devon,Isabel,The director is lying on the red futon and would buy lottery tickets on the weekends.
+285,False,coord,Mya,Miranda,The athlete would go out for a picnic on Sundays and is discreet and good at thinking fast.
+285,True,coord,Mya,Miranda,The athlete is discreet and good at thinking fast and would go out for a picnic on Sundays.
+286,False,coord,Miguel,Erika,The player would go skiing in the winters and is only in it for the money.
+286,True,coord,Miguel,Erika,The player is only in it for the money and would go skiing in the winters.
+287,False,coord,Ricardo,Jasmin,The patient would go to the movies every week and is a cordial person.
+287,True,coord,Ricardo,Jasmin,The patient is a cordial person and would go to the movies every week.
+288,False,coord,Bryan,Alejandra,The dealer would wake up early on Christmas Eve and is wearing a wedding ring.
+288,True,coord,Bryan,Alejandra,The dealer is wearing a wedding ring and would wake up early on Christmas Eve.
+289,False,coord,Breanna,Gage,The architect would go to the park for a walk in the evenings and is vegan.
+289,True,coord,Breanna,Gage,The architect is vegan and would go to the park for a walk in the evenings.
+290,False,coord,Matthew,Natalie,The administrator would go to the movies every week and is never late.
+290,True,coord,Matthew,Natalie,The administrator is never late and would go to the movies every week.
+291,False,coord,Ashley,Holly,The professor would go out for a picnic on Sundays and was born in Ecuador.
+291,True,coord,Ashley,Holly,The professor was born in Ecuador and would go out for a picnic on Sundays.
+292,False,coord,Kevin,Johnathan,The diver would wake up early on Christmas Eve and was born in Ecuador.
+292,True,coord,Kevin,Johnathan,The diver was born in Ecuador and would wake up early on Christmas Eve.
+293,False,coord,Kelsey,Alicia,The director would wear a yellow hat on sunny days and was surprised about the exciting news.
+293,True,coord,Kelsey,Alicia,The director was surprised about the exciting news and would wear a yellow hat on sunny days.
+294,False,coord,Nathaniel,Emma,The receptionist would bake banana bread at night and was happy about the cross-country road trip.
+294,True,coord,Nathaniel,Emma,The receptionist was happy about the cross-country road trip and would bake banana bread at night.
+295,False,coord,Peter,Kennedy,The cheerleader would go to the park for a walk in the evenings and was born in Ecuador.
+295,True,coord,Peter,Kennedy,The cheerleader was born in Ecuador and would go to the park for a walk in the evenings.
+296,False,coord,Amaya,Isaac,The waitress would sleep on the couch and was singing a song.
+296,True,coord,Amaya,Isaac,The waitress was singing a song and would sleep on the couch.
+297,False,coord,Megan,Kaleb,The rapper would go to the park for a walk in the evenings and was singing a song.
+297,True,coord,Megan,Kaleb,The rapper was singing a song and would go to the park for a walk in the evenings.
+298,False,coord,Christopher,Esmeralda,The solider would eat bananas at night and was disappointed with the weather.
+298,True,coord,Christopher,Esmeralda,The solider was disappointed with the weather and would eat bananas at night.
+299,False,coord,Eduardo,Emma,The author would have salad and boiled eggs for lunch and was nervous about the stressful situation.
+299,True,coord,Eduardo,Emma,The author was nervous about the stressful situation and would have salad and boiled eggs for lunch.
+300,False,coord,Thomas,Chase,The writer would swim in the Lake on Monday mornings and was being chased by a few people.
+300,True,coord,Thomas,Chase,The writer was being chased by a few people and would swim in the Lake on Monday mornings.
