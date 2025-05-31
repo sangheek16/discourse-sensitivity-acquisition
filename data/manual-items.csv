@@ -1,4 +1,4 @@
-idx,verb1,verb2,subj,vp1,vp2,prn,name1,name2,continuation,continuation_type,vp,continuation_id
+item,verb1,verb2,subj,vp1,vp2,prn,name1,name2,continuation,continuation_type,vp,continuation_id
 1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Which restaurant was it?,lexical overlap,1,1
 1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,I didn't know the governor likes Greek food.,lexical overlap,1,2
 1,did,does,The teacher,met the Illinois governor at a Greek restaurant,finds humor in the worst situations,he,Erika,Cameron,Where was the restaurant located?,lexical overlap,1,3
