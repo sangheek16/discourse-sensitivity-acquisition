@@ -9,7 +9,6 @@ declare -a temps=(0.7 1.0)
 for k in "${ks[@]}"; do
     for temp in "${temps[@]}"; do
 
-        # for p = None
         # echo "p: None, t: $temp, k: $k"
         # python src/collect-generations.py \
         #     --device cuda:0 \
