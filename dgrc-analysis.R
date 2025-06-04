@@ -98,7 +98,7 @@ metric %>%
   ) %>%
   ungroup() %>%
   inner_join(model_meta) %>%
-  ggplot(aes(params/1e9, mean, color = class, fill = class, shape = swapped)) +
+  ggplot(aes(params/1e9, mean, color = class, fill = class, shape = swapped, linetype = instruct)) +
   geom_point(size = 2.5) +
   geom_line() +
   geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +

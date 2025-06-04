@@ -72,11 +72,32 @@ nested <- results %>%
   group_by(model, mode, swapped, item, continuation_class) %>%
   nest()
 
-nested %>% 
+llama_example <- nested %>% 
   filter(model == "llama-3-8b-instruct", item == 14, mode == "arc") %>% 
   unnest() %>%
-  select(model, setting = mode, swapped, prefix = preamble, continuation_class, continuation_id, continuation, continuation_type, score) %>% 
+  select(model, setting = mode, swapped, prefix = preamble, continuation_class, continuation_id, continuation, continuation_type, score)
+
+llama_example %>% 
   write_csv("data/example-mangen-item-results-llama.csv")
+
+llama_example_paired <- nested %>%
+  filter(model == "llama-3-8b-instruct", item == 14, mode == "arc") %>% 
+  mutate(
+    recency = map(data, function(item) {
+      vp1 <- item %>%
+        filter(continuation_type == "vp1") %>%
+        pull(score)
+      
+      vp2 <- item %>%
+        filter(continuation_type == "vp2") %>%
+        pull(score)
+      
+      expand_grid(vp1, vp2)
+    })
+  ) %>%
+  ungroup() %>%
+  select(-data) %>%
+  unnest(recency)
 
 metric <- nested %>%
   mutate(
@@ -116,7 +137,7 @@ metric %>%
   ) %>%
   ungroup() %>%
   inner_join(model_meta) %>%
-  ggplot(aes(params/1e9, mean, color = class, fill = class, shape = swapped)) +
+  ggplot(aes(params/1e9, mean, color = class, fill = class, shape = swapped, linetype = instruct)) +
   geom_point(size = 2.5) +
   geom_line() +
   geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
