@@ -98,23 +98,26 @@ metric %>%
   ) %>%
   ungroup() %>%
   inner_join(model_meta) %>%
-  ggplot(aes(params/1e9, mean, color = class, fill = class, shape = swapped, linetype = instruct)) +
+  ggplot(aes(params/1e9, mean, color = instruct, fill = instruct, shape = class, linetype = swapped)) +
   geom_point(size = 2.5) +
   geom_line() +
-  geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
+  # geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
+  geom_linerange(aes(ymin = mean-cb, ymax = mean+cb), linetype = "solid", linewidth = 0.3) +
   geom_hline(yintercept = 0.5, linetype = "dashed") +
-  scale_y_continuous(limits = c(0,1)) +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
   scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
   scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
   facet_wrap(~mode) +
   theme_bw(base_size = 16) +
   theme(
-    
+    axis.text = element_text(color = "black")
   ) +
   labs(
     x = "Parameters (in billion)",
     y = "VP2-preference"
   )
+
+ggsave("plots/exp1-dgrc.pdf", width = 7.68, height = 4.92, dpi=300, device=cairo_pdf)
 
 # qualitative
 

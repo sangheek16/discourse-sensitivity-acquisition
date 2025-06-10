@@ -72,32 +72,11 @@ nested <- results %>%
   group_by(model, mode, swapped, item, continuation_class) %>%
   nest()
 
-llama_example <- nested %>% 
+nested %>% 
   filter(model == "llama-3-8b-instruct", item == 14, mode == "arc") %>% 
   unnest() %>%
-  select(model, setting = mode, swapped, prefix = preamble, continuation_class, continuation_id, continuation, continuation_type, score)
-
-llama_example %>% 
+  select(model, setting = mode, swapped, prefix = preamble, continuation_class, continuation_id, continuation, continuation_type, score) %>% 
   write_csv("data/example-mangen-item-results-llama.csv")
-
-llama_example_paired <- nested %>%
-  filter(model == "llama-3-8b-instruct", item == 14, mode == "arc") %>% 
-  mutate(
-    recency = map(data, function(item) {
-      vp1 <- item %>%
-        filter(continuation_type == "vp1") %>%
-        pull(score)
-      
-      vp2 <- item %>%
-        filter(continuation_type == "vp2") %>%
-        pull(score)
-      
-      expand_grid(vp1, vp2)
-    })
-  ) %>%
-  ungroup() %>%
-  select(-data) %>%
-  unnest(recency)
 
 metric <- nested %>%
   mutate(
@@ -127,6 +106,41 @@ metric <- nested %>%
   # ) %>%
   select(-data)
 
+
+# overall
+
+metric %>%
+  group_by(model, mode, swapped) %>%
+  summarize(
+    n = n(),
+    sd = sd(recency),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    mean = mean(recency)
+  ) %>%
+  ungroup() %>%
+  inner_join(model_meta) %>%
+  ggplot(aes(params/1e9, mean, color = instruct, fill = instruct, shape = class, linetype = swapped)) +
+  geom_point(size = 2.5) +
+  geom_line() +
+  # geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
+  geom_linerange(aes(ymin = mean-cb, ymax = mean+cb), linetype = "solid", linewidth = 0.3) +
+  geom_hline(yintercept = 0.5, linetype = "dashed") +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
+  scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
+  facet_wrap(~mode) +
+  theme_bw(base_size = 16) +
+  theme(
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "Parameters (in billion)",
+    y = "VP2-preference"
+  )
+
+ggsave("plots/exp2-mangen.pdf", width = 7.68, height = 4.92, dpi=300, device=cairo_pdf)
+
+
 metric %>%
   group_by(model, mode, swapped, continuation_class) %>%
   summarize(
@@ -137,19 +151,20 @@ metric %>%
   ) %>%
   ungroup() %>%
   inner_join(model_meta) %>%
-  ggplot(aes(params/1e9, mean, color = class, fill = class, shape = swapped, linetype = instruct)) +
+  ggplot(aes(params/1e9, mean, color = instruct, fill = instruct, shape = class, linetype = swapped)) +
   geom_point(size = 2.5) +
   geom_line() +
-  geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
+  # geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
+  geom_linerange(aes(ymin = mean-cb, ymax = mean+cb), linetype = "solid", linewidth = 0.3) +
   geom_hline(yintercept = 0.5, linetype = "dashed") +
-  scale_y_continuous(limits = c(0,1)) +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
   scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
   scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
   # facet_wrap(~mode) +
   facet_grid(continuation_class ~ mode) +
   theme_bw(base_size = 16) +
   theme(
-    
+    axis.text = element_text(color = "black")
   ) +
   labs(
     x = "Parameters (in billion)",
@@ -157,5 +172,6 @@ metric %>%
   )
 
 # qualitative
+ggsave("plots/exp2-mangen-brokendown.pdf", width = 7.68, height = 8.22, dpi=300, device=cairo_pdf)
 
 
