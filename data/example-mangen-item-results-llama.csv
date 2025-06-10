@@ -1,0 +1,61 @@
+item,model,setting,swapped,prefix,continuation_class,continuation_id,continuation,continuation_type,score
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,1,She had to call a tow truck for help with the flat tire.,vp1,-5.008879661560059
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,2,That flat tire left her stranded on the side of the road.,vp1,-5.097170352935791
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,3,But she was able to change the tire before she had to leave for work.,vp1,-4.969372272491455
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,4,The tire issue happened and so she couldn't go run errands.,vp1,-5.617394924163818
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,5,She had barely made it out of the parking lot when the flat tire happened.,vp1,-4.936814785003662
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,1,"In fact, she was having an argument with the nurse.",vp2,-5.303761005401611
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,2,"But wait, all nurses are tall.",vp2,-5.444455623626709
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,3,There are two tall nurses -- which one?,vp2,-5.687901496887207
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,4,She wasn't just talking -- she was yelling at the nurse.,vp2,-5.402202129364014
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",lexical overlap,5,What were they talking about?,vp2,-5.160454273223877
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,1,She had to call a tow truck for help with the flat tire.,vp2,-5.054707050323486
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,2,That flat tire left her stranded on the side of the road.,vp2,-5.176187038421631
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,3,But she was able to change the tire before she had to leave for work.,vp2,-4.924635887145996
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,4,The tire issue happened and so she couldn't go run errands.,vp2,-5.599672794342041
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,5,She had barely made it out of the parking lot when the flat tire happened.,vp2,-4.856400966644287
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,1,"In fact, she was having an argument with the nurse.",vp1,-5.3374247550964355
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,2,"But wait, all nurses are tall.",vp1,-5.511031150817871
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,3,There are two tall nurses -- which one?,vp1,-5.602414131164551
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,4,She wasn't just talking -- she was yelling at the nurse.,vp1,-5.23567008972168
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",lexical overlap,5,What were they talking about?,vp1,-5.250894069671631
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,6,That's why she was late!,vp1,-5.278975963592529
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,7,"Because of that, she had to cancel her first appointment.",vp1,-5.199398040771484
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,8,But glad that didn't happen in the middle of a highway.,vp1,-5.212741851806641
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,9,"It couldn't have come at a worse time, right before she had an interview.",vp1,-4.9851484298706055
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,10,That's bizarre because she bought her car just last week!,vp1,-5.354568004608154
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,6,Apparently the new equipment had some issues.,vp2,-5.6186203956604
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,7,I thought they had a really bad fight!,vp2,-5.4312214851379395
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,8,It's because the outcomes of the recent test don't look good.,vp2,-5.3202104568481445
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,9,I heard the clinic was going through major layoffs.,vp2,-5.538030624389648
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",situational inference,10,She's trying to identify the person who leaked sensitive information.,vp2,-5.426462650299072
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,6,That's why she was late!,vp2,-5.274194717407227
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,7,"Because of that, she had to cancel her first appointment.",vp2,-5.197981357574463
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,8,But glad that didn't happen in the middle of a highway.,vp2,-5.150981426239014
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,9,"It couldn't have come at a worse time, right before she had an interview.",vp2,-4.961824417114258
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,10,That's bizarre because she bought her car just last week!,vp2,-5.326484680175781
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,6,Apparently the new equipment had some issues.,vp1,-5.611076354980469
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,7,I thought they had a really bad fight!,vp1,-5.401378631591797
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,8,It's because the outcomes of the recent test don't look good.,vp1,-5.304394245147705
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,9,I heard the clinic was going through major layoffs.,vp1,-5.626154899597168
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",situational inference,10,She's trying to identify the person who leaked sensitive information.,vp1,-5.486126899719238
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,11,"It took longer than expected to fix, and so she couldn't make it to meeting.",vp1,-5.119922161102295
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,12,She had no idea how long it would take to resolve it.,vp1,-5.281940460205078
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,13,She didn't realize how long the repair would take.,vp1,-5.21288537979126
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,14,Luckily she remembered to call the insurance company to resolve the issue.,vp1,-5.320428371429443
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,15,But she had a spare in her trunk.,vp1,-5.278494834899902
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,11,They were discussing the patient's condition.,vp2,-5.395919322967529
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,12,They were debating over the recent changes in the clinic's protocol.,vp2,-5.371863842010498
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,13,They wanted to clarify some details with patient treatment.,vp2,-5.817225933074951
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,14,They had some disagreement on the upcoming procedures.,vp2,-5.780296802520752
+14,llama-3-8b-instruct,arc,FALSE,"The optician, who had a flat tire, was talking to the tall nurse.",event association,15,She was walking through the instructions before the patient's eye exam.,vp2,-5.353110313415527
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,11,"It took longer than expected to fix, and so she couldn't make it to meeting.",vp2,-5.15257453918457
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,12,She had no idea how long it would take to resolve it.,vp2,-5.2950263023376465
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,13,She didn't realize how long the repair would take.,vp2,-5.289784908294678
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,14,Luckily she remembered to call the insurance company to resolve the issue.,vp2,-5.3030195236206055
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,15,But she had a spare in her trunk.,vp2,-5.273360252380371
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,11,They were discussing the patient's condition.,vp1,-5.462208271026611
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,12,They were debating over the recent changes in the clinic's protocol.,vp1,-5.434337615966797
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,13,They wanted to clarify some details with patient treatment.,vp1,-5.800974369049072
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,14,They had some disagreement on the upcoming procedures.,vp1,-5.72634220123291
+14,llama-3-8b-instruct,arc,TRUE,"The optician, who was talking to the tall nurse, had a flat tire.",event association,15,She was walking through the instructions before the patient's eye exam.,vp1,-5.454847812652588
