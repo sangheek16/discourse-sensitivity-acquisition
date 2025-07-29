@@ -98,6 +98,7 @@ metric %>%
   ) %>%
   ungroup() %>%
   inner_join(model_meta) %>%
+  # filter(swapped == FALSE) %>%
   ggplot(aes(params/1e9, mean, color = instruct, fill = instruct, shape = class, linetype = swapped)) +
   geom_point(size = 2.5) +
   geom_line() +
@@ -119,6 +120,73 @@ metric %>%
 
 ggsave("plots/exp1-dgrc.pdf", width = 7.68, height = 4.92, dpi=300, device=cairo_pdf)
 
-# qualitative
+# systematicity test
+
+nested_sys <- results %>%
+  inner_join(stimuli) %>%
+  select(-idx) %>%
+  group_by(model, mode, item) %>%
+  nest()
 
 
+metric_sys <- nested_sys %>%
+  mutate(
+    recency = map_dbl(data, function(item) {
+      vp1_unswapped <- item %>%
+        filter(continuation_type == "vp1" & swapped == FALSE) %>%
+        pull(score)
+      
+      vp2_unswapped <- item %>%
+        filter(continuation_type == "vp2"& swapped == FALSE) %>%
+        pull(score)
+      
+      vp1_swapped <- item %>%
+        filter(continuation_type == "vp1" & swapped == TRUE) %>%
+        pull(score)
+      
+      vp2_swapped <- item %>%
+        filter(continuation_type == "vp2"& swapped == TRUE) %>%
+        pull(score)
+      
+      bind_cols(
+        expand_grid(vp1_unswapped, vp2_unswapped),
+        expand_grid(vp1_swapped, vp2_swapped)
+      ) %>%
+        summarize(
+          prop = mean(vp2_unswapped > vp1_unswapped & vp1_swapped > vp2_swapped)
+        ) %>%
+        pull(prop) %>%
+        .[1]
+    })
+  ) %>%
+  ungroup() %>%
+  select(-data)
+
+metric_sys %>%
+  group_by(model, mode) %>%
+  summarize(
+    n = n(),
+    sd = sd(recency),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    mean = mean(recency)
+  ) %>%
+  ungroup() %>%
+  inner_join(model_meta) %>%
+  ggplot(aes(params/1e9, mean, color = instruct, fill = instruct, shape = class, linetype = instruct)) +
+  geom_point(size = 2.5) +
+  geom_line() +
+  # geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), color = NA, alpha = 0.2) +
+  geom_linerange(aes(ymin = mean-cb, ymax = mean+cb), linetype = "solid", linewidth = 0.3) +
+  geom_hline(yintercept = 0.25, linetype = "dashed") +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
+  scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
+  facet_wrap(~mode) +
+  theme_bw(base_size = 16) +
+  theme(
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "Parameters (in billion)",
+    y = "VP2-preference"
+  )

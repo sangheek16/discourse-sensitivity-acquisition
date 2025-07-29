@@ -94,6 +94,7 @@ metric <- nested %>%
   ) %>%
   select(-data)
 
+
 metric %>%
   group_by(model, mode, swapped, header) %>%
   summarize(
@@ -142,20 +143,22 @@ ttested <- metric %>%
   inner_join(model_meta)
 
 ttested %>%
-  ggplot(aes(params/1e9, estimate, color = instruct, fill = instruct, shape = class)) +
+  filter(swapped == FALSE) %>%
+  ggplot(aes(params/1e9, estimate, color = instruct, fill = instruct, shape = class, linetype = instruct)) +
   geom_point(size = 2.5) +
   geom_line() +
-  geom_linerange(aes(ymin = conf.low, ymax = conf.high)) +
+  geom_linerange(aes(ymin = conf.low, ymax = conf.high), linetype = "solid") +
   geom_hline(yintercept = 0.0, linetype = "dashed") +
   # scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
   scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
   scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
-  facet_grid(swapped~mode) +
+  # facet_grid(swapped~mode) +
+  facet_wrap(~ mode) +
   theme_bw(base_size = 16) +
   theme(
     axis.text = element_text(color = "black")
   ) +
   labs(
     x = "Parameters (in billion)",
-    y = "VP2 preference diff (No - Wait)"
+    y = "VP2 preference\ndiff (No - Wait)"
   )
