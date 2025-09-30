@@ -1,4 +1,6 @@
 library(tidyverse)
+library(lmerTest)
+library(broom.mixed)
 
 model_meta <- tribble(
   ~model, ~short, ~class, ~instruct, ~params,
@@ -86,7 +88,24 @@ metric <- nested %>%
       TRUE ~ recency
     )
   ) %>%
-  select(-data)
+  select(-data) %>%
+  inner_join(model_meta %>% select(model, class, instruct))
+
+fit1 <- lmer(recency ~ mode + swapped + instruct + (1 + mode + swapped + instruct || class) + (1 + mode + swapped + instruct || item), data = metric, REML = FALSE)
+fit1.swapped <- lmer(recency ~ mode + instruct + (1 + mode + swapped + instruct || class) + (1 + mode + swapped + instruct || item), data = metric, REML = FALSE)
+fit1.mode <- lmer(recency ~ swapped + instruct + (1 + mode + swapped + instruct || class) + (1 + mode + swapped + instruct || item), data = metric, REML = FALSE)
+fit1.instruct <- lmer(recency ~ mode + swapped + (1 + mode + swapped || class) + (1 + mode + swapped || item), data = metric, REML = FALSE)
+
+anova(fit1, fit1.swapped)
+anova(fit1, fit1.mode)
+anova(fit1, fit1.instruct)
+
+fit1.full <- lmer(recency ~ swapped + instruct * mode + (1 + swapped + instruct * mode || class) + (1 + swapped + instruct * mode || item), data = metric, REML = TRUE)
+
+summary(fit1.full)
+
+tidy(fit1.full) %>%
+  filter(effect == "fixed")
 
 metric %>%
   group_by(model, mode, swapped) %>%

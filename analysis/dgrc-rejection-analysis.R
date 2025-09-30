@@ -1,4 +1,5 @@
 library(tidyverse)
+library(lmerTest)
 
 model_meta <- tribble(
   ~model, ~short, ~class, ~instruct, ~params,
@@ -94,6 +95,11 @@ metric <- nested %>%
   ) %>%
   select(-data)
 
+metric
+
+fit_reject <- lmer(recency ~ header * mode + swapped + (1 + header * mode + swapped | model) + (1 + header * mode + swapped | item), data = metric)
+
+summary(fit_reject)
 
 metric %>%
   group_by(model, mode, swapped, header) %>%
